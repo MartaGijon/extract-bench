@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"Both the gold and predicted arrays contain objects with three fields: date (string), description (string), and price_gross (numeric). For each gold object we look for a predicted object with identical..."

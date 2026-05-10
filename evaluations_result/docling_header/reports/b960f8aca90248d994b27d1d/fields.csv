@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.000000,false,,,,"To consider a gold item matched, every field (description, date, unit_price_gross) must satisfy its evaluation rule. No tolerance or special rule is provided for the numeric field, so exact equality i..."

@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.230769,false,,,,"All fields (date, description, unit_price_gross) must match exactly for a pair to be considered a true match. The gold data uses the description 'EC Sykes/NC Sec Of State WCRU' (with no extra spaces) ..."

@@ -1,0 +1,44 @@
+{
+    "items": [
+        {
+            "description": "LIVE 5 NEWS @ 11P SU",
+            "quantity": 1,
+            "unit_price_gross": 50.0
+        },
+        {
+            "description": "LIVE 5 NEWS @ 6P SAT",
+            "quantity": 1,
+            "unit_price_gross": 52.94
+        },
+        {
+            "description": "LIVE 5 NEWS @ 6P",
+            "quantity": 4,
+            "unit_price_gross": 54.67
+        },
+        {
+            "description": "LIVE 5 NEWS @ 5P",
+            "quantity": 5,
+            "unit_price_gross": 48.39
+        },
+        {
+            "description": "LIVE 5 NEWS @ NOON",
+            "quantity": 5,
+            "unit_price_gross": 60.0
+        },
+        {
+            "description": "LIVE 5 NEWS @ 11P",
+            "quantity": 5,
+            "unit_price_gross": 64.29
+        },
+        {
+            "description": "LIVE 5 NEWS @ 530A",
+            "quantity": 5,
+            "unit_price_gross": 36.0
+        },
+        {
+            "description": "LIVE 5 NEWS @ 6A",
+            "quantity": 5,
+            "unit_price_gross": 72.58
+        }
+    ]
+}

@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"All fields (position, date_start, date_end, unit_price_gross, quantity, price_gross) are exactly equal between the gold items and the predicted items. Since the evaluation treats arrays as unordered, ..."

@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.428571,false,,,,"Using the provided metric definitions, numeric fields (unit_price_gross, quantity, price_gross) must be exactly equal (number_exact / integer_exact) and the description strings are evaluated with a se..."

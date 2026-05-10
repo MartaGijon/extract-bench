@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"Each gold object was found in the predicted array with *exact* correspondence on all fields (position, dates, description, quantity, price_gross, unit_price_gross). No numeric tolerances or fuzzy stri..."

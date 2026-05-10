@@ -1,0 +1,44 @@
+{
+    "type": "object",
+    "properties": {
+        "items": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "brca2_p_value": {
+                        "type": "number",
+                        "evaluation_config": "number_exact"
+                    },
+                    "brca2_odds_ratio": {
+                        "type": "number",
+                        "evaluation_config": "number_exact"
+                    },
+                    "brca1_p_value": {
+                        "type": "number",
+                        "evaluation_config": "number_exact"
+                    },
+                    "brca1_odds_ratio": {
+                        "type": "number",
+                        "evaluation_config": "number_exact"
+                    },
+                    "feature_name": {
+                        "type": "string",
+                        "evaluation_config": "string_semantic"
+                    }
+                },
+                "required": [
+                    "brca2_odds_ratio",
+                    "brca1_p_value",
+                    "brca2_p_value",
+                    "brca1_odds_ratio",
+                    "feature_name"
+                ]
+            },
+            "evaluation_config": "array_llm"
+        }
+    },
+    "required": [
+        "items"
+    ]
+}

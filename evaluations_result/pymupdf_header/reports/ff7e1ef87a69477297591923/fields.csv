@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"All five gold objects are present in the predicted array, albeit in a different order. For each gold entry the predicted counterpart has identical values for the fields date, quantity, unit_price_gros..."

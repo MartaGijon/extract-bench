@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.000000,false,,,,"According to the provided metric definitions, each field must match exactly (string_exact for culture_group, integer_exact for sample_size, and number_exact for mean_index and standard_error). None of..."

@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"Each item in the gold array was compared to the predicted array using exact equality for all fields (string exact for the date, integer exact for quantity, and number exact for the numeric fields). By..."

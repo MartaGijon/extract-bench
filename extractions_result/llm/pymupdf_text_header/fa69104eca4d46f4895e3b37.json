@@ -1,0 +1,53 @@
+{
+    "items": [
+        {
+            "date": "08/31/20",
+            "code": "BFP6020034R",
+            "unit_price_gross": 16.0,
+            "position": 5,
+            "description": "M-F Evening 7p-12a"
+        },
+        {
+            "date": "08/31/20",
+            "code": "BFP6020034R",
+            "unit_price_gross": 29.0,
+            "position": 8,
+            "description": "M-F PM Drive 3p-7p"
+        },
+        {
+            "date": "08/31/20",
+            "code": "BFP6020034R",
+            "unit_price_gross": 29.0,
+            "position": 9,
+            "description": "M-F Midday 10a-3p"
+        },
+        {
+            "date": "08/31/20",
+            "code": "BFP6020034R",
+            "unit_price_gross": 31.0,
+            "position": 9,
+            "description": "M-F AM Drive 6a-10a"
+        },
+        {
+            "date": "08/31/20",
+            "code": "BFP6020034R",
+            "unit_price_gross": 29.0,
+            "position": 8,
+            "description": "M-F Midday 10a-3p"
+        },
+        {
+            "date": "08/31/20",
+            "code": "BFP6020034R",
+            "unit_price_gross": 31.0,
+            "position": 8,
+            "description": "M-F AM Drive 6a-10a"
+        },
+        {
+            "date": "08/31/20",
+            "code": "BFP6020034R",
+            "unit_price_gross": 29.0,
+            "position": 9,
+            "description": "M-F PM Drive 3p-7p"
+        }
+    ]
+}

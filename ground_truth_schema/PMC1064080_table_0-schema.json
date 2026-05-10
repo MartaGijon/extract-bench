@@ -1,0 +1,59 @@
+{
+    "type": "object",
+    "properties": {
+        "items": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "odds_ratio": {
+                        "type": "number",
+                        "evaluation_config": "number_exact"
+                    },
+                    "carrier_status": {
+                        "type": "string",
+                        "evaluation_config": "string_exact"
+                    },
+                    "variant_name": {
+                        "type": "string",
+                        "evaluation_config": "string_semantic"
+                    },
+                    "controls_percentage": {
+                        "type": "number",
+                        "evaluation_config": "number_exact"
+                    },
+                    "cases_percentage": {
+                        "type": "number",
+                        "evaluation_config": "number_exact"
+                    },
+                    "confidence_interval": {
+                        "type": "string",
+                        "evaluation_config": "string_exact"
+                    },
+                    "cases_count": {
+                        "type": "integer",
+                        "evaluation_config": "integer_exact"
+                    },
+                    "controls_count": {
+                        "type": "integer",
+                        "evaluation_config": "integer_exact"
+                    }
+                },
+                "required": [
+                    "odds_ratio",
+                    "carrier_status",
+                    "variant_name",
+                    "controls_percentage",
+                    "cases_percentage",
+                    "confidence_interval",
+                    "cases_count",
+                    "controls_count"
+                ]
+            },
+            "evaluation_config": "array_llm"
+        }
+    },
+    "required": [
+        "items"
+    ]
+}

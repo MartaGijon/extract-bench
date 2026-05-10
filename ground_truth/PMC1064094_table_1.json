@@ -1,0 +1,16 @@
+{
+    "items": [
+        {
+            "tumor_pair_status": "Carcinoma+",
+            "nipple_status": "nipple+",
+            "number_of_samples": 17,
+            "hpv_types": "11 (7x), 6 (1x), 57 (2x)"
+        },
+        {
+            "tumor_pair_status": "Carcinoma+",
+            "nipple_status": "nipple-",
+            "number_of_samples": 8,
+            "hpv_types": "6, 11, 24, 87, DL250, DL473"
+        }
+    ]
+}

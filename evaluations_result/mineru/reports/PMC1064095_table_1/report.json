@@ -1,0 +1,225 @@
+{
+  "output_name": "PMC1064095_table_1",
+  "timestamp": "2026-05-09T22:25:50.780551",
+  "schema_hash": "3511d37c",
+  "gold_hash": "b8a7f8da",
+  "extracted_hash": "e23d0730",
+  "schema_stats": {
+    "total_nodes": 10,
+    "counts_by_type": {
+      "object": 2,
+      "array": 1,
+      "string": 5,
+      "number": 2
+    },
+    "required_keys_count": 8,
+    "optional_keys_count": 0,
+    "required_by_type": {
+      "array": 1,
+      "string": 5,
+      "number": 2
+    },
+    "optional_by_type": {}
+  },
+  "gold_stats": {
+    "label": "gold",
+    "total_keys": 8,
+    "counts_by_type": {
+      "array": 1,
+      "string": 5,
+      "number": 2
+    },
+    "array_stats": {
+      "array_field_count": 1,
+      "total_items": 1,
+      "min_length": 1,
+      "median_length": 1,
+      "max_length": 1
+    },
+    "null_count": 0,
+    "missing_count": 0
+  },
+  "extracted_stats": {
+    "label": "extracted",
+    "total_keys": 8,
+    "counts_by_type": {
+      "array": 1,
+      "string": 5,
+      "number": 2
+    },
+    "array_stats": {
+      "array_field_count": 1,
+      "total_items": 1,
+      "min_length": 1,
+      "median_length": 1,
+      "max_length": 1
+    },
+    "null_count": 0,
+    "missing_count": 0
+  },
+  "coverage": {
+    "present_in_both": 7,
+    "missing_in_extracted": 0,
+    "spurious_in_extracted": 0,
+    "required_missing": 0,
+    "missing_paths": [],
+    "spurious_paths": []
+  },
+  "outcomes": {
+    "total_evaluated": 8,
+    "total_passed": 7,
+    "total_failed": 1,
+    "pass_rate": 0.875,
+    "pass_by_metric": {
+      "error_137448387955680": {
+        "passed": 0,
+        "failed": 1
+      },
+      "string_exact": {
+        "passed": 5,
+        "failed": 0
+      },
+      "number_exact": {
+        "passed": 2,
+        "failed": 0
+      }
+    },
+    "pass_by_type": {
+      "unknown": {
+        "passed": 0,
+        "failed": 1
+      },
+      "string": {
+        "passed": 5,
+        "failed": 0
+      },
+      "number": {
+        "passed": 2,
+        "failed": 0
+      }
+    },
+    "pass_by_required": {
+      "optional": {
+        "passed": 7,
+        "failed": 1
+      }
+    },
+    "confusion": {
+      "true_positive": 0,
+      "false_positive": 0,
+      "false_negative": 1,
+      "true_negative": 7
+    },
+    "llm_stats": null,
+    "error_breakdown": {
+      "by_path_prefix": {
+        "items": 1
+      },
+      "by_metric_type": {
+        "error_137448387955680": 1
+      },
+      "by_reason": {
+        "value_mismatch": 1
+      },
+      "details": [
+        {
+          "category": "value_mismatch",
+          "count": 1,
+          "paths": []
+        }
+      ]
+    }
+  },
+  "field_outcomes": [
+    {
+      "path": "$.properties.items",
+      "normalized_path": "items",
+      "metric_id": "error_137448387955680",
+      "score": 0.0,
+      "passed": false,
+      "reason": null,
+      "gold_value": null,
+      "extracted_value": null,
+      "reasoning": null
+    },
+    {
+      "path": "$.properties.items.items.properties.patients_controls",
+      "normalized_path": "items.items.patients_controls",
+      "metric_id": "string_exact",
+      "score": 1.0,
+      "passed": true,
+      "reason": "both_null",
+      "gold_value": null,
+      "extracted_value": null,
+      "reasoning": null
+    },
+    {
+      "path": "$.properties.items.items.properties.odds_ratio",
+      "normalized_path": "items.items.odds_ratio",
+      "metric_id": "number_exact",
+      "score": 1.0,
+      "passed": true,
+      "reason": "both_null",
+      "gold_value": null,
+      "extracted_value": null,
+      "reasoning": null
+    },
+    {
+      "path": "$.properties.items.items.properties.interaction_contrast_ratio",
+      "normalized_path": "items.items.interaction_contrast_ratio",
+      "metric_id": "number_exact",
+      "score": 1.0,
+      "passed": true,
+      "reason": "both_null",
+      "gold_value": null,
+      "extracted_value": null,
+      "reasoning": null
+    },
+    {
+      "path": "$.properties.items.items.properties.menopausal_status",
+      "normalized_path": "items.items.menopausal_status",
+      "metric_id": "string_exact",
+      "score": 1.0,
+      "passed": true,
+      "reason": "both_null",
+      "gold_value": null,
+      "extracted_value": null,
+      "reasoning": null
+    },
+    {
+      "path": "$.properties.items.items.properties.genotype",
+      "normalized_path": "items.items.genotype",
+      "metric_id": "string_exact",
+      "score": 1.0,
+      "passed": true,
+      "reason": "both_null",
+      "gold_value": null,
+      "extracted_value": null,
+      "reasoning": null
+    },
+    {
+      "path": "$.properties.items.items.properties.pcb_level",
+      "normalized_path": "items.items.pcb_level",
+      "metric_id": "string_exact",
+      "score": 1.0,
+      "passed": true,
+      "reason": "both_null",
+      "gold_value": null,
+      "extracted_value": null,
+      "reasoning": null
+    },
+    {
+      "path": "$.properties.items.items.properties.confidence_interval",
+      "normalized_path": "items.items.confidence_interval",
+      "metric_id": "string_exact",
+      "score": 1.0,
+      "passed": true,
+      "reason": "both_null",
+      "gold_value": null,
+      "extracted_value": null,
+      "reasoning": null
+    }
+  ],
+  "overall_score": 0.875,
+  "overall_pass_rate": 0.875
+}

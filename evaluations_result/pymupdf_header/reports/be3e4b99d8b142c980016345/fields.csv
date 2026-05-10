@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"Each gold transaction matches a predicted transaction on all exact fields (transaction_date, duration_minutes, unit_price_gross, price_gross, position). The only differing field is `description`, wher..."

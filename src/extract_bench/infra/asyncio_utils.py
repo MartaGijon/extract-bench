@@ -37,7 +37,7 @@ async def run_asyncio_task_with_retry(
             try:
                 response = await asyncio.wait_for(
                     task_factory(),
-                    timeout=timeout_seconds,
+                    timeout=300,
                 )
             except asyncio.TimeoutError:
                 logger.error(

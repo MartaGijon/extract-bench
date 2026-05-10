@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"All three gold objects are present in the predicted array with identical numeric values for every field (unit_price_gross, quantity, price_gross). Using the number_exact rule, each field matches exact..."

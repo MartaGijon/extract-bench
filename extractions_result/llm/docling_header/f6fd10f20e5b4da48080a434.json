@@ -1,0 +1,25 @@
+{
+    "items": [
+        {
+            "description": "JUDGE JUDY, THE HI WAY",
+            "quantity": 1,
+            "unit_price_gross": 50.0,
+            "price_gross": 50.0,
+            "position": 1
+        },
+        {
+            "description": "HAWAII NEWS NOW@630P KFVE",
+            "quantity": 1,
+            "unit_price_gross": 275.0,
+            "price_gross": 275.0,
+            "position": 2
+        },
+        {
+            "description": "HAWAII NEWS NOW@9PKFVE",
+            "quantity": 1,
+            "unit_price_gross": 450.0,
+            "price_gross": 450.0,
+            "position": 3
+        }
+    ]
+}

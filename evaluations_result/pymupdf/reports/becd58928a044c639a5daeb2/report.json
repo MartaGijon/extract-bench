@@ -1,0 +1,202 @@
+{
+  "output_name": "becd58928a044c639a5daeb2",
+  "timestamp": "2026-05-09T21:58:16.159819",
+  "schema_hash": "63f1b9f3",
+  "gold_hash": "a53ddca8",
+  "extracted_hash": "5a7dc6b8",
+  "schema_stats": {
+    "total_nodes": 6,
+    "counts_by_type": {
+      "object": 2,
+      "array": 1,
+      "string": 2,
+      "number": 1
+    },
+    "required_keys_count": 4,
+    "optional_keys_count": 0,
+    "required_by_type": {
+      "array": 1,
+      "string": 2,
+      "number": 1
+    },
+    "optional_by_type": {}
+  },
+  "gold_stats": {
+    "label": "gold",
+    "total_keys": 43,
+    "counts_by_type": {
+      "array": 1,
+      "string": 28,
+      "number": 14
+    },
+    "array_stats": {
+      "array_field_count": 1,
+      "total_items": 14,
+      "min_length": 14,
+      "median_length": 14,
+      "max_length": 14
+    },
+    "null_count": 0,
+    "missing_count": 0
+  },
+  "extracted_stats": {
+    "label": "extracted",
+    "total_keys": 43,
+    "counts_by_type": {
+      "array": 1,
+      "string": 28,
+      "number": 14
+    },
+    "array_stats": {
+      "array_field_count": 1,
+      "total_items": 14,
+      "min_length": 14,
+      "median_length": 14,
+      "max_length": 14
+    },
+    "null_count": 0,
+    "missing_count": 0
+  },
+  "coverage": {
+    "present_in_both": 42,
+    "missing_in_extracted": 0,
+    "spurious_in_extracted": 0,
+    "required_missing": 0,
+    "missing_paths": [],
+    "spurious_paths": []
+  },
+  "outcomes": {
+    "total_evaluated": 4,
+    "total_passed": 3,
+    "total_failed": 1,
+    "pass_rate": 0.75,
+    "pass_by_metric": {
+      "error_138134565842048": {
+        "passed": 0,
+        "failed": 1
+      },
+      "string_semantic": {
+        "passed": 2,
+        "failed": 0
+      },
+      "number_exact": {
+        "passed": 1,
+        "failed": 0
+      }
+    },
+    "pass_by_type": {
+      "unknown": {
+        "passed": 0,
+        "failed": 1
+      },
+      "string": {
+        "passed": 2,
+        "failed": 0
+      },
+      "number": {
+        "passed": 1,
+        "failed": 0
+      }
+    },
+    "pass_by_required": {
+      "optional": {
+        "passed": 3,
+        "failed": 1
+      }
+    },
+    "confusion": {
+      "true_positive": 0,
+      "false_positive": 0,
+      "false_negative": 1,
+      "true_negative": 3
+    },
+    "llm_stats": {
+      "call_count": 2,
+      "avg_score": 1.0,
+      "median_score": 1.0,
+      "score_distribution": {
+        "0.8-1.0": 2
+      },
+      "top_lowest_fields": [
+        {
+          "path": "extractions.items.date",
+          "metric_id": "string_semantic",
+          "score": 1.0,
+          "reasoning": ""
+        },
+        {
+          "path": "extractions.items.description",
+          "metric_id": "string_semantic",
+          "score": 1.0,
+          "reasoning": ""
+        }
+      ]
+    },
+    "error_breakdown": {
+      "by_path_prefix": {
+        "extractions": 1
+      },
+      "by_metric_type": {
+        "error_138134565842048": 1
+      },
+      "by_reason": {
+        "value_mismatch": 1
+      },
+      "details": [
+        {
+          "category": "value_mismatch",
+          "count": 1,
+          "paths": []
+        }
+      ]
+    }
+  },
+  "field_outcomes": [
+    {
+      "path": "$.properties.extractions",
+      "normalized_path": "extractions",
+      "metric_id": "error_138134565842048",
+      "score": 0.0,
+      "passed": false,
+      "reason": null,
+      "gold_value": null,
+      "extracted_value": null,
+      "reasoning": null
+    },
+    {
+      "path": "$.properties.extractions.items.properties.date",
+      "normalized_path": "extractions.items.date",
+      "metric_id": "string_semantic",
+      "score": 1.0,
+      "passed": true,
+      "reason": "both_null",
+      "gold_value": null,
+      "extracted_value": null,
+      "reasoning": null
+    },
+    {
+      "path": "$.properties.extractions.items.properties.description",
+      "normalized_path": "extractions.items.description",
+      "metric_id": "string_semantic",
+      "score": 1.0,
+      "passed": true,
+      "reason": "both_null",
+      "gold_value": null,
+      "extracted_value": null,
+      "reasoning": null
+    },
+    {
+      "path": "$.properties.extractions.items.properties.amount_net",
+      "normalized_path": "extractions.items.amount_net",
+      "metric_id": "number_exact",
+      "score": 1.0,
+      "passed": true,
+      "reason": "both_null",
+      "gold_value": null,
+      "extracted_value": null,
+      "reasoning": null
+    }
+  ],
+  "overall_score": 0.75,
+  "overall_pass_rate": 0.75
+}

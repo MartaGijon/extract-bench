@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.000000,false,,,,"To determine matches, each gold item had to be paired with a predicted item where **all** fields (position, date, description, unit_price_gross, quantity, price_gross) were exactly equal. The gold arr..."

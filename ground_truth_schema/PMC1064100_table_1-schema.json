@@ -1,0 +1,54 @@
+{
+    "type": "object",
+    "properties": {
+        "data": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "total_daughters": {
+                        "type": "integer",
+                        "evaluation_config": "integer_exact"
+                    },
+                    "total_families": {
+                        "type": "integer",
+                        "evaluation_config": "integer_exact"
+                    },
+                    "number_affected_daughters": {
+                        "type": "integer",
+                        "evaluation_config": "integer_exact"
+                    },
+                    "number_unaffected_daughters": {
+                        "type": "integer",
+                        "evaluation_config": "integer_exact"
+                    },
+                    "father_carrier_status": {
+                        "type": "string",
+                        "evaluation_config": "string_exact"
+                    },
+                    "mother_carrier_status": {
+                        "type": "string",
+                        "evaluation_config": "string_exact"
+                    },
+                    "gene_variant": {
+                        "type": "string",
+                        "evaluation_config": "string_exact"
+                    }
+                },
+                "required": [
+                    "number_unaffected_daughters",
+                    "mother_carrier_status",
+                    "father_carrier_status",
+                    "total_daughters",
+                    "gene_variant",
+                    "total_families",
+                    "number_affected_daughters"
+                ]
+            },
+            "evaluation_config": "array_llm"
+        }
+    },
+    "required": [
+        "data"
+    ]
+}

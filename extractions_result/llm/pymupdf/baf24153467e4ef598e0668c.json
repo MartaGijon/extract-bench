@@ -1,0 +1,67 @@
+{
+    "items": [
+        {
+            "code": "114327-1",
+            "date": "07/18/99",
+            "description": "MORRIS DAY & THE TIME PVT-INDIANAPOLIS",
+            "unit_price_gross": 6.0,
+            "price_gross": 12.0
+        },
+        {
+            "code": "114330-1",
+            "date": "07/14/99",
+            "description": "MORRIS DAY & THE TIME PVT-INDIANAPOLIS",
+            "unit_price_gross": 6.0,
+            "price_gross": 13.0
+        },
+        {
+            "code": "114317-1",
+            "date": "07/14/99",
+            "description": "THE GAP BAND PVT-INDIANAPOLIS",
+            "unit_price_gross": 0.0,
+            "price_gross": 144.0
+        },
+        {
+            "code": "114329-1",
+            "date": "07/14/99",
+            "description": "MORRIS DAY & THE TIME PVT-INDIANAPOLIS",
+            "unit_price_gross": 6.0,
+            "price_gross": 13.0
+        },
+        {
+            "code": "114318-1",
+            "date": "07/16/99",
+            "description": "THE GAP BAND PVT-INDIANAPOLIS",
+            "unit_price_gross": 0.0,
+            "price_gross": 178.2
+        },
+        {
+            "code": "115026-5",
+            "date": "07/16/99",
+            "description": "MORRIS DAY & THE TIME CHR INDIANAPOLIS",
+            "unit_price_gross": 0.0,
+            "price_gross": 33.6
+        },
+        {
+            "code": "114314-1",
+            "date": "07/18/99",
+            "description": "THE GAP BAND PVT-INDIANAPOLIS",
+            "unit_price_gross": 8.0,
+            "price_gross": 12.0
+        },
+        {
+            "code": "114317-1",
+            "date": "07/16/99",
+            "description": "THE GAP BAND PVT-INDIANAPOLIS",
+            "unit_price_gross": 0.0,
+            "price_gross": 13.0
+        },
+        {
+            "code": "115025-8",
+            "date": "07/16/99",
+            "description": "THE GAP BAND CHR INDIANAPOLIS",
+            "unit_price_gross": 0.0,
+            "price_gross": 182.4
+        }
+    ]
+}

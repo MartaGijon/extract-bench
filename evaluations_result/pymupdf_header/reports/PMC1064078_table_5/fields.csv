@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.000000,false,,,,"To consider a gold item and a predicted item a match, every field must satisfy its exact‑equality rule (string_exact for strings, integer_exact for integers, number_exact for numbers). The sole predic..."

@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.000000,false,"[{'position': 1, 'date': 'FR 02/14/20', 'quantity': 8, 'unit_price_gross': 63.0}, {'position': 2, 'date': 'FR 02/14/20', 'quantity': 6, 'unit_price_gross': 63.0}, {'position': 3, 'date': 'FR 02/14/20', 'quantity': 8, 'unit_price_gross': 63.0}]",[],extracted_empty_array,

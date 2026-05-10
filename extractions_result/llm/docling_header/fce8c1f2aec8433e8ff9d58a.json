@@ -1,0 +1,68 @@
+{
+    "items": [
+        {
+            "position": 4,
+            "date_start": "9/23",
+            "date_end": "9/26",
+            "description": "MODERN FAMILY SECONDARY",
+            "price_gross": 80.0,
+            "unit_price_gross": 80.0
+        },
+        {
+            "position": 4,
+            "date_start": "9/23",
+            "date_end": "9/26",
+            "description": "MODERN FAMILY SECONDARY",
+            "price_gross": 80.0,
+            "unit_price_gross": 80.0
+        },
+        {
+            "position": 4,
+            "date_start": "9/23",
+            "date_end": "9/26",
+            "description": "MODERN FAMILY SECONDARY",
+            "price_gross": 80.0,
+            "unit_price_gross": 80.0
+        },
+        {
+            "position": 3,
+            "date_start": "9/24",
+            "date_end": "9/26",
+            "description": "THE MIDDLE 1",
+            "price_gross": 20.0,
+            "unit_price_gross": 20.0
+        },
+        {
+            "position": 3,
+            "date_start": "9/24",
+            "date_end": "9/26",
+            "description": "THE MIDDLE 1",
+            "price_gross": 20.0,
+            "unit_price_gross": 20.0
+        },
+        {
+            "position": 3,
+            "date_start": "9/24",
+            "date_end": "9/26",
+            "description": "THE MIDDLE 1",
+            "price_gross": 20.0,
+            "unit_price_gross": 20.0
+        },
+        {
+            "position": 1,
+            "date_start": "9/23",
+            "date_end": "9/24",
+            "description": "MIDDLE 2",
+            "price_gross": 20.0,
+            "unit_price_gross": 20.0
+        },
+        {
+            "position": 1,
+            "date_start": "9/23",
+            "date_end": "9/24",
+            "description": "MIDDLE 2",
+            "price_gross": 20.0,
+            "unit_price_gross": 20.0
+        }
+    ]
+}

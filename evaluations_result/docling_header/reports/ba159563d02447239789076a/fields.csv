@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.000000,false,,,,"Each gold entry requires an exact match on all fields (string_exact for code and description, number_exact/integer_exact for numeric values). The two predicted items differ from every gold item on mul..."

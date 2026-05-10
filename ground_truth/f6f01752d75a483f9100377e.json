@@ -1,0 +1,18 @@
+{
+    "items": [
+        {
+            "quantity": 3.0,
+            "description": "HRS. 2 CRANES TO REMOVE MARLBORO AD BOARD FROM FIELD",
+            "unit_price_gross": 160.0,
+            "price_gross": 480.0,
+            "position": 0
+        },
+        {
+            "quantity": 1.0,
+            "description": "DEVELOPING FILM",
+            "unit_price_gross": 9.91,
+            "price_gross": 9.91,
+            "position": 1
+        }
+    ]
+}

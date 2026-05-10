@@ -1,0 +1,58 @@
+================================================================================
+EVALUATION REPORT: b81fc04c4155481f84fb3d95
+Timestamp: 2026-05-09T22:09:55.671345
+================================================================================
+
+OVERALL RESULTS
+----------------------------------------
+  Pass Rate: 85.7%
+  Overall Score: 0.857
+  Evaluated Fields: 7
+  Passed: 6
+  Failed: 1
+
+SCHEMA STATISTICS
+----------------------------------------
+  Total Nodes: 9
+  Required Keys: 7
+  Optional Keys: 0
+  By Type: array: 1, integer: 2, number: 1, object: 2, string: 3
+
+COVERAGE
+----------------------------------------
+  Present in Both: 24
+  Missing in Extracted: 0
+  Spurious in Extracted: 24
+  Required Missing: 0
+
+PASS RATE BY METRIC
+----------------------------------------
+  error_138134537836320: 0.0% (0/1)
+  integer_exact: 100.0% (2/2)
+  number_exact: 100.0% (1/1)
+  string_semantic: 100.0% (3/3)
+
+LLM METRICS
+----------------------------------------
+  Calls: 3
+  Avg Score: 1.000
+  Median Score: 1.000
+
+  Top Lowest-Scoring Fields:
+    - items.items.description (string_semantic): 1.000
+    - items.items.end_date (string_semantic): 1.000
+    - items.items.start_date (string_semantic): 1.000
+
+ERROR BREAKDOWN
+----------------------------------------
+  By Reason:
+    value_mismatch: 1
+  By Path Prefix:
+    items: 1
+
+FAILED FIELDS (first 10)
+----------------------------------------
+  items
+    Metric: error_138134537836320, Score: 0.000
+
+================================================================================

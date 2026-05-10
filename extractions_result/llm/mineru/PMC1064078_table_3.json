@@ -1,0 +1,52 @@
+{
+    "items": [
+        {
+            "race": "White",
+            "dataset_type": "Restricted dataset",
+            "tertile": "Upper tertile",
+            "adjustment_model": "Fully adjusted",
+            "group_type": "Cases",
+            "n_cases": 33,
+            "n_controls": 16,
+            "odds_ratio": 1.4,
+            "ci_lower": 0.6,
+            "ci_upper": 3.2
+        },
+        {
+            "race": "African-American",
+            "dataset_type": "Restricted dataset",
+            "tertile": "Upper tertile",
+            "adjustment_model": "Fully adjusted",
+            "group_type": "Cases",
+            "n_cases": 5,
+            "n_controls": 9,
+            "odds_ratio": 0.3,
+            "ci_lower": 0.1,
+            "ci_upper": 1.2
+        },
+        {
+            "race": "White",
+            "dataset_type": "Full birthweight dataset",
+            "tertile": "Upper tertile",
+            "adjustment_model": "Fully adjusted",
+            "group_type": "Cases",
+            "n_cases": 37,
+            "n_controls": 26,
+            "odds_ratio": 0.9,
+            "ci_lower": 0.4,
+            "ci_upper": 2.0
+        },
+        {
+            "race": "African-American",
+            "dataset_type": "Full birthweight dataset",
+            "tertile": "Upper tertile",
+            "adjustment_model": "Fully adjusted",
+            "group_type": "Cases",
+            "n_cases": 13,
+            "n_controls": 29,
+            "odds_ratio": 0.4,
+            "ci_lower": 0.2,
+            "ci_upper": 1.0
+        }
+    ]
+}

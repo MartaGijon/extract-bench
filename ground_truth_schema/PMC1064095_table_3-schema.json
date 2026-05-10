@@ -1,0 +1,49 @@
+{
+    "type": "object",
+    "properties": {
+        "data": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "patients_controls": {
+                        "type": "string",
+                        "evaluation_config": "string_exact"
+                    },
+                    "odds_ratio": {
+                        "type": "number",
+                        "evaluation_config": "number_exact"
+                    },
+                    "menopausal_status": {
+                        "type": "string",
+                        "evaluation_config": "string_exact"
+                    },
+                    "genotype": {
+                        "type": "string",
+                        "evaluation_config": "string_exact"
+                    },
+                    "pcb_level": {
+                        "type": "string",
+                        "evaluation_config": "string_exact"
+                    },
+                    "confidence_interval": {
+                        "type": "string",
+                        "evaluation_config": "string_exact"
+                    }
+                },
+                "required": [
+                    "patients_controls",
+                    "genotype",
+                    "odds_ratio",
+                    "pcb_level",
+                    "menopausal_status",
+                    "confidence_interval"
+                ]
+            },
+            "evaluation_config": "array_llm"
+        }
+    },
+    "required": [
+        "data"
+    ]
+}

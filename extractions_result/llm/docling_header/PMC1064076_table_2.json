@@ -1,0 +1,20 @@
+{
+    "items": [
+        {
+            "menopausal_status": "Premenopausal women",
+            "bmi_category": ">Median",
+            "genotype": "Val/Ala",
+            "cases_controls": "108/88",
+            "odds_ratio": 1.1,
+            "confidence_interval": "0.8-1.6"
+        },
+        {
+            "menopausal_status": "Premenopausal women",
+            "bmi_category": ">Median",
+            "genotype": "Ala/Ala",
+            "cases_controls": "13/5",
+            "odds_ratio": 2.5,
+            "confidence_interval": "0.9-7.0"
+        }
+    ]
+}

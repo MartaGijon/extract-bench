@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.000000,false,,,,"To consider a gold‑predicted pair a TRUE MATCH, every field must satisfy its evaluation rule. The numeric fields (duration_minutes, unit_price_gross, price_gross, position) are exact matches in all ca..."

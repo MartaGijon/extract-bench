@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.000000,false,,,,"Evaluation uses the provided metric definitions: `string_exact` for the two string fields and `integer_exact` for the integer field. For a gold item to match a predicted item, all three fields must sa..."

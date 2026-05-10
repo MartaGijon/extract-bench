@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.000000,false,,,,"The gold array contains one item with fields unit_price_gross=120.0, quantity=10, price_gross=1200.0, position=1. The predicted array also has one item with the same numeric values for unit_price_gros..."

@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"All six gold records have an exact counterpart in the predicted array (date, description, and price_gross all match exactly). Because the evaluation treats the arrays as unordered collections, we can ..."

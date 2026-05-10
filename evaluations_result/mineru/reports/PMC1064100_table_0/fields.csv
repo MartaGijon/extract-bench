@@ -1,0 +1,11 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.data,data,error_137448387952704,0.000000,false,,,,
+$.properties.data.items.properties.fathers_affected,data.items.fathers_affected,integer_exact,1.000000,true,,,both_null,
+$.properties.data.items.properties.sons_affected,data.items.sons_affected,integer_exact,1.000000,true,,,both_null,
+$.properties.data.items.properties.mothers_unaffected,data.items.mothers_unaffected,integer_exact,1.000000,true,,,both_null,
+$.properties.data.items.properties.sons_unaffected,data.items.sons_unaffected,integer_exact,1.000000,true,,,both_null,
+$.properties.data.items.properties.mothers_affected,data.items.mothers_affected,integer_exact,1.000000,true,,,both_null,
+$.properties.data.items.properties.genotype,data.items.genotype,string_exact,1.000000,true,,,both_null,
+$.properties.data.items.properties.daughters_affected,data.items.daughters_affected,integer_exact,1.000000,true,,,both_null,
+$.properties.data.items.properties.fathers_unaffected,data.items.fathers_unaffected,integer_exact,1.000000,true,,,both_null,
+$.properties.data.items.properties.daughters_unaffected,data.items.daughters_unaffected,integer_exact,1.000000,true,,,both_null,

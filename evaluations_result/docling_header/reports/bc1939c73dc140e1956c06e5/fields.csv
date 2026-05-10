@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.250000,false,,,,"Treating the arrays as unordered, each gold entry must find a predicted entry where all fields satisfy their evaluation criteria. The only gold entry that meets this strict requirement is the first on..."

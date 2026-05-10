@@ -1,0 +1,28 @@
+{
+    "items": [
+        {
+            "description": "Morning, M-F, 6a-10am, 30",
+            "unit_price_gross": 7.65,
+            "quantity": 44,
+            "price_gross": 336.6
+        },
+        {
+            "description": "Midday, M-F, 10a-3pm, 30",
+            "unit_price_gross": 7.65,
+            "quantity": 46,
+            "price_gross": 351.9
+        },
+        {
+            "description": "Midday, M-F, 10a-3pm, 30",
+            "unit_price_gross": 7.65,
+            "quantity": 10,
+            "price_gross": 76.5
+        },
+        {
+            "description": "Morning, M-F, 6a-10am, 30",
+            "unit_price_gross": 7.65,
+            "quantity": 10,
+            "price_gross": 76.5
+        }
+    ]
+}

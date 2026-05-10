@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.000000,false,,,,"According to the schema, each field must match exactly (string_exact for date, description, code; number_exact for amount_net, unit_price_gross, price_gross; integer_exact for postion). Every gold ite..."

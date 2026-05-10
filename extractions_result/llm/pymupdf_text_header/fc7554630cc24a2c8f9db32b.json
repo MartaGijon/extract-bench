@@ -1,0 +1,52 @@
+{
+    "items": [
+        {
+            "position": 7,
+            "description": "Sa 3:00P-7:00P",
+            "unit_price_gross": 135.0,
+            "quantity": 1
+        },
+        {
+            "position": 10,
+            "description": "Su 10:00A-3:00P",
+            "unit_price_gross": 75.0,
+            "quantity": 1
+        },
+        {
+            "position": 8,
+            "description": "Sa 7:00P-12:00A",
+            "unit_price_gross": 50.0,
+            "quantity": 1
+        },
+        {
+            "position": 11,
+            "description": "Su 3:00P-7:00P",
+            "unit_price_gross": 85.0,
+            "quantity": 1
+        },
+        {
+            "position": 9,
+            "description": "Su 6:00A-10:00A",
+            "unit_price_gross": 45.0,
+            "quantity": 1
+        },
+        {
+            "position": 6,
+            "description": "Sa 10:00A-3:00P",
+            "unit_price_gross": 135.0,
+            "quantity": 1
+        },
+        {
+            "position": 12,
+            "description": "Su 7:00P-12:00A",
+            "unit_price_gross": 35.0,
+            "quantity": 1
+        },
+        {
+            "position": 5,
+            "description": "Sa 6:00A-10:00A",
+            "unit_price_gross": 50.0,
+            "quantity": 1
+        }
+    ]
+}

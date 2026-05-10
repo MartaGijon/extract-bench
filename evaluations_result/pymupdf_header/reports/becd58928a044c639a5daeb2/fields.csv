@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.extractions,extractions,array_llm,1.000000,true,,,,"All 14 gold items have exact counterparts in the predicted array. Each object matches on every field (date string, description string, and numeric amount_net) with no tolerance needed. Since the array..."

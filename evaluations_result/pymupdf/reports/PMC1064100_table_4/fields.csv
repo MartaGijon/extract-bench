@@ -1,0 +1,5 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,error_138134565837056,0.000000,false,,,,
+$.properties.items.items.properties.fathers_dominant_p_value,items.items.fathers_dominant_p_value,number_exact,1.000000,true,,,both_null,
+$.properties.items.items.properties.mothers_additive_statistic,items.items.mothers_additive_statistic,number_exact,1.000000,true,,,both_null,
+$.properties.items.items.properties.variant_allele,items.items.variant_allele,string_exact,1.000000,true,,,both_null,

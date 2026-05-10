@@ -1,0 +1,54 @@
+{
+    "type": "object",
+    "properties": {
+        "items": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "dataset_name": {
+                        "type": "string",
+                        "evaluation_config": "string_semantic"
+                    },
+                    "controls_percentage": {
+                        "type": "number",
+                        "evaluation_config": "number_exact"
+                    },
+                    "cases_percentage": {
+                        "type": "number",
+                        "evaluation_config": "number_exact"
+                    },
+                    "maternal_age": {
+                        "type": "string",
+                        "evaluation_config": "string_exact"
+                    },
+                    "cases_count": {
+                        "type": "integer",
+                        "evaluation_config": "integer_exact"
+                    },
+                    "birth_order": {
+                        "type": "string",
+                        "evaluation_config": "string_exact"
+                    },
+                    "controls_count": {
+                        "type": "integer",
+                        "evaluation_config": "integer_exact"
+                    }
+                },
+                "required": [
+                    "cases_percentage",
+                    "maternal_age",
+                    "cases_count",
+                    "birth_order",
+                    "dataset_name",
+                    "controls_count",
+                    "controls_percentage"
+                ]
+            },
+            "evaluation_config": "array_llm"
+        }
+    },
+    "required": [
+        "items"
+    ]
+}

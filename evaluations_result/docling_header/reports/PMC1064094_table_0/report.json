@@ -1,0 +1,152 @@
+{
+  "output_name": "PMC1064094_table_0",
+  "timestamp": "2026-05-09T21:16:13.381506",
+  "schema_hash": "71964b02",
+  "gold_hash": "d3157ca5",
+  "extracted_hash": "8b184f5c",
+  "schema_stats": {
+    "total_nodes": 7,
+    "counts_by_type": {
+      "object": 2,
+      "array": 1,
+      "integer": 2,
+      "string": 2
+    },
+    "required_keys_count": 5,
+    "optional_keys_count": 0,
+    "required_by_type": {
+      "array": 1,
+      "integer": 2,
+      "string": 2
+    },
+    "optional_by_type": {}
+  },
+  "gold_stats": {
+    "label": "gold",
+    "total_keys": 21,
+    "counts_by_type": {
+      "array": 1,
+      "string": 10,
+      "integer": 10
+    },
+    "array_stats": {
+      "array_field_count": 1,
+      "total_items": 5,
+      "min_length": 5,
+      "median_length": 5,
+      "max_length": 5
+    },
+    "null_count": 0,
+    "missing_count": 0
+  },
+  "extracted_stats": {
+    "label": "extracted",
+    "total_keys": 17,
+    "counts_by_type": {
+      "array": 1,
+      "string": 8,
+      "integer": 8
+    },
+    "array_stats": {
+      "array_field_count": 1,
+      "total_items": 4,
+      "min_length": 4,
+      "median_length": 4,
+      "max_length": 4
+    },
+    "null_count": 0,
+    "missing_count": 0
+  },
+  "coverage": {
+    "present_in_both": 16,
+    "missing_in_extracted": 4,
+    "spurious_in_extracted": 0,
+    "required_missing": 0,
+    "missing_paths": [
+      "items[4].carcinoma_type",
+      "items[4].hpv_dna_positive",
+      "items[4].location",
+      "items[4].number_tested"
+    ],
+    "spurious_paths": []
+  },
+  "outcomes": {
+    "total_evaluated": 1,
+    "total_passed": 0,
+    "total_failed": 1,
+    "pass_rate": 0.0,
+    "pass_by_metric": {
+      "array_llm": {
+        "passed": 0,
+        "failed": 1
+      }
+    },
+    "pass_by_type": {
+      "array": {
+        "passed": 0,
+        "failed": 1
+      }
+    },
+    "pass_by_required": {
+      "optional": {
+        "passed": 0,
+        "failed": 1
+      }
+    },
+    "confusion": {
+      "true_positive": 0,
+      "false_positive": 0,
+      "false_negative": 1,
+      "true_negative": 0
+    },
+    "llm_stats": {
+      "call_count": 1,
+      "avg_score": 0.0,
+      "median_score": 0.0,
+      "score_distribution": {
+        "0.0-0.2": 1
+      },
+      "top_lowest_fields": [
+        {
+          "path": "items",
+          "metric_id": "array_llm",
+          "score": 0.0,
+          "reasoning": "Using the provided metric definitions, each field must match exactly (string_exact for string fields and integer_exact for integer fields). No predicted item matches any gold item on all four fields. ..."
+        }
+      ]
+    },
+    "error_breakdown": {
+      "by_path_prefix": {
+        "items": 1
+      },
+      "by_metric_type": {
+        "array_llm": 1
+      },
+      "by_reason": {
+        "semantic_mismatch": 1
+      },
+      "details": [
+        {
+          "category": "semantic_mismatch",
+          "count": 1,
+          "paths": []
+        }
+      ]
+    }
+  },
+  "field_outcomes": [
+    {
+      "path": "$.properties.items",
+      "normalized_path": "items",
+      "metric_id": "array_llm",
+      "score": 0.0,
+      "passed": false,
+      "reason": null,
+      "gold_value": null,
+      "extracted_value": null,
+      "reasoning": "Using the provided metric definitions, each field must match exactly (string_exact for string fields and integer_exact for integer fields). No predicted item matches any gold item on all four fields. ..."
+    }
+  ],
+  "overall_score": 0.0,
+  "overall_pass_rate": 0.0
+}

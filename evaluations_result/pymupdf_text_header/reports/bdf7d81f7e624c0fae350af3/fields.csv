@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.666667,false,,,,"Both predicted items exactly match two gold items on every field (description, date, unit_price_gross, position, quantity). The first predicted entry matches the gold entry with description 'WLTV 6A N..."

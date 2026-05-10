@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"All gold entries are present in the predicted array with identical field values (position, date_start, date_end, unit_price_gross, quantity, price_gross). Because the schema provides no tolerance rule..."

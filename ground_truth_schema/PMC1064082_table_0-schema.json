@@ -1,0 +1,39 @@
+{
+    "type": "object",
+    "properties": {
+        "items": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "p_value": {
+                        "type": "number",
+                        "evaluation_config": "number_exact"
+                    },
+                    "count_less_than_3000": {
+                        "type": "integer",
+                        "evaluation_config": "integer_exact"
+                    },
+                    "count_greater_than_3000": {
+                        "type": "integer",
+                        "evaluation_config": "integer_exact"
+                    },
+                    "expression_group": {
+                        "type": "string",
+                        "evaluation_config": "string_exact"
+                    }
+                },
+                "required": [
+                    "p_value",
+                    "count_less_than_3000",
+                    "count_greater_than_3000",
+                    "expression_group"
+                ]
+            },
+            "evaluation_config": "array_llm"
+        }
+    },
+    "required": [
+        "items"
+    ]
+}

@@ -1,0 +1,46 @@
+================================================================================
+EVALUATION REPORT: PMC1064081_table_2
+Timestamp: 2026-05-09T22:03:52.311161
+================================================================================
+
+OVERALL RESULTS
+----------------------------------------
+  Pass Rate: 87.5%
+  Overall Score: 0.875
+  Evaluated Fields: 8
+  Passed: 7
+  Failed: 1
+
+SCHEMA STATISTICS
+----------------------------------------
+  Total Nodes: 10
+  Required Keys: 8
+  Optional Keys: 0
+  By Type: array: 1, number: 4, object: 2, string: 3
+
+COVERAGE
+----------------------------------------
+  Present in Both: 7
+  Missing in Extracted: 91
+  Spurious in Extracted: 0
+  Required Missing: 0
+
+PASS RATE BY METRIC
+----------------------------------------
+  error_138134565844448: 0.0% (0/1)
+  number_exact: 100.0% (4/4)
+  string_exact: 100.0% (3/3)
+
+ERROR BREAKDOWN
+----------------------------------------
+  By Reason:
+    value_mismatch: 1
+  By Path Prefix:
+    items: 1
+
+FAILED FIELDS (first 10)
+----------------------------------------
+  items
+    Metric: error_138134565844448, Score: 0.000
+
+================================================================================

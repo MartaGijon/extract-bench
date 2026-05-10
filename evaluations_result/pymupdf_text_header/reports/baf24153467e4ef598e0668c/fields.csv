@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.000000,false,,,,"According to the provided schema there are no explicit per‑field evaluation configurations, so the conservative interpretation is to require exact string equality (string_exact) for all textual fields..."

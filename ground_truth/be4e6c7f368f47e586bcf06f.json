@@ -1,0 +1,40 @@
+{
+    "items": [
+        {
+            "position": 11,
+            "date": "10/02/18",
+            "price_gross": 350.0,
+            "description": "Contract Line Remarks: 13 WHAM News @ 10P",
+            "code": "JMNY180330H",
+            "quantity": 0,
+            "unit_price_gross": 0.0
+        },
+        {
+            "position": 12,
+            "date": "10/03/18",
+            "price_gross": 350.0,
+            "description": "Contract Line Remarks: 13 WHAM News @ 10P",
+            "code": "JMNY180330H",
+            "quantity": 0,
+            "unit_price_gross": 0.0
+        },
+        {
+            "position": 14,
+            "date": "10/05/18",
+            "price_gross": 350.0,
+            "description": "Contract Line Remarks: 13 WHAM News @ 10P",
+            "code": "JMNY180330H",
+            "quantity": 0,
+            "unit_price_gross": 0.0
+        },
+        {
+            "position": 16,
+            "date": "10/02/18",
+            "price_gross": 350.0,
+            "description": "Contract Line Remarks: 13 WHAM News @ 10P",
+            "code": "JMNY180330H",
+            "quantity": 0,
+            "unit_price_gross": 0.0
+        }
+    ]
+}

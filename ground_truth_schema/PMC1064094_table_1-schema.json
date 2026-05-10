@@ -1,0 +1,39 @@
+{
+    "type": "object",
+    "properties": {
+        "items": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "number_of_samples": {
+                        "type": "integer",
+                        "evaluation_config": "integer_exact"
+                    },
+                    "nipple_status": {
+                        "type": "string",
+                        "evaluation_config": "string_exact"
+                    },
+                    "hpv_types": {
+                        "type": "string",
+                        "evaluation_config": "string_exact"
+                    },
+                    "tumor_pair_status": {
+                        "type": "string",
+                        "evaluation_config": "string_exact"
+                    }
+                },
+                "required": [
+                    "number_of_samples",
+                    "nipple_status",
+                    "hpv_types",
+                    "tumor_pair_status"
+                ]
+            },
+            "evaluation_config": "array_llm"
+        }
+    },
+    "required": [
+        "items"
+    ]
+}

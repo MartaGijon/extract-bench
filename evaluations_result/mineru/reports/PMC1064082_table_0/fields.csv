@@ -1,0 +1,6 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,error_137448387959040,0.000000,false,,,,
+$.properties.items.items.properties.p_value,items.items.p_value,number_exact,1.000000,true,,,both_null,
+$.properties.items.items.properties.count_less_than_3000,items.items.count_less_than_3000,integer_exact,1.000000,true,,,both_null,
+$.properties.items.items.properties.count_greater_than_3000,items.items.count_greater_than_3000,integer_exact,1.000000,true,,,both_null,
+$.properties.items.items.properties.expression_group,items.items.expression_group,string_exact,1.000000,true,,,both_null,

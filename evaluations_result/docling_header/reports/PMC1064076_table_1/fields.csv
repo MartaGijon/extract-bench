@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.000000,false,,,,"The gold and predicted items share the same string fields (genotype ""Ala/Ala"" and subgroup ""Premenopausal women""), which pass exact string matching. However, all numeric fields differ: cases_count (21..."

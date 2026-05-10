@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.000000,false,,,,"To be considered a match, every field of a gold item must satisfy its exact evaluation rule (integer_exact for integer fields, number_exact for numeric fields, and string_exact for string fields).  Al..."

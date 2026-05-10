@@ -1,0 +1,52 @@
+{
+    "items": [
+        {
+            "description": "10:00AM-03:00PM",
+            "start_date": "06/20/22",
+            "end_date": "06/20/22",
+            "quantity": 2,
+            "unit_price_gross": 11.0,
+            "price_gross": 22.0
+        },
+        {
+            "description": "10:00AM-03:00PM",
+            "start_date": "06/06/22",
+            "end_date": "06/17/22",
+            "quantity": 18,
+            "unit_price_gross": 11.0,
+            "price_gross": 198.0
+        },
+        {
+            "description": "06:00AM-10:00AM",
+            "start_date": "06/20/22",
+            "end_date": "06/20/22",
+            "quantity": 2,
+            "unit_price_gross": 11.0,
+            "price_gross": 22.0
+        },
+        {
+            "description": "03:00PM-07:00PM",
+            "start_date": "06/20/22",
+            "end_date": "06/20/22",
+            "quantity": 2,
+            "unit_price_gross": 11.0,
+            "price_gross": 22.0
+        },
+        {
+            "description": "03:00PM-07:00PM",
+            "start_date": "06/06/22",
+            "end_date": "06/17/22",
+            "quantity": 24,
+            "unit_price_gross": 11.0,
+            "price_gross": 264.0
+        },
+        {
+            "description": "06:00AM-10:00AM",
+            "start_date": "06/06/22",
+            "end_date": "06/17/22",
+            "quantity": 24,
+            "unit_price_gross": 11.0,
+            "price_gross": 264.0
+        }
+    ]
+}

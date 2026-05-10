@@ -1,0 +1,154 @@
+{
+  "output_name": "fb8b5127d5524e61affe04aa",
+  "timestamp": "2026-05-09T21:24:38.346797",
+  "schema_hash": "7ca5b2be",
+  "gold_hash": "a7e49cc4",
+  "extracted_hash": "b2d6570b",
+  "schema_stats": {
+    "total_nodes": 6,
+    "counts_by_type": {
+      "object": 2,
+      "array": 1,
+      "string": 2,
+      "number": 1
+    },
+    "required_keys_count": 4,
+    "optional_keys_count": 0,
+    "required_by_type": {
+      "array": 1,
+      "string": 2,
+      "number": 1
+    },
+    "optional_by_type": {}
+  },
+  "gold_stats": {
+    "label": "gold",
+    "total_keys": 19,
+    "counts_by_type": {
+      "array": 1,
+      "string": 12,
+      "number": 6
+    },
+    "array_stats": {
+      "array_field_count": 1,
+      "total_items": 6,
+      "min_length": 6,
+      "median_length": 6,
+      "max_length": 6
+    },
+    "null_count": 0,
+    "missing_count": 0
+  },
+  "extracted_stats": {
+    "label": "extracted",
+    "total_keys": 13,
+    "counts_by_type": {
+      "array": 1,
+      "string": 8,
+      "number": 4
+    },
+    "array_stats": {
+      "array_field_count": 1,
+      "total_items": 4,
+      "min_length": 4,
+      "median_length": 4,
+      "max_length": 4
+    },
+    "null_count": 0,
+    "missing_count": 0
+  },
+  "coverage": {
+    "present_in_both": 12,
+    "missing_in_extracted": 6,
+    "spurious_in_extracted": 0,
+    "required_missing": 0,
+    "missing_paths": [
+      "items[4].date",
+      "items[4].description",
+      "items[4].unit_price_gross",
+      "items[5].date",
+      "items[5].description",
+      "items[5].unit_price_gross"
+    ],
+    "spurious_paths": []
+  },
+  "outcomes": {
+    "total_evaluated": 1,
+    "total_passed": 0,
+    "total_failed": 1,
+    "pass_rate": 0.0,
+    "pass_by_metric": {
+      "array_llm": {
+        "passed": 0,
+        "failed": 1
+      }
+    },
+    "pass_by_type": {
+      "array": {
+        "passed": 0,
+        "failed": 1
+      }
+    },
+    "pass_by_required": {
+      "optional": {
+        "passed": 0,
+        "failed": 1
+      }
+    },
+    "confusion": {
+      "true_positive": 0,
+      "false_positive": 0,
+      "false_negative": 1,
+      "true_negative": 0
+    },
+    "llm_stats": {
+      "call_count": 1,
+      "avg_score": 0.6666666666666666,
+      "median_score": 0.6666666666666666,
+      "score_distribution": {
+        "0.6-0.8": 1
+      },
+      "top_lowest_fields": [
+        {
+          "path": "items",
+          "metric_id": "array_llm",
+          "score": 0.6666666666666666,
+          "reasoning": "All items are evaluated with exact matching on each field (date string, numeric unit_price_gross, and description string). The predicted array contains four entries whose dates (10/01, 09/30, 09/28, 0..."
+        }
+      ]
+    },
+    "error_breakdown": {
+      "by_path_prefix": {
+        "items": 1
+      },
+      "by_metric_type": {
+        "array_llm": 1
+      },
+      "by_reason": {
+        "semantic_mismatch": 1
+      },
+      "details": [
+        {
+          "category": "semantic_mismatch",
+          "count": 1,
+          "paths": []
+        }
+      ]
+    }
+  },
+  "field_outcomes": [
+    {
+      "path": "$.properties.items",
+      "normalized_path": "items",
+      "metric_id": "array_llm",
+      "score": 0.6666666666666666,
+      "passed": false,
+      "reason": null,
+      "gold_value": null,
+      "extracted_value": null,
+      "reasoning": "All items are evaluated with exact matching on each field (date string, numeric unit_price_gross, and description string). The predicted array contains four entries whose dates (10/01, 09/30, 09/28, 0..."
+    }
+  ],
+  "overall_score": 0.6666666666666666,
+  "overall_pass_rate": 0.0
+}

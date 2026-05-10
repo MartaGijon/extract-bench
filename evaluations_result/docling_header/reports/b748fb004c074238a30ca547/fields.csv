@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"Each gold item was paired with a predicted item where all fields satisfy their evaluation rules. The numeric fields (quantity, unit_price_gross, price_gross) are exact matches, so they pass integer_ex..."

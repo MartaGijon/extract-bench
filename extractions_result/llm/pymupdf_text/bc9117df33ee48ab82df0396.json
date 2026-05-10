@@ -1,0 +1,18 @@
+{
+    "items": [
+        {
+            "description": "Review of materials regarding arbitration, including presentation and response; telephone conferences with related parties.",
+            "quantity": 52.0,
+            "unit_price_gross": 650.0,
+            "price_gross": 33800.0,
+            "currency": "USD"
+        },
+        {
+            "description": "Attend arbitration presentation and deliberations in New York City; participate in continued deliberations via telephone conference calls with fellow arbitrators; draft, write and review opinion.",
+            "quantity": 100.8,
+            "unit_price_gross": 800.0,
+            "price_gross": 80640.0,
+            "currency": "USD"
+        }
+    ]
+}

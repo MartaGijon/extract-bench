@@ -1,0 +1,164 @@
+{
+    "items": [
+        {
+            "position": 1,
+            "date": "10/27 - 10/27",
+            "description": "WCTI Morning News on Fox",
+            "unit_price_gross": 40.0,
+            "quantity": 2,
+            "price_gross": 80.0
+        },
+        {
+            "position": 19,
+            "date": "10/27 - 10/27",
+            "description": "TMZ",
+            "unit_price_gross": 45.0,
+            "quantity": 2,
+            "price_gross": 90.0
+        },
+        {
+            "position": 16,
+            "date": "10/27 - 10/27",
+            "description": "FOX Eastern Carolina News 10p",
+            "unit_price_gross": 245.0,
+            "quantity": 5,
+            "price_gross": 1225.0
+        },
+        {
+            "position": 29,
+            "date": "10/27 - 10/27",
+            "description": "FOX Eastern Carolina News 10p Sat",
+            "unit_price_gross": 205.0,
+            "quantity": 1,
+            "price_gross": 205.0
+        },
+        {
+            "position": 15,
+            "date": "10/27 - 10/27",
+            "description": "FOX Eastern Carolina News 10p",
+            "unit_price_gross": 245.0,
+            "quantity": 2,
+            "price_gross": 490.0
+        },
+        {
+            "position": 14,
+            "date": "10/27 - 10/27",
+            "description": "Big Bang Theory",
+            "unit_price_gross": 190.0,
+            "quantity": 1,
+            "price_gross": 190.0
+        },
+        {
+            "position": 4,
+            "date": "10/27 - 10/27",
+            "description": "Hot Bench",
+            "unit_price_gross": 50.0,
+            "quantity": 2,
+            "price_gross": 100.0
+        },
+        {
+            "position": 31,
+            "date": "10/27 - 10/27",
+            "description": "L.A.'S FINEST",
+            "unit_price_gross": 1820.0,
+            "quantity": 1,
+            "price_gross": 1820.0
+        },
+        {
+            "position": 1,
+            "date": "10/27 - 10/27",
+            "description": "TMZ Live",
+            "unit_price_gross": 35.0,
+            "quantity": 1,
+            "price_gross": 35.0
+        },
+        {
+            "position": 12,
+            "date": "10/27 - 10/27",
+            "description": "Big Bang Theory",
+            "unit_price_gross": 250.0,
+            "quantity": 3,
+            "price_gross": 750.0
+        },
+        {
+            "position": 23,
+            "date": "10/27 - 10/27",
+            "description": "9-1-1-FOX",
+            "unit_price_gross": 800.0,
+            "quantity": 1,
+            "price_gross": 800.0
+        },
+        {
+            "position": 26,
+            "date": "10/27 - 10/27",
+            "description": "Thursday Night Football",
+            "unit_price_gross": 4115.0,
+            "quantity": 1,
+            "price_gross": 4115.0
+        },
+        {
+            "position": 24,
+            "date": "10/27 - 10/27",
+            "description": "The Resident-FOX",
+            "unit_price_gross": 550.0,
+            "quantity": 1,
+            "price_gross": 550.0
+        },
+        {
+            "position": 32,
+            "date": "10/27 - 10/27",
+            "description": "COSMOS: POSSIBLE WORLDS",
+            "unit_price_gross": 550.0,
+            "quantity": 1,
+            "price_gross": 550.0
+        },
+        {
+            "position": 3,
+            "date": "10/27 - 10/27",
+            "description": "Hot Bench",
+            "unit_price_gross": 45.0,
+            "quantity": 1,
+            "price_gross": 45.0
+        },
+        {
+            "position": 33,
+            "date": "10/27 - 10/27",
+            "description": "FOX NFL SUNDAY",
+            "unit_price_gross": 350.0,
+            "quantity": 1,
+            "price_gross": 350.0
+        },
+        {
+            "position": 25,
+            "date": "10/27 - 10/27",
+            "description": "Friday Night SmackDown-FOX",
+            "unit_price_gross": 430.0,
+            "quantity": 1,
+            "price_gross": 430.0
+        },
+        {
+            "position": 18,
+            "date": "10/27 - 10/27",
+            "description": "FOX Eastern Carolina News 10p Sun",
+            "unit_price_gross": 210.0,
+            "quantity": 1,
+            "price_gross": 210.0
+        },
+        {
+            "position": 13,
+            "date": "10/27 - 10/27",
+            "description": "Big Bang Theory",
+            "unit_price_gross": 240.0,
+            "quantity": 2,
+            "price_gross": 480.0
+        },
+        {
+            "position": 7,
+            "date": "10/27 - 10/27",
+            "description": "Maury",
+            "unit_price_gross": 55.0,
+            "quantity": 1,
+            "price_gross": 55.0
+        }
+    ]
+}

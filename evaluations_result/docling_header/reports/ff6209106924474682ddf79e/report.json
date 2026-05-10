@@ -1,0 +1,151 @@
+{
+  "output_name": "ff6209106924474682ddf79e",
+  "timestamp": "2026-05-09T21:30:48.411376",
+  "schema_hash": "24a12751",
+  "gold_hash": "04721bac",
+  "extracted_hash": "9a60c1dd",
+  "schema_stats": {
+    "total_nodes": 6,
+    "counts_by_type": {
+      "object": 2,
+      "array": 1,
+      "string": 1,
+      "integer": 1,
+      "number": 1
+    },
+    "required_keys_count": 4,
+    "optional_keys_count": 0,
+    "required_by_type": {
+      "array": 1,
+      "string": 1,
+      "integer": 1,
+      "number": 1
+    },
+    "optional_by_type": {}
+  },
+  "gold_stats": {
+    "label": "gold",
+    "total_keys": 22,
+    "counts_by_type": {
+      "array": 1,
+      "string": 7,
+      "integer": 7,
+      "number": 7
+    },
+    "array_stats": {
+      "array_field_count": 1,
+      "total_items": 7,
+      "min_length": 7,
+      "median_length": 7,
+      "max_length": 7
+    },
+    "null_count": 0,
+    "missing_count": 0
+  },
+  "extracted_stats": {
+    "label": "extracted",
+    "total_keys": 22,
+    "counts_by_type": {
+      "array": 1,
+      "string": 7,
+      "integer": 7,
+      "number": 7
+    },
+    "array_stats": {
+      "array_field_count": 1,
+      "total_items": 7,
+      "min_length": 7,
+      "median_length": 7,
+      "max_length": 7
+    },
+    "null_count": 0,
+    "missing_count": 0
+  },
+  "coverage": {
+    "present_in_both": 21,
+    "missing_in_extracted": 0,
+    "spurious_in_extracted": 0,
+    "required_missing": 0,
+    "missing_paths": [],
+    "spurious_paths": []
+  },
+  "outcomes": {
+    "total_evaluated": 1,
+    "total_passed": 0,
+    "total_failed": 1,
+    "pass_rate": 0.0,
+    "pass_by_metric": {
+      "array_llm": {
+        "passed": 0,
+        "failed": 1
+      }
+    },
+    "pass_by_type": {
+      "array": {
+        "passed": 0,
+        "failed": 1
+      }
+    },
+    "pass_by_required": {
+      "optional": {
+        "passed": 0,
+        "failed": 1
+      }
+    },
+    "confusion": {
+      "true_positive": 0,
+      "false_positive": 0,
+      "false_negative": 1,
+      "true_negative": 0
+    },
+    "llm_stats": {
+      "call_count": 1,
+      "avg_score": 0.14285714285714285,
+      "median_score": 0.14285714285714285,
+      "score_distribution": {
+        "0.0-0.2": 1
+      },
+      "top_lowest_fields": [
+        {
+          "path": "items",
+          "metric_id": "array_llm",
+          "score": 0.14285714285714285,
+          "reasoning": "Arrays are treated as unordered collections and each item must match on every field (date, quantity, price_gross) with exact equality (no tolerance is specified). Comparing each gold entry to the pred..."
+        }
+      ]
+    },
+    "error_breakdown": {
+      "by_path_prefix": {
+        "items": 1
+      },
+      "by_metric_type": {
+        "array_llm": 1
+      },
+      "by_reason": {
+        "semantic_mismatch": 1
+      },
+      "details": [
+        {
+          "category": "semantic_mismatch",
+          "count": 1,
+          "paths": []
+        }
+      ]
+    }
+  },
+  "field_outcomes": [
+    {
+      "path": "$.properties.items",
+      "normalized_path": "items",
+      "metric_id": "array_llm",
+      "score": 0.14285714285714285,
+      "passed": false,
+      "reason": null,
+      "gold_value": null,
+      "extracted_value": null,
+      "reasoning": "Arrays are treated as unordered collections and each item must match on every field (date, quantity, price_gross) with exact equality (no tolerance is specified). Comparing each gold entry to the pred..."
+    }
+  ],
+  "overall_score": 0.14285714285714285,
+  "overall_pass_rate": 0.0
+}

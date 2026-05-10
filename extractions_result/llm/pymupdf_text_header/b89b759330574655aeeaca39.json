@@ -1,0 +1,31 @@
+{
+    "items": [
+        {
+            "position": 5,
+            "date_start": "10/14/14",
+            "date_end": "10/20/14",
+            "description": "NEWS",
+            "unit_price_gross": 800.0,
+            "quantity": 1,
+            "price_gross": 800.0
+        },
+        {
+            "position": 1,
+            "date_start": "10/14/14",
+            "date_end": "10/20/14",
+            "description": "NEWS",
+            "unit_price_gross": 4500.0,
+            "quantity": 1,
+            "price_gross": 4500.0
+        },
+        {
+            "position": 2,
+            "date_start": "10/14/14",
+            "date_end": "10/20/14",
+            "description": "NEWS",
+            "unit_price_gross": 4500.0,
+            "quantity": 1,
+            "price_gross": 4500.0
+        }
+    ]
+}

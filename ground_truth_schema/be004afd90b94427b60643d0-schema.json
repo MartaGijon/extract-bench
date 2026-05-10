@@ -1,0 +1,44 @@
+{
+    "type": "object",
+    "properties": {
+        "items": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "position": {
+                        "type": "integer",
+                        "evaluation_config": "integer_exact"
+                    },
+                    "price_gross": {
+                        "type": "number",
+                        "evaluation_config": "number_exact"
+                    },
+                    "unit_price_gross": {
+                        "type": "number",
+                        "evaluation_config": "number_exact"
+                    },
+                    "date": {
+                        "type": "string",
+                        "evaluation_config": "string_semantic"
+                    },
+                    "code": {
+                        "type": "string",
+                        "evaluation_config": "string_exact"
+                    }
+                },
+                "required": [
+                    "unit_price_gross",
+                    "date",
+                    "position",
+                    "code",
+                    "price_gross"
+                ]
+            },
+            "evaluation_config": "array_llm"
+        }
+    },
+    "required": [
+        "items"
+    ]
+}

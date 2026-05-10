@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.extractions,extractions,array_llm,1.000000,true,,,,"All 14 gold objects have exact equivalents in the predicted array. The date, description, and amount_net fields match exactly for each entry. Since the arrays are treated as unordered collections, we ..."

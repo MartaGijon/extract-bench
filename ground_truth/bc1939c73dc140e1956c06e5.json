@@ -1,0 +1,40 @@
+{
+    "items": [
+        {
+            "description": "M/F 7a/9a",
+            "start_date": "09/25/20",
+            "end_date": "10/02/20",
+            "quantity": 6,
+            "price_gross": 240.0,
+            "unit_price_gross": 40.0,
+            "position": 1
+        },
+        {
+            "description": "Ellen",
+            "start_date": "09/25/20",
+            "end_date": "10/02/20",
+            "quantity": 6,
+            "price_gross": 270.0,
+            "unit_price_gross": 45.0,
+            "position": 2
+        },
+        {
+            "description": "M/F 530/6p NBC 16 News",
+            "start_date": "09/25/20",
+            "end_date": "10/02/20",
+            "quantity": 5,
+            "price_gross": 250.0,
+            "unit_price_gross": 50.0,
+            "position": 3
+        },
+        {
+            "description": "M/F Tonight Show",
+            "start_date": "09/25/20",
+            "end_date": "10/02/20",
+            "quantity": 6,
+            "price_gross": 240.0,
+            "unit_price_gross": 40.0,
+            "position": 4
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,error_129142555781984,0.000000,false,,,,
+$.properties.items.items.properties.odds_ratio,items.items.odds_ratio,number_exact,1.000000,true,,,both_null,
+$.properties.items.items.properties.n_controls,items.items.n_controls,integer_exact,1.000000,true,,,both_null,
+$.properties.items.items.properties.adjustment_model,items.items.adjustment_model,string_exact,1.000000,true,,,both_null,
+$.properties.items.items.properties.group_type,items.items.group_type,string_exact,1.000000,true,,,both_null,
+$.properties.items.items.properties.race,items.items.race,string_exact,1.000000,true,,,both_null,
+$.properties.items.items.properties.tertile,items.items.tertile,string_exact,1.000000,true,,,both_null,
+$.properties.items.items.properties.n_cases,items.items.n_cases,integer_exact,1.000000,true,,,both_null,
+$.properties.items.items.properties.ci_lower,items.items.ci_lower,number_exact,1.000000,true,,,both_null,
+$.properties.items.items.properties.ci_upper,items.items.ci_upper,number_exact,1.000000,true,,,both_null,
+$.properties.items.items.properties.dataset_type,items.items.dataset_type,string_exact,1.000000,true,,,both_null,

@@ -1,0 +1,58 @@
+{
+    "items": [
+        {
+            "position": 4,
+            "date": "05/22/22",
+            "price_gross": 400.0,
+            "code": "DGAILBT2201H",
+            "description": "Contract Line Remarks: FOX News Sunday",
+            "quantity": 0,
+            "unit_price_gross": 0.0
+        },
+        {
+            "position": 5,
+            "date": "05/19/22",
+            "price_gross": 50.0,
+            "code": "DGAILBT2201H",
+            "description": "Contract Line Remarks: FOX Illinois Sunrise",
+            "quantity": 0,
+            "unit_price_gross": 0.0
+        },
+        {
+            "position": 6,
+            "date": "05/20/22",
+            "price_gross": 50.0,
+            "code": "DGAILBT2201H",
+            "description": "Contract Line Remarks: FOX Illinois Sunrise",
+            "quantity": 0,
+            "unit_price_gross": 0.0
+        },
+        {
+            "position": 7,
+            "date": "05/19/22",
+            "price_gross": 250.0,
+            "code": "DGAILBT2201H",
+            "description": "Contract Line Remarks: FOX News at 5:30p",
+            "quantity": 0,
+            "unit_price_gross": 0.0
+        },
+        {
+            "position": 8,
+            "date": "05/20/22",
+            "price_gross": 250.0,
+            "code": "DGAILBT2201H",
+            "description": "Contract Line Remarks: FOX News at 5:30p",
+            "quantity": 0,
+            "unit_price_gross": 0.0
+        },
+        {
+            "position": 12,
+            "date": "05/21/22",
+            "price_gross": 250.0,
+            "code": "DGAILBT2201H",
+            "description": "Contract Line Remarks: FOX News at 9",
+            "quantity": 0,
+            "unit_price_gross": 0.0
+        }
+    ]
+}

@@ -1,0 +1,452 @@
+{
+  "output_name": "f655d4e5fe2e473b8d1e052c",
+  "timestamp": "2026-05-09T22:30:55.735903",
+  "schema_hash": "b8b62a4b",
+  "gold_hash": "fcc50fbd",
+  "extracted_hash": "eeb85c26",
+  "schema_stats": {
+    "total_nodes": 8,
+    "counts_by_type": {
+      "object": 2,
+      "array": 1,
+      "string": 2,
+      "number": 2,
+      "integer": 1
+    },
+    "required_keys_count": 6,
+    "optional_keys_count": 0,
+    "required_by_type": {
+      "array": 1,
+      "string": 2,
+      "number": 2,
+      "integer": 1
+    },
+    "optional_by_type": {}
+  },
+  "gold_stats": {
+    "label": "gold",
+    "total_keys": 126,
+    "counts_by_type": {
+      "array": 1,
+      "string": 50,
+      "integer": 25,
+      "number": 50
+    },
+    "array_stats": {
+      "array_field_count": 1,
+      "total_items": 25,
+      "min_length": 25,
+      "median_length": 25,
+      "max_length": 25
+    },
+    "null_count": 0,
+    "missing_count": 0
+  },
+  "extracted_stats": {
+    "label": "extracted",
+    "total_keys": 1,
+    "counts_by_type": {
+      "array": 1
+    },
+    "array_stats": {
+      "array_field_count": 1,
+      "total_items": 0,
+      "min_length": 0,
+      "median_length": 0,
+      "max_length": 0
+    },
+    "null_count": 0,
+    "missing_count": 0
+  },
+  "coverage": {
+    "present_in_both": 0,
+    "missing_in_extracted": 125,
+    "spurious_in_extracted": 1,
+    "required_missing": 0,
+    "missing_paths": [
+      "items[0].amount_net",
+      "items[0].code",
+      "items[0].description",
+      "items[0].quantity",
+      "items[0].unit_price_net",
+      "items[10].amount_net",
+      "items[10].code",
+      "items[10].description",
+      "items[10].quantity",
+      "items[10].unit_price_net",
+      "items[11].amount_net",
+      "items[11].code",
+      "items[11].description",
+      "items[11].quantity",
+      "items[11].unit_price_net",
+      "items[12].amount_net",
+      "items[12].code",
+      "items[12].description",
+      "items[12].quantity",
+      "items[12].unit_price_net",
+      "items[13].amount_net",
+      "items[13].code",
+      "items[13].description",
+      "items[13].quantity",
+      "items[13].unit_price_net",
+      "items[14].amount_net",
+      "items[14].code",
+      "items[14].description",
+      "items[14].quantity",
+      "items[14].unit_price_net",
+      "items[15].amount_net",
+      "items[15].code",
+      "items[15].description",
+      "items[15].quantity",
+      "items[15].unit_price_net",
+      "items[16].amount_net",
+      "items[16].code",
+      "items[16].description",
+      "items[16].quantity",
+      "items[16].unit_price_net",
+      "items[17].amount_net",
+      "items[17].code",
+      "items[17].description",
+      "items[17].quantity",
+      "items[17].unit_price_net",
+      "items[18].amount_net",
+      "items[18].code",
+      "items[18].description",
+      "items[18].quantity",
+      "items[18].unit_price_net",
+      "items[19].amount_net",
+      "items[19].code",
+      "items[19].description",
+      "items[19].quantity",
+      "items[19].unit_price_net",
+      "items[1].amount_net",
+      "items[1].code",
+      "items[1].description",
+      "items[1].quantity",
+      "items[1].unit_price_net",
+      "items[20].amount_net",
+      "items[20].code",
+      "items[20].description",
+      "items[20].quantity",
+      "items[20].unit_price_net",
+      "items[21].amount_net",
+      "items[21].code",
+      "items[21].description",
+      "items[21].quantity",
+      "items[21].unit_price_net",
+      "items[22].amount_net",
+      "items[22].code",
+      "items[22].description",
+      "items[22].quantity",
+      "items[22].unit_price_net",
+      "items[23].amount_net",
+      "items[23].code",
+      "items[23].description",
+      "items[23].quantity",
+      "items[23].unit_price_net",
+      "items[24].amount_net",
+      "items[24].code",
+      "items[24].description",
+      "items[24].quantity",
+      "items[24].unit_price_net",
+      "items[2].amount_net",
+      "items[2].code",
+      "items[2].description",
+      "items[2].quantity",
+      "items[2].unit_price_net",
+      "items[3].amount_net",
+      "items[3].code",
+      "items[3].description",
+      "items[3].quantity",
+      "items[3].unit_price_net",
+      "items[4].amount_net",
+      "items[4].code",
+      "items[4].description",
+      "items[4].quantity",
+      "items[4].unit_price_net",
+      "items[5].amount_net",
+      "items[5].code",
+      "items[5].description",
+      "items[5].quantity",
+      "items[5].unit_price_net",
+      "items[6].amount_net",
+      "items[6].code",
+      "items[6].description",
+      "items[6].quantity",
+      "items[6].unit_price_net",
+      "items[7].amount_net",
+      "items[7].code",
+      "items[7].description",
+      "items[7].quantity",
+      "items[7].unit_price_net",
+      "items[8].amount_net",
+      "items[8].code",
+      "items[8].description",
+      "items[8].quantity",
+      "items[8].unit_price_net",
+      "items[9].amount_net",
+      "items[9].code",
+      "items[9].description",
+      "items[9].quantity",
+      "items[9].unit_price_net"
+    ],
+    "spurious_paths": [
+      "items"
+    ]
+  },
+  "outcomes": {
+    "total_evaluated": 1,
+    "total_passed": 0,
+    "total_failed": 1,
+    "pass_rate": 0.0,
+    "pass_by_metric": {
+      "array_llm": {
+        "passed": 0,
+        "failed": 1
+      }
+    },
+    "pass_by_type": {
+      "array": {
+        "passed": 0,
+        "failed": 1
+      }
+    },
+    "pass_by_required": {
+      "optional": {
+        "passed": 0,
+        "failed": 1
+      }
+    },
+    "confusion": {
+      "true_positive": 0,
+      "false_positive": 0,
+      "false_negative": 1,
+      "true_negative": 0
+    },
+    "llm_stats": {
+      "call_count": 1,
+      "avg_score": 0.0,
+      "median_score": 0.0,
+      "score_distribution": {
+        "0.0-0.2": 1
+      },
+      "top_lowest_fields": [
+        {
+          "path": "items",
+          "metric_id": "array_llm",
+          "score": 0.0,
+          "reasoning": ""
+        }
+      ]
+    },
+    "error_breakdown": {
+      "by_path_prefix": {
+        "items": 1
+      },
+      "by_metric_type": {
+        "array_llm": 1
+      },
+      "by_reason": {
+        "semantic_mismatch": 1
+      },
+      "details": [
+        {
+          "category": "semantic_mismatch",
+          "count": 1,
+          "paths": []
+        }
+      ]
+    }
+  },
+  "field_outcomes": [
+    {
+      "path": "$.properties.items",
+      "normalized_path": "items",
+      "metric_id": "array_llm",
+      "score": 0.0,
+      "passed": false,
+      "reason": "extracted_empty_array",
+      "gold_value": [
+        {
+          "code": "0004",
+          "description": "LUCKY STRIKE REG",
+          "quantity": 4,
+          "unit_price_net": 30.65,
+          "amount_net": 122.6
+        },
+        {
+          "code": "0090",
+          "description": "CAMEL FILTER BOX KS",
+          "quantity": 2,
+          "unit_price_net": 30.65,
+          "amount_net": 61.3
+        },
+        {
+          "code": "0082",
+          "description": "CAMEL LIGHT BOX KS",
+          "quantity": 3,
+          "unit_price_net": 30.65,
+          "amount_net": 91.95
+        },
+        {
+          "code": "0105",
+          "description": "KOOL FILTER KS",
+          "quantity": 1,
+          "unit_price_net": 30.65,
+          "amount_net": 30.65
+        },
+        {
+          "code": "0106",
+          "description": "KOOL FILTER BOX KS",
+          "quantity": 2,
+          "unit_price_net": 30.65,
+          "amount_net": 61.3
+        },
+        {
+          "code": "0116",
+          "description": "MARLBORO BOX KS",
+          "quantity": 15,
+          "unit_price_net": 30.65,
+          "amount_net": 459.75
+        },
+        {
+          "code": "0113",
+          "description": "MARLBORO LT BOX KG",
+          "quantity": 10,
+          "unit_price_net": 30.65,
+          "amount_net": 306.5
+        },
+        {
+          "code": "0112",
+          "description": "MARLBORO LT/MEN BX",
+          "quantity": 3,
+          "unit_price_net": 30.65,
+          "amount_net": 91.95
+        },
+        {
+          "code": "0013",
+          "description": "MARLBORO MED BOX KG",
+          "quantity": 5,
+          "unit_price_net": 30.65,
+          "amount_net": 153.25
+        },
+        {
+          "code": "0126",
+          "description": "NEWPORT BX KS",
+          "quantity": 4,
+          "unit_price_net": 30.65,
+          "amount_net": 122.6
+        },
+        {
+          "code": "0157",
+          "description": "WINSTON KS",
+          "quantity": 1,
+          "unit_price_net": 30.65,
+          "amount_net": 30.65
+        },
+        {
+          "code": "0158",
+          "description": "WINSTON BX KS",
+          "quantity": 2,
+          "unit_price_net": 30.65,
+          "amount_net": 61.3
+        },
+        {
+          "code": "0132",
+          "description": "WINSTON LT BOX KS",
+          "quantity": 1,
+          "unit_price_net": 30.65,
+          "amount_net": 30.65
+        },
+        {
+          "code": "0305",
+          "description": "BENSON & HEDGES MEN 100",
+          "quantity": 1,
+          "unit_price_net": 30.65,
+          "amount_net": 30.65
+        },
+        {
+          "code": "0323",
+          "description": "B & H ULTRA LT 100",
+          "quantity": 1,
+          "unit_price_net": 30.65,
+          "amount_net": 30.65
+        },
+        {
+          "code": "0419",
+          "description": "B & H LT/MEN BOX 100",
+          "quantity": 1,
+          "unit_price_net": 30.65,
+          "amount_net": 30.65
+        },
+        {
+          "code": "0399",
+          "description": "CAPRI MEN 104",
+          "quantity": 1,
+          "unit_price_net": 30.65,
+          "amount_net": 30.65
+        },
+        {
+          "code": "0332",
+          "description": "MARLBORO LT BOX 100",
+          "quantity": 5,
+          "unit_price_net": 30.65,
+          "amount_net": 153.25
+        },
+        {
+          "code": "0341",
+          "description": "NEWPORT BX 100",
+          "quantity": 2,
+          "unit_price_net": 30.65,
+          "amount_net": 61.3
+        },
+        {
+          "code": "0170",
+          "description": "GPC LT BX KS",
+          "quantity": 1,
+          "unit_price_net": 28.57,
+          "amount_net": 28.57
+        },
+        {
+          "code": "0173",
+          "description": "GPC FILTER BX 100",
+          "quantity": 5,
+          "unit_price_net": 28.57,
+          "amount_net": 142.85
+        },
+        {
+          "code": "0188",
+          "description": "CPC ULTRA LT 100",
+          "quantity": 3,
+          "unit_price_net": 28.57,
+          "amount_net": 85.71
+        },
+        {
+          "code": "0610",
+          "description": "BASIC FILER BOX KS",
+          "quantity": 2,
+          "unit_price_net": 28.57,
+          "amount_net": 57.14
+        },
+        {
+          "code": "0612",
+          "description": "BASIC LT BOX KS",
+          "quantity": 2,
+          "unit_price_net": 28.57,
+          "amount_net": 57.14
+        },
+        {
+          "code": "0282",
+          "description": "BASIC NON FILTER",
+          "quantity": 1,
+          "unit_price_net": 28.57,
+          "amount_net": 28.57
+        }
+      ],
+      "extracted_value": [],
+      "reasoning": null
+    }
+  ],
+  "overall_score": 0.0,
+  "overall_pass_rate": 0.0
+}

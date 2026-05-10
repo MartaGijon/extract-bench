@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.800000,true,,,,"All fields are evaluated with exact equality: dates as strings must match exactly, quantity as an integer, and unit_price_gross and price_gross as numbers. Treating the arrays as unordered, each gold ..."

@@ -1,0 +1,214 @@
+{
+    "items": [
+        {
+            "code": "0112",
+            "description": "MARLBORO LT/MEN BX",
+            "quantity": 3,
+            "unit_price_net": 30.65,
+            "amount_net": 91.95
+        },
+        {
+            "code": "0355",
+            "description": "MARLBORO ULT LT BOX 100",
+            "quantity": 1,
+            "unit_price_net": 30.65,
+            "amount_net": 30.65
+        },
+        {
+            "code": "0323",
+            "description": "B& H ULTRA LT",
+            "quantity": 1,
+            "unit_price_net": 30.65,
+            "amount_net": 30.65
+        },
+        {
+            "code": "0332",
+            "description": "MARLBORO LT BOX 100",
+            "quantity": 5,
+            "unit_price_net": 30.65,
+            "amount_net": 153.25
+        },
+        {
+            "code": "0007",
+            "description": "CAMEL REG",
+            "quantity": 1,
+            "unit_price_net": 30.65,
+            "amount_net": 30.65
+        },
+        {
+            "code": "0335",
+            "description": "CAPRI & H UT/MEN",
+            "quantity": 1,
+            "unit_price_net": 30.65,
+            "amount_net": 30.65
+        },
+        {
+            "code": "0725",
+            "description": "D'JARUM SPECIAL 10/26",
+            "quantity": 1,
+            "unit_price_net": 33.3,
+            "amount_net": 33.3
+        },
+        {
+            "code": "0157",
+            "description": "BASIC LT BOX 100",
+            "quantity": 1,
+            "unit_price_net": 28.57,
+            "amount_net": 28.57
+        },
+        {
+            "code": "0082",
+            "description": "CAMEL LIGHT BOX KS",
+            "quantity": 3,
+            "unit_price_net": 30.65,
+            "amount_net": 91.95
+        },
+        {
+            "code": "0154",
+            "description": "MARLBORO ULT LT BOX KS",
+            "quantity": 1,
+            "unit_price_net": 30.65,
+            "amount_net": 30.65
+        },
+        {
+            "code": "0132",
+            "description": "WINSTON LT BOX KS",
+            "quantity": 1,
+            "unit_price_net": 30.65,
+            "amount_net": 30.65
+        },
+        {
+            "code": "0613",
+            "description": "MARLBORO MED BOX KS",
+            "quantity": 5,
+            "unit_price_net": 30.65,
+            "amount_net": 153.25
+        },
+        {
+            "code": "0130",
+            "description": "MARLBORO LT BOX KS",
+            "quantity": 10,
+            "unit_price_net": 30.65,
+            "amount_net": 306.5
+        },
+        {
+            "code": "0004",
+            "description": "LUCKY STRIKE RES",
+            "quantity": 4,
+            "unit_price_net": 30.65,
+            "amount_net": 122.6
+        },
+        {
+            "code": "0188",
+            "description": "GPC ULTRA LT 100",
+            "quantity": 3,
+            "unit_price_net": 28.57,
+            "amount_net": 85.71
+        },
+        {
+            "code": "0170",
+            "description": "GPC LT BX KS",
+            "quantity": 1,
+            "unit_price_net": 28.57,
+            "amount_net": 28.57
+        },
+        {
+            "code": "0305",
+            "description": "BENSON & HEDGES MEN",
+            "quantity": 1,
+            "unit_price_net": 30.65,
+            "amount_net": 30.65
+        },
+        {
+            "code": "0610",
+            "description": "BASIC FILTER BOX KS",
+            "quantity": 2,
+            "unit_price_net": 28.57,
+            "amount_net": 57.14
+        },
+        {
+            "code": "0116",
+            "description": "MARLBORO BOX KS",
+            "quantity": 15,
+            "unit_price_net": 30.65,
+            "amount_net": 459.75
+        },
+        {
+            "code": "0510",
+            "description": "AMERICAN SPIRIT FILTER",
+            "quantity": 1,
+            "unit_price_net": 33.1,
+            "amount_net": 33.1
+        },
+        {
+            "code": "0173",
+            "description": "GPC FILTER BX 100",
+            "quantity": 5,
+            "unit_price_net": 28.57,
+            "amount_net": 142.85
+        },
+        {
+            "code": "0612",
+            "description": "BASIC LT BOX KS",
+            "quantity": 2,
+            "unit_price_net": 28.57,
+            "amount_net": 57.14
+        },
+        {
+            "code": "0156",
+            "description": "BASIC FILTER BOX 100",
+            "quantity": 1,
+            "unit_price_net": 28.57,
+            "amount_net": 28.57
+        },
+        {
+            "code": "0030",
+            "description": "CAMEL FILTER BOX KS",
+            "quantity": 2,
+            "unit_price_net": 30.65,
+            "amount_net": 61.3
+        },
+        {
+            "code": "0126",
+            "description": "WINSTON NEWPORT KS",
+            "quantity": 1,
+            "unit_price_net": 30.65,
+            "amount_net": 30.65
+        },
+        {
+            "code": "0341",
+            "description": "NEWPORT BX 100",
+            "quantity": 2,
+            "unit_price_net": 30.65,
+            "amount_net": 61.3
+        },
+        {
+            "code": "0105",
+            "description": "KOOL FILTER KS",
+            "quantity": 1,
+            "unit_price_net": 30.65,
+            "amount_net": 30.65
+        },
+        {
+            "code": "0158",
+            "description": "WINSTON BX KS",
+            "quantity": 2,
+            "unit_price_net": 30.65,
+            "amount_net": 61.3
+        },
+        {
+            "code": "0282",
+            "description": "BASIC NON FILTER",
+            "quantity": 1,
+            "unit_price_net": 28.57,
+            "amount_net": 28.57
+        },
+        {
+            "code": "0166",
+            "description": "KOOL FILTER BOX KS",
+            "quantity": 2,
+            "unit_price_net": 30.65,
+            "amount_net": 61.3
+        }
+    ]
+}

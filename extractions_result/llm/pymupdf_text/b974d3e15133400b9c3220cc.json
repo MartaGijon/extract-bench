@@ -1,0 +1,22 @@
+{
+    "items": [
+        {
+            "date": "Mon 5/17/2021",
+            "quantity": 2,
+            "unit_price_gross": 80.0,
+            "price_gross": 160.0
+        },
+        {
+            "date": "Fri 5/14/2021",
+            "quantity": 2,
+            "unit_price_gross": 80.0,
+            "price_gross": 160.0
+        },
+        {
+            "date": "Thu 5/13/2021",
+            "quantity": 2,
+            "unit_price_gross": 80.0,
+            "price_gross": 160.0
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "items": [
+        {
+            "expression_group": "Low",
+            "count_less_than_3000": 12,
+            "count_greater_than_3000": 18,
+            "p_value": 0.003
+        },
+        {
+            "expression_group": "High",
+            "count_less_than_3000": 24,
+            "count_greater_than_3000": 6,
+            "p_value": 0.003
+        }
+    ]
+}

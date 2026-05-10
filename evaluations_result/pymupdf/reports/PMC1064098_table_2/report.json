@@ -1,0 +1,181 @@
+{
+  "output_name": "PMC1064098_table_2",
+  "timestamp": "2026-05-09T22:11:44.692557",
+  "schema_hash": "a5636119",
+  "gold_hash": "10d6ce5a",
+  "extracted_hash": "dfac146c",
+  "schema_stats": {
+    "total_nodes": 6,
+    "counts_by_type": {
+      "object": 2,
+      "array": 1,
+      "number": 2,
+      "string": 1
+    },
+    "required_keys_count": 4,
+    "optional_keys_count": 0,
+    "required_by_type": {
+      "array": 1,
+      "number": 2,
+      "string": 1
+    },
+    "optional_by_type": {}
+  },
+  "gold_stats": {
+    "label": "gold",
+    "total_keys": 19,
+    "counts_by_type": {
+      "array": 1,
+      "string": 6,
+      "number": 12
+    },
+    "array_stats": {
+      "array_field_count": 1,
+      "total_items": 6,
+      "min_length": 6,
+      "median_length": 6,
+      "max_length": 6
+    },
+    "null_count": 0,
+    "missing_count": 0
+  },
+  "extracted_stats": {
+    "label": "extracted",
+    "total_keys": 19,
+    "counts_by_type": {
+      "array": 1,
+      "string": 6,
+      "number": 12
+    },
+    "array_stats": {
+      "array_field_count": 1,
+      "total_items": 6,
+      "min_length": 6,
+      "median_length": 6,
+      "max_length": 6
+    },
+    "null_count": 0,
+    "missing_count": 0
+  },
+  "coverage": {
+    "present_in_both": 18,
+    "missing_in_extracted": 0,
+    "spurious_in_extracted": 0,
+    "required_missing": 0,
+    "missing_paths": [],
+    "spurious_paths": []
+  },
+  "outcomes": {
+    "total_evaluated": 4,
+    "total_passed": 3,
+    "total_failed": 1,
+    "pass_rate": 0.75,
+    "pass_by_metric": {
+      "error_138134537844288": {
+        "passed": 0,
+        "failed": 1
+      },
+      "number_exact": {
+        "passed": 2,
+        "failed": 0
+      },
+      "string_exact": {
+        "passed": 1,
+        "failed": 0
+      }
+    },
+    "pass_by_type": {
+      "unknown": {
+        "passed": 0,
+        "failed": 1
+      },
+      "number": {
+        "passed": 2,
+        "failed": 0
+      },
+      "string": {
+        "passed": 1,
+        "failed": 0
+      }
+    },
+    "pass_by_required": {
+      "optional": {
+        "passed": 3,
+        "failed": 1
+      }
+    },
+    "confusion": {
+      "true_positive": 0,
+      "false_positive": 0,
+      "false_negative": 1,
+      "true_negative": 3
+    },
+    "llm_stats": null,
+    "error_breakdown": {
+      "by_path_prefix": {
+        "items": 1
+      },
+      "by_metric_type": {
+        "error_138134537844288": 1
+      },
+      "by_reason": {
+        "value_mismatch": 1
+      },
+      "details": [
+        {
+          "category": "value_mismatch",
+          "count": 1,
+          "paths": []
+        }
+      ]
+    }
+  },
+  "field_outcomes": [
+    {
+      "path": "$.properties.items",
+      "normalized_path": "items",
+      "metric_id": "error_138134537844288",
+      "score": 0.0,
+      "passed": false,
+      "reason": null,
+      "gold_value": null,
+      "extracted_value": null,
+      "reasoning": null
+    },
+    {
+      "path": "$.properties.items.items.properties.igf_ii_level",
+      "normalized_path": "items.items.igf_ii_level",
+      "metric_id": "number_exact",
+      "score": 1.0,
+      "passed": true,
+      "reason": "both_null",
+      "gold_value": null,
+      "extracted_value": null,
+      "reasoning": null
+    },
+    {
+      "path": "$.properties.items.items.properties.cell_type",
+      "normalized_path": "items.items.cell_type",
+      "metric_id": "string_exact",
+      "score": 1.0,
+      "passed": true,
+      "reason": "both_null",
+      "gold_value": null,
+      "extracted_value": null,
+      "reasoning": null
+    },
+    {
+      "path": "$.properties.items.items.properties.mean_igf_ii_level",
+      "normalized_path": "items.items.mean_igf_ii_level",
+      "metric_id": "number_exact",
+      "score": 1.0,
+      "passed": true,
+      "reason": "both_null",
+      "gold_value": null,
+      "extracted_value": null,
+      "reasoning": null
+    }
+  ],
+  "overall_score": 0.75,
+  "overall_pass_rate": 0.75
+}

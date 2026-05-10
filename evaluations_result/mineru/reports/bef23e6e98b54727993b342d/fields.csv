@@ -1,0 +1,5 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,error_137448387967776,0.000000,false,,,,
+$.properties.items.items.properties.quantity,items.items.quantity,integer_exact,1.000000,true,,,both_null,
+$.properties.items.items.properties.unit_price_gross,items.items.unit_price_gross,number_exact,1.000000,true,,,both_null,
+$.properties.items.items.properties.unit_price_net,items.items.unit_price_net,number_exact,1.000000,true,,,both_null,

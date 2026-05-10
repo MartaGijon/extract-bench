@@ -1,0 +1,227 @@
+{
+  "output_name": "b8344a405a60475c953236e1",
+  "timestamp": "2026-05-09T22:16:12.762069",
+  "schema_hash": "8f214264",
+  "gold_hash": "b87b9095",
+  "extracted_hash": "297ab114",
+  "schema_stats": {
+    "total_nodes": 6,
+    "counts_by_type": {
+      "object": 2,
+      "array": 1,
+      "string": 1,
+      "integer": 1,
+      "number": 1
+    },
+    "required_keys_count": 4,
+    "optional_keys_count": 0,
+    "required_by_type": {
+      "array": 1,
+      "string": 1,
+      "integer": 1,
+      "number": 1
+    },
+    "optional_by_type": {}
+  },
+  "gold_stats": {
+    "label": "gold",
+    "total_keys": 43,
+    "counts_by_type": {
+      "array": 1,
+      "string": 14,
+      "integer": 14,
+      "number": 14
+    },
+    "array_stats": {
+      "array_field_count": 1,
+      "total_items": 14,
+      "min_length": 14,
+      "median_length": 14,
+      "max_length": 14
+    },
+    "null_count": 0,
+    "missing_count": 0
+  },
+  "extracted_stats": {
+    "label": "extracted",
+    "total_keys": 25,
+    "counts_by_type": {
+      "array": 1,
+      "string": 8,
+      "integer": 8,
+      "number": 8
+    },
+    "array_stats": {
+      "array_field_count": 1,
+      "total_items": 8,
+      "min_length": 8,
+      "median_length": 8,
+      "max_length": 8
+    },
+    "null_count": 0,
+    "missing_count": 0
+  },
+  "coverage": {
+    "present_in_both": 24,
+    "missing_in_extracted": 18,
+    "spurious_in_extracted": 0,
+    "required_missing": 0,
+    "missing_paths": [
+      "items[10].description",
+      "items[10].quantity",
+      "items[10].unit_price_gross",
+      "items[11].description",
+      "items[11].quantity",
+      "items[11].unit_price_gross",
+      "items[12].description",
+      "items[12].quantity",
+      "items[12].unit_price_gross",
+      "items[13].description",
+      "items[13].quantity",
+      "items[13].unit_price_gross",
+      "items[8].description",
+      "items[8].quantity",
+      "items[8].unit_price_gross",
+      "items[9].description",
+      "items[9].quantity",
+      "items[9].unit_price_gross"
+    ],
+    "spurious_paths": []
+  },
+  "outcomes": {
+    "total_evaluated": 4,
+    "total_passed": 3,
+    "total_failed": 1,
+    "pass_rate": 0.75,
+    "pass_by_metric": {
+      "error_134776023088000": {
+        "passed": 0,
+        "failed": 1
+      },
+      "string_semantic": {
+        "passed": 1,
+        "failed": 0
+      },
+      "integer_exact": {
+        "passed": 1,
+        "failed": 0
+      },
+      "number_exact": {
+        "passed": 1,
+        "failed": 0
+      }
+    },
+    "pass_by_type": {
+      "unknown": {
+        "passed": 0,
+        "failed": 1
+      },
+      "string": {
+        "passed": 1,
+        "failed": 0
+      },
+      "integer": {
+        "passed": 1,
+        "failed": 0
+      },
+      "number": {
+        "passed": 1,
+        "failed": 0
+      }
+    },
+    "pass_by_required": {
+      "optional": {
+        "passed": 3,
+        "failed": 1
+      }
+    },
+    "confusion": {
+      "true_positive": 0,
+      "false_positive": 0,
+      "false_negative": 1,
+      "true_negative": 3
+    },
+    "llm_stats": {
+      "call_count": 1,
+      "avg_score": 1.0,
+      "median_score": 1.0,
+      "score_distribution": {
+        "0.8-1.0": 1
+      },
+      "top_lowest_fields": [
+        {
+          "path": "items.items.description",
+          "metric_id": "string_semantic",
+          "score": 1.0,
+          "reasoning": ""
+        }
+      ]
+    },
+    "error_breakdown": {
+      "by_path_prefix": {
+        "items": 1
+      },
+      "by_metric_type": {
+        "error_134776023088000": 1
+      },
+      "by_reason": {
+        "value_mismatch": 1
+      },
+      "details": [
+        {
+          "category": "value_mismatch",
+          "count": 1,
+          "paths": []
+        }
+      ]
+    }
+  },
+  "field_outcomes": [
+    {
+      "path": "$.properties.items",
+      "normalized_path": "items",
+      "metric_id": "error_134776023088000",
+      "score": 0.0,
+      "passed": false,
+      "reason": null,
+      "gold_value": null,
+      "extracted_value": null,
+      "reasoning": null
+    },
+    {
+      "path": "$.properties.items.items.properties.description",
+      "normalized_path": "items.items.description",
+      "metric_id": "string_semantic",
+      "score": 1.0,
+      "passed": true,
+      "reason": "both_null",
+      "gold_value": null,
+      "extracted_value": null,
+      "reasoning": null
+    },
+    {
+      "path": "$.properties.items.items.properties.quantity",
+      "normalized_path": "items.items.quantity",
+      "metric_id": "integer_exact",
+      "score": 1.0,
+      "passed": true,
+      "reason": "both_null",
+      "gold_value": null,
+      "extracted_value": null,
+      "reasoning": null
+    },
+    {
+      "path": "$.properties.items.items.properties.unit_price_gross",
+      "normalized_path": "items.items.unit_price_gross",
+      "metric_id": "number_exact",
+      "score": 1.0,
+      "passed": true,
+      "reason": "both_null",
+      "gold_value": null,
+      "extracted_value": null,
+      "reasoning": null
+    }
+  ],
+  "overall_score": 0.75,
+  "overall_pass_rate": 0.75
+}

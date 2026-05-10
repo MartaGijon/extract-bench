@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.000000,false,,,,"Matching requires every field (position, date, description, unit_price_gross, quantity, price_gross) to satisfy its evaluation rule. The gold items use schedule strings such as ""Tu/F,M 1p/2p"" for the ..."

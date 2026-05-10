@@ -1,0 +1,54 @@
+================================================================================
+EVALUATION REPORT: fea9d968aa154d67950e01ad
+Timestamp: 2026-05-09T22:04:46.820983
+================================================================================
+
+OVERALL RESULTS
+----------------------------------------
+  Pass Rate: 0.0%
+  Overall Score: 0.000
+  Evaluated Fields: 1
+  Passed: 0
+  Failed: 1
+
+SCHEMA STATISTICS
+----------------------------------------
+  Total Nodes: 9
+  Required Keys: 7
+  Optional Keys: 0
+  By Type: array: 1, integer: 2, number: 2, object: 2, string: 2
+
+COVERAGE
+----------------------------------------
+  Present in Both: 0
+  Missing in Extracted: 6
+  Spurious in Extracted: 1
+  Required Missing: 0
+
+PASS RATE BY METRIC
+----------------------------------------
+  array_llm: 0.0% (0/1)
+
+LLM METRICS
+----------------------------------------
+  Calls: 1
+  Avg Score: 0.000
+  Median Score: 0.000
+
+  Top Lowest-Scoring Fields:
+    - items (array_llm): 0.000
+
+ERROR BREAKDOWN
+----------------------------------------
+  By Reason:
+    semantic_mismatch: 1
+  By Path Prefix:
+    items: 1
+
+FAILED FIELDS (first 10)
+----------------------------------------
+  items
+    Metric: array_llm, Score: 0.000
+    Reason: extracted_empty_array
+
+================================================================================

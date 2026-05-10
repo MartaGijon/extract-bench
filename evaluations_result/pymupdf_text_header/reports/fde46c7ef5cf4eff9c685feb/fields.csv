@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"All three gold objects are present in the predicted array with identical field values. The order of items is irrelevant, and each field (position, date strings, numeric values) matches exactly, satisf..."

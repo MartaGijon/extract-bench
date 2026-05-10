@@ -1,0 +1,64 @@
+{
+    "type": "object",
+    "properties": {
+        "items": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "patients_controls": {
+                        "type": "string",
+                        "evaluation_config": "string_exact"
+                    },
+                    "odds_ratio": {
+                        "type": "number",
+                        "evaluation_config": "number_exact"
+                    },
+                    "interaction_contrast_ratio": {
+                        "type": "number",
+                        "evaluation_config": "number_exact"
+                    },
+                    "menopausal_status": {
+                        "type": "string",
+                        "evaluation_config": "string_exact"
+                    },
+                    "ethnicity": {
+                        "type": "string",
+                        "evaluation_config": "string_exact"
+                    },
+                    "genotype": {
+                        "type": "string",
+                        "evaluation_config": "string_exact"
+                    },
+                    "pcb_level": {
+                        "type": "string",
+                        "evaluation_config": "string_exact"
+                    },
+                    "confidence_interval": {
+                        "type": "string",
+                        "evaluation_config": "string_exact"
+                    },
+                    "icr_confidence_interval": {
+                        "type": "string",
+                        "evaluation_config": "string_exact"
+                    }
+                },
+                "required": [
+                    "patients_controls",
+                    "odds_ratio",
+                    "interaction_contrast_ratio",
+                    "menopausal_status",
+                    "ethnicity",
+                    "genotype",
+                    "pcb_level",
+                    "confidence_interval",
+                    "icr_confidence_interval"
+                ]
+            },
+            "evaluation_config": "array_llm"
+        }
+    },
+    "required": [
+        "items"
+    ]
+}

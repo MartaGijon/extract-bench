@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"Both gold items have exact counterparts in the predicted array. Since the schema treats the array as unordered, the order difference does not affect matching. Each field (position, date, date_2, unit_..."

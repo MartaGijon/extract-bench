@@ -1,0 +1,18 @@
+{
+    "items": [
+        {
+            "pcb_level": ">=0.430",
+            "genotype": "Non-M3",
+            "patients_controls": "31/24",
+            "odds_ratio": 1.6,
+            "confidence_interval": "(0.8-3.2)"
+        },
+        {
+            "pcb_level": ">=0.430",
+            "genotype": "Any M3",
+            "patients_controls": "7/6",
+            "odds_ratio": 1.5,
+            "confidence_interval": "(0.5-4.7)"
+        }
+    ]
+}

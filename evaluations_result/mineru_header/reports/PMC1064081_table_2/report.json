@@ -1,0 +1,310 @@
+{
+  "output_name": "PMC1064081_table_2",
+  "timestamp": "2026-05-09T22:32:26.558538",
+  "schema_hash": "fdf6ad72",
+  "gold_hash": "46933848",
+  "extracted_hash": "4d22f73b",
+  "schema_stats": {
+    "total_nodes": 10,
+    "counts_by_type": {
+      "object": 2,
+      "array": 1,
+      "string": 3,
+      "number": 4
+    },
+    "required_keys_count": 8,
+    "optional_keys_count": 0,
+    "required_by_type": {
+      "array": 1,
+      "string": 3,
+      "number": 4
+    },
+    "optional_by_type": {}
+  },
+  "gold_stats": {
+    "label": "gold",
+    "total_keys": 99,
+    "counts_by_type": {
+      "array": 1,
+      "string": 42,
+      "number": 56
+    },
+    "array_stats": {
+      "array_field_count": 1,
+      "total_items": 14,
+      "min_length": 14,
+      "median_length": 14,
+      "max_length": 14
+    },
+    "null_count": 0,
+    "missing_count": 0
+  },
+  "extracted_stats": {
+    "label": "extracted",
+    "total_keys": 15,
+    "counts_by_type": {
+      "array": 1,
+      "string": 6,
+      "number": 8
+    },
+    "array_stats": {
+      "array_field_count": 1,
+      "total_items": 2,
+      "min_length": 2,
+      "median_length": 2,
+      "max_length": 2
+    },
+    "null_count": 0,
+    "missing_count": 0
+  },
+  "coverage": {
+    "present_in_both": 14,
+    "missing_in_extracted": 84,
+    "spurious_in_extracted": 0,
+    "required_missing": 0,
+    "missing_paths": [
+      "items[10].ci_lower",
+      "items[10].ci_upper",
+      "items[10].hazard_ratio",
+      "items[10].model_id",
+      "items[10].p_value",
+      "items[10].patient_group",
+      "items[10].variables",
+      "items[11].ci_lower",
+      "items[11].ci_upper",
+      "items[11].hazard_ratio",
+      "items[11].model_id",
+      "items[11].p_value",
+      "items[11].patient_group",
+      "items[11].variables",
+      "items[12].ci_lower",
+      "items[12].ci_upper",
+      "items[12].hazard_ratio",
+      "items[12].model_id",
+      "items[12].p_value",
+      "items[12].patient_group",
+      "items[12].variables",
+      "items[13].ci_lower",
+      "items[13].ci_upper",
+      "items[13].hazard_ratio",
+      "items[13].model_id",
+      "items[13].p_value",
+      "items[13].patient_group",
+      "items[13].variables",
+      "items[2].ci_lower",
+      "items[2].ci_upper",
+      "items[2].hazard_ratio",
+      "items[2].model_id",
+      "items[2].p_value",
+      "items[2].patient_group",
+      "items[2].variables",
+      "items[3].ci_lower",
+      "items[3].ci_upper",
+      "items[3].hazard_ratio",
+      "items[3].model_id",
+      "items[3].p_value",
+      "items[3].patient_group",
+      "items[3].variables",
+      "items[4].ci_lower",
+      "items[4].ci_upper",
+      "items[4].hazard_ratio",
+      "items[4].model_id",
+      "items[4].p_value",
+      "items[4].patient_group",
+      "items[4].variables",
+      "items[5].ci_lower",
+      "items[5].ci_upper",
+      "items[5].hazard_ratio",
+      "items[5].model_id",
+      "items[5].p_value",
+      "items[5].patient_group",
+      "items[5].variables",
+      "items[6].ci_lower",
+      "items[6].ci_upper",
+      "items[6].hazard_ratio",
+      "items[6].model_id",
+      "items[6].p_value",
+      "items[6].patient_group",
+      "items[6].variables",
+      "items[7].ci_lower",
+      "items[7].ci_upper",
+      "items[7].hazard_ratio",
+      "items[7].model_id",
+      "items[7].p_value",
+      "items[7].patient_group",
+      "items[7].variables",
+      "items[8].ci_lower",
+      "items[8].ci_upper",
+      "items[8].hazard_ratio",
+      "items[8].model_id",
+      "items[8].p_value",
+      "items[8].patient_group",
+      "items[8].variables",
+      "items[9].ci_lower",
+      "items[9].ci_upper",
+      "items[9].hazard_ratio",
+      "items[9].model_id",
+      "items[9].p_value",
+      "items[9].patient_group",
+      "items[9].variables"
+    ],
+    "spurious_paths": []
+  },
+  "outcomes": {
+    "total_evaluated": 8,
+    "total_passed": 7,
+    "total_failed": 1,
+    "pass_rate": 0.875,
+    "pass_by_metric": {
+      "error_140081193229408": {
+        "passed": 0,
+        "failed": 1
+      },
+      "string_exact": {
+        "passed": 3,
+        "failed": 0
+      },
+      "number_exact": {
+        "passed": 4,
+        "failed": 0
+      }
+    },
+    "pass_by_type": {
+      "unknown": {
+        "passed": 0,
+        "failed": 1
+      },
+      "string": {
+        "passed": 3,
+        "failed": 0
+      },
+      "number": {
+        "passed": 4,
+        "failed": 0
+      }
+    },
+    "pass_by_required": {
+      "optional": {
+        "passed": 7,
+        "failed": 1
+      }
+    },
+    "confusion": {
+      "true_positive": 0,
+      "false_positive": 0,
+      "false_negative": 1,
+      "true_negative": 7
+    },
+    "llm_stats": null,
+    "error_breakdown": {
+      "by_path_prefix": {
+        "items": 1
+      },
+      "by_metric_type": {
+        "error_140081193229408": 1
+      },
+      "by_reason": {
+        "value_mismatch": 1
+      },
+      "details": [
+        {
+          "category": "value_mismatch",
+          "count": 1,
+          "paths": []
+        }
+      ]
+    }
+  },
+  "field_outcomes": [
+    {
+      "path": "$.properties.items",
+      "normalized_path": "items",
+      "metric_id": "error_140081193229408",
+      "score": 0.0,
+      "passed": false,
+      "reason": null,
+      "gold_value": null,
+      "extracted_value": null,
+      "reasoning": null
+    },
+    {
+      "path": "$.properties.items.items.properties.variables",
+      "normalized_path": "items.items.variables",
+      "metric_id": "string_exact",
+      "score": 1.0,
+      "passed": true,
+      "reason": "both_null",
+      "gold_value": null,
+      "extracted_value": null,
+      "reasoning": null
+    },
+    {
+      "path": "$.properties.items.items.properties.p_value",
+      "normalized_path": "items.items.p_value",
+      "metric_id": "number_exact",
+      "score": 1.0,
+      "passed": true,
+      "reason": "both_null",
+      "gold_value": null,
+      "extracted_value": null,
+      "reasoning": null
+    },
+    {
+      "path": "$.properties.items.items.properties.hazard_ratio",
+      "normalized_path": "items.items.hazard_ratio",
+      "metric_id": "number_exact",
+      "score": 1.0,
+      "passed": true,
+      "reason": "both_null",
+      "gold_value": null,
+      "extracted_value": null,
+      "reasoning": null
+    },
+    {
+      "path": "$.properties.items.items.properties.ci_lower",
+      "normalized_path": "items.items.ci_lower",
+      "metric_id": "number_exact",
+      "score": 1.0,
+      "passed": true,
+      "reason": "both_null",
+      "gold_value": null,
+      "extracted_value": null,
+      "reasoning": null
+    },
+    {
+      "path": "$.properties.items.items.properties.model_id",
+      "normalized_path": "items.items.model_id",
+      "metric_id": "string_exact",
+      "score": 1.0,
+      "passed": true,
+      "reason": "both_null",
+      "gold_value": null,
+      "extracted_value": null,
+      "reasoning": null
+    },
+    {
+      "path": "$.properties.items.items.properties.ci_upper",
+      "normalized_path": "items.items.ci_upper",
+      "metric_id": "number_exact",
+      "score": 1.0,
+      "passed": true,
+      "reason": "both_null",
+      "gold_value": null,
+      "extracted_value": null,
+      "reasoning": null
+    },
+    {
+      "path": "$.properties.items.items.properties.patient_group",
+      "normalized_path": "items.items.patient_group",
+      "metric_id": "string_exact",
+      "score": 1.0,
+      "passed": true,
+      "reason": "both_null",
+      "gold_value": null,
+      "extracted_value": null,
+      "reasoning": null
+    }
+  ],
+  "overall_score": 0.875,
+  "overall_pass_rate": 0.875
+}

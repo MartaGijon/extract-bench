@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"Both gold items are found exactly in the predicted array with all fields (description, date, date_end, quantity, price_gross, unit_price_gross, position) matching identically. No tolerances or alterna..."

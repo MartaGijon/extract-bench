@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.642857,false,,,,"Each field must satisfy its evaluation rule: numeric fields (quantity, unit_price_gross) require exact equality (integer_exact and number_exact), while the description strings are judged semantically ..."

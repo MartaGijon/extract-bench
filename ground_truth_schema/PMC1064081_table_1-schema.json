@@ -1,0 +1,34 @@
+{
+    "type": "object",
+    "properties": {
+        "items": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "breast_cancer_mortality_rate": {
+                        "type": "number",
+                        "evaluation_config": "number_exact"
+                    },
+                    "number_of_patients_at_risk": {
+                        "type": "integer",
+                        "evaluation_config": "integer_exact"
+                    },
+                    "log_odds_range": {
+                        "type": "string",
+                        "evaluation_config": "string_exact"
+                    }
+                },
+                "required": [
+                    "breast_cancer_mortality_rate",
+                    "number_of_patients_at_risk",
+                    "log_odds_range"
+                ]
+            },
+            "evaluation_config": "array_llm"
+        }
+    },
+    "required": [
+        "items"
+    ]
+}

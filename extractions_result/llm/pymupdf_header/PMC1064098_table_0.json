@@ -1,0 +1,52 @@
+{
+    "items": [
+        {
+            "culture_group": "NAF-2 + MCF10A",
+            "sample_size": 6,
+            "mean_index": 16.1,
+            "standard_error": 2.6
+        },
+        {
+            "culture_group": "CAF-1 + MCF10A",
+            "sample_size": 16,
+            "mean_index": 18.5,
+            "standard_error": 2.5
+        },
+        {
+            "culture_group": "NAF-1 + MCF10A",
+            "sample_size": 7,
+            "mean_index": 21.8,
+            "standard_error": 2.4
+        },
+        {
+            "culture_group": "CAF-3 + MCF10A",
+            "sample_size": 5,
+            "mean_index": 27.6,
+            "standard_error": 6.7
+        },
+        {
+            "culture_group": "NAF-3 + MCF10A",
+            "sample_size": 6,
+            "mean_index": 10.7,
+            "standard_error": 3.6
+        },
+        {
+            "culture_group": "NAF-3 + MCF10A",
+            "sample_size": 6,
+            "mean_index": 14.7,
+            "standard_error": 5.0
+        },
+        {
+            "culture_group": "CAF-2 + MCF10A",
+            "sample_size": 6,
+            "mean_index": 15.5,
+            "standard_error": 2.4
+        },
+        {
+            "culture_group": "CAF-1 + MCF10A",
+            "sample_size": 8,
+            "mean_index": 15.2,
+            "standard_error": 2.0
+        }
+    ]
+}

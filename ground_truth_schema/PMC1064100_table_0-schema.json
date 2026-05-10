@@ -1,0 +1,64 @@
+{
+    "type": "object",
+    "properties": {
+        "data": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "fathers_affected": {
+                        "type": "integer",
+                        "evaluation_config": "integer_exact"
+                    },
+                    "sons_affected": {
+                        "type": "integer",
+                        "evaluation_config": "integer_exact"
+                    },
+                    "mothers_unaffected": {
+                        "type": "integer",
+                        "evaluation_config": "integer_exact"
+                    },
+                    "sons_unaffected": {
+                        "type": "integer",
+                        "evaluation_config": "integer_exact"
+                    },
+                    "mothers_affected": {
+                        "type": "integer",
+                        "evaluation_config": "integer_exact"
+                    },
+                    "genotype": {
+                        "type": "string",
+                        "evaluation_config": "string_exact"
+                    },
+                    "daughters_affected": {
+                        "type": "integer",
+                        "evaluation_config": "integer_exact"
+                    },
+                    "fathers_unaffected": {
+                        "type": "integer",
+                        "evaluation_config": "integer_exact"
+                    },
+                    "daughters_unaffected": {
+                        "type": "integer",
+                        "evaluation_config": "integer_exact"
+                    }
+                },
+                "required": [
+                    "fathers_affected",
+                    "sons_affected",
+                    "mothers_unaffected",
+                    "sons_unaffected",
+                    "mothers_affected",
+                    "genotype",
+                    "daughters_affected",
+                    "fathers_unaffected",
+                    "daughters_unaffected"
+                ]
+            },
+            "evaluation_config": "array_llm"
+        }
+    },
+    "required": [
+        "data"
+    ]
+}

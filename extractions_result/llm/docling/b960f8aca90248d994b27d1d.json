@@ -1,0 +1,44 @@
+{
+    "items": [
+        {
+            "description": "Spot",
+            "date": "8/22/2018",
+            "unit_price_gross": 835.0
+        },
+        {
+            "description": "Spot",
+            "date": "8/24/2018",
+            "unit_price_gross": 535.0
+        },
+        {
+            "description": "Spot",
+            "date": "8/22/2018",
+            "unit_price_gross": 535.0
+        },
+        {
+            "description": "Spot",
+            "date": "8/24/2018",
+            "unit_price_gross": 835.0
+        },
+        {
+            "description": "Spot",
+            "date": "8/21/2018",
+            "unit_price_gross": 835.0
+        },
+        {
+            "description": "Spot",
+            "date": "8/21/2018",
+            "unit_price_gross": 835.0
+        },
+        {
+            "description": "Spot",
+            "date": "8/23/2018",
+            "unit_price_gross": 535.0
+        },
+        {
+            "description": "Spot",
+            "date": "8/23/2018",
+            "unit_price_gross": 535.0
+        }
+    ]
+}

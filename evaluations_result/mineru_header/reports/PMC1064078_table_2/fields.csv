@@ -1,0 +1,12 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,error_140081194702912,0.000000,false,,,,
+$.properties.items.items.properties.minimally_adjusted_or,items.items.minimally_adjusted_or,number_exact,1.000000,true,,,both_null,
+$.properties.items.items.properties.minimally_adjusted_ci_upper,items.items.minimally_adjusted_ci_upper,number_exact,1.000000,true,,,both_null,
+$.properties.items.items.properties.tertile_group,items.items.tertile_group,string_exact,1.000000,true,,,both_null,
+$.properties.items.items.properties.fully_adjusted_ci_upper,items.items.fully_adjusted_ci_upper,number_exact,1.000000,true,,,both_null,
+$.properties.items.items.properties.fully_adjusted_or,items.items.fully_adjusted_or,number_exact,1.000000,true,,,both_null,
+$.properties.items.items.properties.minimally_adjusted_ci_lower,items.items.minimally_adjusted_ci_lower,number_exact,1.000000,true,,,both_null,
+$.properties.items.items.properties.cases_count,items.items.cases_count,integer_exact,1.000000,true,,,both_null,
+$.properties.items.items.properties.fully_adjusted_ci_lower,items.items.fully_adjusted_ci_lower,number_exact,1.000000,true,,,both_null,
+$.properties.items.items.properties.controls_count,items.items.controls_count,integer_exact,1.000000,true,,,both_null,
+$.properties.items.items.properties.dataset_type,items.items.dataset_type,string_exact,1.000000,true,,,both_null,

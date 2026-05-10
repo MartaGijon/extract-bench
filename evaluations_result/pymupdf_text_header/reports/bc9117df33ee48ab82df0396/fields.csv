@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.000000,false,,,,"To consider a gold‑prediction pair a match, every field must satisfy its evaluation rule. No explicit per‑field metric_id is provided, so we conservatively apply the default exact‑match rules: numeric..."

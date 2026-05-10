@@ -1,0 +1,68 @@
+{
+    "items": [
+        {
+            "position": 6,
+            "date_start": "5/09/22",
+            "date_end": "5/09/22",
+            "unit_price_gross": 13.0,
+            "quantity": 2,
+            "price_gross": 26.0
+        },
+        {
+            "position": 1,
+            "date_start": "5/03/22",
+            "date_end": "5/06/22",
+            "unit_price_gross": 13.0,
+            "quantity": 8,
+            "price_gross": 104.0
+        },
+        {
+            "position": 7,
+            "date_start": "5/09/22",
+            "date_end": "5/09/22",
+            "unit_price_gross": 15.0,
+            "quantity": 1,
+            "price_gross": 15.0
+        },
+        {
+            "position": 2,
+            "date_start": "5/03/22",
+            "date_end": "5/06/22",
+            "unit_price_gross": 15.0,
+            "quantity": 4,
+            "price_gross": 60.0
+        },
+        {
+            "position": 3,
+            "date_start": "5/03/22",
+            "date_end": "5/06/22",
+            "unit_price_gross": 13.0,
+            "quantity": 8,
+            "price_gross": 104.0
+        },
+        {
+            "position": 8,
+            "date_start": "5/09/22",
+            "date_end": "5/09/22",
+            "unit_price_gross": 13.0,
+            "quantity": 2,
+            "price_gross": 26.0
+        },
+        {
+            "position": 5,
+            "date_start": "5/08/22",
+            "date_end": "5/08/22",
+            "unit_price_gross": 5.0,
+            "quantity": 1,
+            "price_gross": 5.0
+        },
+        {
+            "position": 4,
+            "date_start": "5/07/22",
+            "date_end": "5/07/22",
+            "unit_price_gross": 5.0,
+            "quantity": 2,
+            "price_gross": 10.0
+        }
+    ]
+}

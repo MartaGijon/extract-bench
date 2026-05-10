@@ -1,0 +1,11 @@
+{
+    "items": [
+        {
+            "pcb_level": "0.430",
+            "genotype": "105/100",
+            "patients_controls": "31/24",
+            "odds_ratio": 1.3,
+            "confidence_interval": "0.8-2.0"
+        }
+    ]
+}

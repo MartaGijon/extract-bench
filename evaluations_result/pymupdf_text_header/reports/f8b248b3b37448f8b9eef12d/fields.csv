@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.000000,false,,,,"Each gold object must be paired with a predicted object that matches on every field according to the appropriate metric. Integer fields (position, quantity) use integer_exact and match exactly. Numeri..."

@@ -1,0 +1,29 @@
+{
+    "type": "object",
+    "properties": {
+        "items": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "date": {
+                        "type": "string",
+                        "evaluation_config": "string_semantic"
+                    },
+                    "unit_price_gross": {
+                        "type": "number",
+                        "evaluation_config": "number_exact"
+                    }
+                },
+                "required": [
+                    "date",
+                    "unit_price_gross"
+                ]
+            },
+            "evaluation_config": "array_llm"
+        }
+    },
+    "required": [
+        "items"
+    ]
+}

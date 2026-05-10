@@ -1,0 +1,267 @@
+{
+  "output_name": "PMC1064080_table_0",
+  "timestamp": "2026-05-09T21:55:09.387062",
+  "schema_hash": "7870a2c0",
+  "gold_hash": "3e70920a",
+  "extracted_hash": "429181ad",
+  "schema_stats": {
+    "total_nodes": 11,
+    "counts_by_type": {
+      "object": 2,
+      "array": 1,
+      "number": 3,
+      "string": 3,
+      "integer": 2
+    },
+    "required_keys_count": 9,
+    "optional_keys_count": 0,
+    "required_by_type": {
+      "array": 1,
+      "number": 3,
+      "string": 3,
+      "integer": 2
+    },
+    "optional_by_type": {}
+  },
+  "gold_stats": {
+    "label": "gold",
+    "total_keys": 9,
+    "counts_by_type": {
+      "array": 1,
+      "string": 3,
+      "integer": 2,
+      "number": 3
+    },
+    "array_stats": {
+      "array_field_count": 1,
+      "total_items": 1,
+      "min_length": 1,
+      "median_length": 1,
+      "max_length": 1
+    },
+    "null_count": 0,
+    "missing_count": 0
+  },
+  "extracted_stats": {
+    "label": "extracted",
+    "total_keys": 9,
+    "counts_by_type": {
+      "array": 1,
+      "string": 3,
+      "integer": 2,
+      "number": 3
+    },
+    "array_stats": {
+      "array_field_count": 1,
+      "total_items": 1,
+      "min_length": 1,
+      "median_length": 1,
+      "max_length": 1
+    },
+    "null_count": 0,
+    "missing_count": 0
+  },
+  "coverage": {
+    "present_in_both": 8,
+    "missing_in_extracted": 0,
+    "spurious_in_extracted": 0,
+    "required_missing": 0,
+    "missing_paths": [],
+    "spurious_paths": []
+  },
+  "outcomes": {
+    "total_evaluated": 9,
+    "total_passed": 8,
+    "total_failed": 1,
+    "pass_rate": 0.8888888888888888,
+    "pass_by_metric": {
+      "error_125130236029216": {
+        "passed": 0,
+        "failed": 1
+      },
+      "number_exact": {
+        "passed": 3,
+        "failed": 0
+      },
+      "string_exact": {
+        "passed": 2,
+        "failed": 0
+      },
+      "string_semantic": {
+        "passed": 1,
+        "failed": 0
+      },
+      "integer_exact": {
+        "passed": 2,
+        "failed": 0
+      }
+    },
+    "pass_by_type": {
+      "unknown": {
+        "passed": 0,
+        "failed": 1
+      },
+      "number": {
+        "passed": 3,
+        "failed": 0
+      },
+      "string": {
+        "passed": 3,
+        "failed": 0
+      },
+      "integer": {
+        "passed": 2,
+        "failed": 0
+      }
+    },
+    "pass_by_required": {
+      "optional": {
+        "passed": 8,
+        "failed": 1
+      }
+    },
+    "confusion": {
+      "true_positive": 0,
+      "false_positive": 0,
+      "false_negative": 1,
+      "true_negative": 8
+    },
+    "llm_stats": {
+      "call_count": 1,
+      "avg_score": 1.0,
+      "median_score": 1.0,
+      "score_distribution": {
+        "0.8-1.0": 1
+      },
+      "top_lowest_fields": [
+        {
+          "path": "items.items.variant_name",
+          "metric_id": "string_semantic",
+          "score": 1.0,
+          "reasoning": ""
+        }
+      ]
+    },
+    "error_breakdown": {
+      "by_path_prefix": {
+        "items": 1
+      },
+      "by_metric_type": {
+        "error_125130236029216": 1
+      },
+      "by_reason": {
+        "value_mismatch": 1
+      },
+      "details": [
+        {
+          "category": "value_mismatch",
+          "count": 1,
+          "paths": []
+        }
+      ]
+    }
+  },
+  "field_outcomes": [
+    {
+      "path": "$.properties.items",
+      "normalized_path": "items",
+      "metric_id": "error_125130236029216",
+      "score": 0.0,
+      "passed": false,
+      "reason": null,
+      "gold_value": null,
+      "extracted_value": null,
+      "reasoning": null
+    },
+    {
+      "path": "$.properties.items.items.properties.odds_ratio",
+      "normalized_path": "items.items.odds_ratio",
+      "metric_id": "number_exact",
+      "score": 1.0,
+      "passed": true,
+      "reason": "both_null",
+      "gold_value": null,
+      "extracted_value": null,
+      "reasoning": null
+    },
+    {
+      "path": "$.properties.items.items.properties.carrier_status",
+      "normalized_path": "items.items.carrier_status",
+      "metric_id": "string_exact",
+      "score": 1.0,
+      "passed": true,
+      "reason": "both_null",
+      "gold_value": null,
+      "extracted_value": null,
+      "reasoning": null
+    },
+    {
+      "path": "$.properties.items.items.properties.variant_name",
+      "normalized_path": "items.items.variant_name",
+      "metric_id": "string_semantic",
+      "score": 1.0,
+      "passed": true,
+      "reason": "both_null",
+      "gold_value": null,
+      "extracted_value": null,
+      "reasoning": null
+    },
+    {
+      "path": "$.properties.items.items.properties.controls_percentage",
+      "normalized_path": "items.items.controls_percentage",
+      "metric_id": "number_exact",
+      "score": 1.0,
+      "passed": true,
+      "reason": "both_null",
+      "gold_value": null,
+      "extracted_value": null,
+      "reasoning": null
+    },
+    {
+      "path": "$.properties.items.items.properties.cases_percentage",
+      "normalized_path": "items.items.cases_percentage",
+      "metric_id": "number_exact",
+      "score": 1.0,
+      "passed": true,
+      "reason": "both_null",
+      "gold_value": null,
+      "extracted_value": null,
+      "reasoning": null
+    },
+    {
+      "path": "$.properties.items.items.properties.confidence_interval",
+      "normalized_path": "items.items.confidence_interval",
+      "metric_id": "string_exact",
+      "score": 1.0,
+      "passed": true,
+      "reason": "both_null",
+      "gold_value": null,
+      "extracted_value": null,
+      "reasoning": null
+    },
+    {
+      "path": "$.properties.items.items.properties.cases_count",
+      "normalized_path": "items.items.cases_count",
+      "metric_id": "integer_exact",
+      "score": 1.0,
+      "passed": true,
+      "reason": "both_null",
+      "gold_value": null,
+      "extracted_value": null,
+      "reasoning": null
+    },
+    {
+      "path": "$.properties.items.items.properties.controls_count",
+      "normalized_path": "items.items.controls_count",
+      "metric_id": "integer_exact",
+      "score": 1.0,
+      "passed": true,
+      "reason": "both_null",
+      "gold_value": null,
+      "extracted_value": null,
+      "reasoning": null
+    }
+  ],
+  "overall_score": 0.8888888888888888,
+  "overall_pass_rate": 0.8888888888888888
+}

@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"Both the gold and predicted arrays contain the same four invoice line items, merely in a different order. For each item, every field (description, unit_price_gross, price_gross, quantity) matches exac..."

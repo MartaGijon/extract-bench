@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"Each field in the sole gold object exactly matches the corresponding field in the predicted object using the string_exact rule (case‑sensitive exact equality). All four string values are identical, so..."

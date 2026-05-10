@@ -1,0 +1,3 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.000000,false,,,,"Evaluation uses exact string matching for all textual fields and exact integer equality for the numeric field. None of the predicted items matched any gold item on every field:
+- Gold item 1 requires ..."

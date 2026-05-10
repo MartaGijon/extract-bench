@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.extractions,extractions,array_llm,1.000000,true,,,,"All fields (date, description, amount_net) are exact strings or exact numeric values. The gold array contains 6 items with date 07/20/20, 2 with 07/21/20, 2 with 07/22/20, 2 with 07/23/20, and 2 with ..."

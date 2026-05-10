@@ -1,0 +1,12 @@
+{
+    "data": [
+        {
+            "pcb_level": ">= 0.349 ng/ml",
+            "genotype": "CYP1A1 M4",
+            "patients_controls": "14/1?",
+            "odds_ratio": 55.0,
+            "confidence_interval": "9/1?",
+            "menopausal_status": "postmenopausal"
+        }
+    ]
+}

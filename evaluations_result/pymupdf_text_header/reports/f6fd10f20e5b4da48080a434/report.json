@@ -1,0 +1,162 @@
+{
+  "output_name": "f6fd10f20e5b4da48080a434",
+  "timestamp": "2026-05-09T21:13:19.971500",
+  "schema_hash": "5f388ef1",
+  "gold_hash": "02053a5b",
+  "extracted_hash": "1095285b",
+  "schema_stats": {
+    "total_nodes": 8,
+    "counts_by_type": {
+      "object": 2,
+      "array": 1,
+      "string": 1,
+      "integer": 2,
+      "number": 2
+    },
+    "required_keys_count": 6,
+    "optional_keys_count": 0,
+    "required_by_type": {
+      "array": 1,
+      "string": 1,
+      "integer": 2,
+      "number": 2
+    },
+    "optional_by_type": {}
+  },
+  "gold_stats": {
+    "label": "gold",
+    "total_keys": 31,
+    "counts_by_type": {
+      "array": 1,
+      "string": 6,
+      "integer": 12,
+      "number": 12
+    },
+    "array_stats": {
+      "array_field_count": 1,
+      "total_items": 6,
+      "min_length": 6,
+      "median_length": 6,
+      "max_length": 6
+    },
+    "null_count": 0,
+    "missing_count": 0
+  },
+  "extracted_stats": {
+    "label": "extracted",
+    "total_keys": 41,
+    "counts_by_type": {
+      "array": 1,
+      "string": 8,
+      "integer": 16,
+      "number": 16
+    },
+    "array_stats": {
+      "array_field_count": 1,
+      "total_items": 8,
+      "min_length": 8,
+      "median_length": 8,
+      "max_length": 8
+    },
+    "null_count": 0,
+    "missing_count": 0
+  },
+  "coverage": {
+    "present_in_both": 30,
+    "missing_in_extracted": 0,
+    "spurious_in_extracted": 10,
+    "required_missing": 0,
+    "missing_paths": [],
+    "spurious_paths": [
+      "items[6].description",
+      "items[6].position",
+      "items[6].price_gross",
+      "items[6].quantity",
+      "items[6].unit_price_gross",
+      "items[7].description",
+      "items[7].position",
+      "items[7].price_gross",
+      "items[7].quantity",
+      "items[7].unit_price_gross"
+    ]
+  },
+  "outcomes": {
+    "total_evaluated": 1,
+    "total_passed": 0,
+    "total_failed": 1,
+    "pass_rate": 0.0,
+    "pass_by_metric": {
+      "array_llm": {
+        "passed": 0,
+        "failed": 1
+      }
+    },
+    "pass_by_type": {
+      "array": {
+        "passed": 0,
+        "failed": 1
+      }
+    },
+    "pass_by_required": {
+      "optional": {
+        "passed": 0,
+        "failed": 1
+      }
+    },
+    "confusion": {
+      "true_positive": 0,
+      "false_positive": 0,
+      "false_negative": 1,
+      "true_negative": 0
+    },
+    "llm_stats": {
+      "call_count": 1,
+      "avg_score": 0.0,
+      "median_score": 0.0,
+      "score_distribution": {
+        "0.0-0.2": 1
+      },
+      "top_lowest_fields": [
+        {
+          "path": "items",
+          "metric_id": "array_llm",
+          "score": 0.0,
+          "reasoning": "To be considered a match, every field of a predicted object must exactly equal the corresponding fields of a gold object (description, quantity, unit_price_gross, price_gross, and position). The gold ..."
+        }
+      ]
+    },
+    "error_breakdown": {
+      "by_path_prefix": {
+        "items": 1
+      },
+      "by_metric_type": {
+        "array_llm": 1
+      },
+      "by_reason": {
+        "semantic_mismatch": 1
+      },
+      "details": [
+        {
+          "category": "semantic_mismatch",
+          "count": 1,
+          "paths": []
+        }
+      ]
+    }
+  },
+  "field_outcomes": [
+    {
+      "path": "$.properties.items",
+      "normalized_path": "items",
+      "metric_id": "array_llm",
+      "score": 0.0,
+      "passed": false,
+      "reason": null,
+      "gold_value": null,
+      "extracted_value": null,
+      "reasoning": "To be considered a match, every field of a predicted object must exactly equal the corresponding fields of a gold object (description, quantity, unit_price_gross, price_gross, and position). The gold ..."
+    }
+  ],
+  "overall_score": 0.0,
+  "overall_pass_rate": 0.0
+}

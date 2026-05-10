@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"All eight gold objects are duplicated exactly in the predicted array. Each field—'date' (string), 'code' (string), 'unit_price_gross' (numeric), and 'description' (string)—matches the counterpart usin..."

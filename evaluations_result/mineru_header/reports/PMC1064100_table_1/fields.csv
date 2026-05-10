@@ -1,0 +1,9 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.data,data,error_140081193226528,0.000000,false,,,,
+$.properties.data.items.properties.total_daughters,data.items.total_daughters,integer_exact,1.000000,true,,,both_null,
+$.properties.data.items.properties.total_families,data.items.total_families,integer_exact,1.000000,true,,,both_null,
+$.properties.data.items.properties.number_affected_daughters,data.items.number_affected_daughters,integer_exact,1.000000,true,,,both_null,
+$.properties.data.items.properties.number_unaffected_daughters,data.items.number_unaffected_daughters,integer_exact,1.000000,true,,,both_null,
+$.properties.data.items.properties.father_carrier_status,data.items.father_carrier_status,string_exact,1.000000,true,,,both_null,
+$.properties.data.items.properties.mother_carrier_status,data.items.mother_carrier_status,string_exact,1.000000,true,,,both_null,
+$.properties.data.items.properties.gene_variant,data.items.gene_variant,string_exact,1.000000,true,,,both_null,

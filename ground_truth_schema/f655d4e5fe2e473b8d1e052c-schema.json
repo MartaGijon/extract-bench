@@ -1,0 +1,44 @@
+{
+    "type": "object",
+    "properties": {
+        "items": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "description": {
+                        "type": "string",
+                        "evaluation_config": "string_semantic"
+                    },
+                    "amount_net": {
+                        "type": "number",
+                        "evaluation_config": "number_exact"
+                    },
+                    "quantity": {
+                        "type": "integer",
+                        "evaluation_config": "integer_exact"
+                    },
+                    "code": {
+                        "type": "string",
+                        "evaluation_config": "string_exact"
+                    },
+                    "unit_price_net": {
+                        "type": "number",
+                        "evaluation_config": "number_exact"
+                    }
+                },
+                "required": [
+                    "description",
+                    "amount_net",
+                    "quantity",
+                    "code",
+                    "unit_price_net"
+                ]
+            },
+            "evaluation_config": "array_llm"
+        }
+    },
+    "required": [
+        "items"
+    ]
+}

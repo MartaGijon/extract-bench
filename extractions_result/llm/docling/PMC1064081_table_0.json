@@ -1,0 +1,12 @@
+{
+    "extractions": [
+        {
+            "involved_nodes_range": "11-20",
+            "number_of_patients_at_risk": 8350,
+            "percentage_of_involved_nodes": 11.2,
+            "all_cause_mortality_percentage": 26.3,
+            "breast_cancer_mortality_percentage": 15.7,
+            "non_breast_cancer_mortality_percentage": 10.7
+        }
+    ]
+}

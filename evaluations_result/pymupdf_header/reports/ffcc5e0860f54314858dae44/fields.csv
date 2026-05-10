@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"All fields (date, quantity, unit_price_gross, price_gross) are compared with exact equality because no tolerance or special evaluation rules were provided. By treating the arrays as unordered collecti..."

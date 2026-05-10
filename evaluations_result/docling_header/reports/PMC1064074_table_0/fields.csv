@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.000000,false,,,,"To be a true match, every field in a gold object must exactly equal the corresponding field in a predicted object (the schema provides no tolerance specifications, so the default exact‑numeric and exa..."

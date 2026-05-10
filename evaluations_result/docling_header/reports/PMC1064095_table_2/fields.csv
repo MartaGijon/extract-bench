@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.000000,false,,,,"The single predicted entry fails to meet the exact field‑by‑field criteria required for a true match. For the first gold item, the pcb_level strings differ ("">=0.430"" vs "">= 0.430 ng/ml""), the genotyp..."

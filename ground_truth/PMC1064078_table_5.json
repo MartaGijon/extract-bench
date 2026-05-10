@@ -1,0 +1,44 @@
+{
+    "items": [
+        {
+            "maternal_age_range": "23-27",
+            "race": "African-American",
+            "group_type": "Case",
+            "n_count": 28,
+            "minimally_adjusted_or": 1.9,
+            "minimally_adjusted_ci": "0.9-4.3",
+            "fully_adjusted_or": 4.2,
+            "fully_adjusted_ci": "2.1-8.3"
+        },
+        {
+            "maternal_age_range": "23-27",
+            "race": "African-American",
+            "group_type": "Control",
+            "n_count": 28,
+            "minimally_adjusted_or": 0.0,
+            "minimally_adjusted_ci": "",
+            "fully_adjusted_or": 0.0,
+            "fully_adjusted_ci": ""
+        },
+        {
+            "maternal_age_range": "23-27",
+            "race": "White",
+            "group_type": "Case",
+            "n_count": 59,
+            "minimally_adjusted_or": 4.2,
+            "minimally_adjusted_ci": "2.1-8.3",
+            "fully_adjusted_or": 4.8,
+            "fully_adjusted_ci": "2.3-9.8"
+        },
+        {
+            "maternal_age_range": "23-27",
+            "race": "White",
+            "group_type": "Control",
+            "n_count": 21,
+            "minimally_adjusted_or": 0.0,
+            "minimally_adjusted_ci": "",
+            "fully_adjusted_or": 0.0,
+            "fully_adjusted_ci": ""
+        }
+    ]
+}

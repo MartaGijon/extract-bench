@@ -1,0 +1,59 @@
+{
+    "type": "object",
+    "properties": {
+        "items": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "stratified_variable": {
+                        "type": "string",
+                        "evaluation_config": "string_exact"
+                    },
+                    "odds_ratio": {
+                        "type": "number",
+                        "evaluation_config": "number_exact"
+                    },
+                    "cases_controls": {
+                        "type": "string",
+                        "evaluation_config": "string_exact"
+                    },
+                    "menopausal_status": {
+                        "type": "string",
+                        "evaluation_config": "string_exact"
+                    },
+                    "genotype": {
+                        "type": "string",
+                        "evaluation_config": "string_exact"
+                    },
+                    "intake_level": {
+                        "type": "string",
+                        "evaluation_config": "string_exact"
+                    },
+                    "confidence_interval": {
+                        "type": "string",
+                        "evaluation_config": "string_exact"
+                    },
+                    "reference": {
+                        "type": "boolean",
+                        "evaluation_config": "boolean_exact"
+                    }
+                },
+                "required": [
+                    "stratified_variable",
+                    "odds_ratio",
+                    "cases_controls",
+                    "menopausal_status",
+                    "genotype",
+                    "intake_level",
+                    "confidence_interval",
+                    "reference"
+                ]
+            },
+            "evaluation_config": "array_llm"
+        }
+    },
+    "required": [
+        "items"
+    ]
+}

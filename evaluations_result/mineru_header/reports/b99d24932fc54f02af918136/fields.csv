@@ -1,0 +1,6 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.extractions,extractions,error_140081194703776,0.000000,false,,,,
+$.properties.extractions.items.properties.date,extractions.items.date,string_semantic,1.000000,true,,,both_null,
+$.properties.extractions.items.properties.unit_price_gross,extractions.items.unit_price_gross,number_exact,1.000000,true,,,both_null,
+$.properties.extractions.items.properties.description,extractions.items.description,string_semantic,1.000000,true,,,both_null,
+$.properties.extractions.items.properties.code,extractions.items.code,string_exact,1.000000,true,,,both_null,

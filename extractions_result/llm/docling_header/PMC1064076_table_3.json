@@ -1,0 +1,24 @@
+{
+    "items": [
+        {
+            "stratified_variable": "Total vegetables",
+            "intake_level": "> Median",
+            "menopausal_status": "Premenopausal women",
+            "genotype": "MnSOD Val/Val",
+            "cases_controls": "260/281",
+            "odds_ratio": 1.0,
+            "confidence_interval": "0.7-1.6",
+            "reference": true
+        },
+        {
+            "stratified_variable": "Total vegetables",
+            "intake_level": "> Median",
+            "menopausal_status": "Premenopausal women",
+            "genotype": "MnSOD Ala/Ala",
+            "cases_controls": "78/3",
+            "odds_ratio": 2.4,
+            "confidence_interval": "0.7-8.0",
+            "reference": false
+        }
+    ]
+}

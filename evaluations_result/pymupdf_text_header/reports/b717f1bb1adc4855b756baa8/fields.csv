@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.800000,true,,,,"Each gold item must have an exact match on all fields (position, description, unit_price_gross, quantity, price_gross). Using unordered matching, four gold entries find perfect counterparts in the pre..."

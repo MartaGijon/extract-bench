@@ -1,0 +1,49 @@
+{
+    "type": "object",
+    "properties": {
+        "extractions": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "breast_cancer_mortality_percentage": {
+                        "type": "number",
+                        "evaluation_config": "number_exact"
+                    },
+                    "involved_nodes_range": {
+                        "type": "string",
+                        "evaluation_config": "string_exact"
+                    },
+                    "number_of_patients_at_risk": {
+                        "type": "integer",
+                        "evaluation_config": "integer_exact"
+                    },
+                    "percentage_of_involved_nodes": {
+                        "type": "number",
+                        "evaluation_config": "number_exact"
+                    },
+                    "all_cause_mortality_percentage": {
+                        "type": "number",
+                        "evaluation_config": "number_exact"
+                    },
+                    "non_breast_cancer_mortality_percentage": {
+                        "type": "number",
+                        "evaluation_config": "number_exact"
+                    }
+                },
+                "required": [
+                    "non_breast_cancer_mortality_percentage",
+                    "breast_cancer_mortality_percentage",
+                    "involved_nodes_range",
+                    "number_of_patients_at_risk",
+                    "percentage_of_involved_nodes",
+                    "all_cause_mortality_percentage"
+                ]
+            },
+            "evaluation_config": "array_llm"
+        }
+    },
+    "required": [
+        "extractions"
+    ]
+}

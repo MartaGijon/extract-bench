@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.600000,false,,,,"Evaluation was performed as unordered matching of items. For a pair to be considered a match, every field (position, description, unit_price_gross, quantity, price_gross) must match exactly. Numeric f..."

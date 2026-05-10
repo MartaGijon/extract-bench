@@ -1,0 +1,39 @@
+{
+    "type": "object",
+    "properties": {
+        "items": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "recessive_model_p_value": {
+                        "type": "number",
+                        "evaluation_config": "number_exact"
+                    },
+                    "variant_allele": {
+                        "type": "string",
+                        "evaluation_config": "string_exact"
+                    },
+                    "estimated_allele_frequency_percent": {
+                        "type": "number",
+                        "evaluation_config": "number_exact"
+                    },
+                    "recessive_model_odds_ratio": {
+                        "type": "number",
+                        "evaluation_config": "number_exact"
+                    }
+                },
+                "required": [
+                    "recessive_model_p_value",
+                    "variant_allele",
+                    "estimated_allele_frequency_percent",
+                    "recessive_model_odds_ratio"
+                ]
+            },
+            "evaluation_config": "array_llm"
+        }
+    },
+    "required": [
+        "items"
+    ]
+}

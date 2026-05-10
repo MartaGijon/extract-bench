@@ -1,0 +1,49 @@
+{
+    "type": "object",
+    "properties": {
+        "items": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "description": {
+                        "type": "string",
+                        "evaluation_config": "string_semantic"
+                    },
+                    "transaction_date": {
+                        "type": "string",
+                        "evaluation_config": "string_semantic"
+                    },
+                    "position": {
+                        "type": "integer",
+                        "evaluation_config": "integer_exact"
+                    },
+                    "price_gross": {
+                        "type": "number",
+                        "evaluation_config": "number_exact"
+                    },
+                    "unit_price_gross": {
+                        "type": "number",
+                        "evaluation_config": "number_exact"
+                    },
+                    "duration_minutes": {
+                        "type": "integer",
+                        "evaluation_config": "integer_exact"
+                    }
+                },
+                "required": [
+                    "description",
+                    "transaction_date",
+                    "unit_price_gross",
+                    "duration_minutes",
+                    "position",
+                    "price_gross"
+                ]
+            },
+            "evaluation_config": "array_llm"
+        }
+    },
+    "required": [
+        "items"
+    ]
+}

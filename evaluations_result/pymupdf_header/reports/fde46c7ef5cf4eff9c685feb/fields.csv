@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"Each gold entry is present in the predicted array with identical values for all fields. The arrays are treated as unordered, so order differences do not affect matching. For every field (position, dat..."

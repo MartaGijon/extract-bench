@@ -1,0 +1,36 @@
+{
+    "items": [
+        {
+            "code": "42200",
+            "description": "PARL LT MEN LS HP 6M PROM Less Comp cigs",
+            "quantity": 6000,
+            "unit_price_gross": 132.2,
+            "price_gross": 793.2,
+            "position": 4
+        },
+        {
+            "code": "42180",
+            "description": "PARL LT REG LS HP 6M PROM Less Comp Cigs",
+            "quantity": 6000,
+            "unit_price_gross": 132.2,
+            "price_gross": 793.2,
+            "position": 2
+        },
+        {
+            "code": "42190",
+            "description": "PARL LT MEN LS HP 6M PROM Less Comp cigs",
+            "quantity": 6000,
+            "unit_price_gross": 132.2,
+            "price_gross": 793.2,
+            "position": 3
+        },
+        {
+            "code": "42170",
+            "description": "BRAND PARL FF REG LS HP 6M PROM Less Comp CigB",
+            "quantity": 6000,
+            "unit_price_gross": 132.2,
+            "price_gross": 793.2,
+            "position": 1
+        }
+    ]
+}

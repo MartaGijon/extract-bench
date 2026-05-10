@@ -1,0 +1,9 @@
+{
+    "items": [
+        {
+            "variant_allele": "TTTA \u2265 10",
+            "mothers_additive_statistic": 1.96,
+            "fathers_dominant_p_value": 0.18
+        }
+    ]
+}

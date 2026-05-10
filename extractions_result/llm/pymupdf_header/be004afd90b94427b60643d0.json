@@ -1,0 +1,39 @@
+{
+    "items": [
+        {
+            "position": 5,
+            "code": "News19 @ 6P",
+            "date": "03/19/20",
+            "unit_price_gross": 900.0,
+            "price_gross": 900.0
+        },
+        {
+            "position": 4,
+            "code": "News19 @ 6P",
+            "date": "03/18/20",
+            "unit_price_gross": 900.0,
+            "price_gross": 900.0
+        },
+        {
+            "position": 7,
+            "code": "News19 @ 10P",
+            "date": "03/17/20",
+            "unit_price_gross": 325.0,
+            "price_gross": 325.0
+        },
+        {
+            "position": 6,
+            "code": "News19 @ 6P",
+            "date": "03/20/20",
+            "unit_price_gross": 900.0,
+            "price_gross": 900.0
+        },
+        {
+            "position": 8,
+            "code": "News19 @ 10P",
+            "date": "03/20/20",
+            "unit_price_gross": 325.0,
+            "price_gross": 325.0
+        }
+    ]
+}

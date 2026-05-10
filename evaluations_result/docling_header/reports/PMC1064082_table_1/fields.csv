@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.000000,false,,,,"Using the provided metric definitions, each field must match exactly (string_exact for strings, integer_exact for integer counts, number_exact for percentages). The single predicted item differs from ..."

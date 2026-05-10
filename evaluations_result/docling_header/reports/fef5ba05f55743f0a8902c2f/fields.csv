@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"Both the gold and predicted arrays contain 57 objects. Each object is defined by four fields (date, position, description, unit_price_net) and there are no tolerances or special rules, so an exact mat..."

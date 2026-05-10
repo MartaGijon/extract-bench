@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"Each gold entry must be paired with a predicted entry where *all* fields (position, dates, description, price_gross, unit_price_gross) satisfy their exact‑match rules. Using integer_exact for 'positio..."

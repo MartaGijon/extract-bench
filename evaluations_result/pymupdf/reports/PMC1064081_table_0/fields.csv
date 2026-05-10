@@ -1,0 +1,8 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.extractions,extractions,error_138134565251360,0.000000,false,,,,
+$.properties.extractions.items.properties.breast_cancer_mortality_percentage,extractions.items.breast_cancer_mortality_percentage,number_exact,1.000000,true,,,both_null,
+$.properties.extractions.items.properties.involved_nodes_range,extractions.items.involved_nodes_range,string_exact,1.000000,true,,,both_null,
+$.properties.extractions.items.properties.number_of_patients_at_risk,extractions.items.number_of_patients_at_risk,integer_exact,1.000000,true,,,both_null,
+$.properties.extractions.items.properties.percentage_of_involved_nodes,extractions.items.percentage_of_involved_nodes,number_exact,1.000000,true,,,both_null,
+$.properties.extractions.items.properties.all_cause_mortality_percentage,extractions.items.all_cause_mortality_percentage,number_exact,1.000000,true,,,both_null,
+$.properties.extractions.items.properties.non_breast_cancer_mortality_percentage,extractions.items.non_breast_cancer_mortality_percentage,number_exact,1.000000,true,,,both_null,

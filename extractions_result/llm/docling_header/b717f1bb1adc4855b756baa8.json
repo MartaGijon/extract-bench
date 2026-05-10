@@ -1,0 +1,53 @@
+{
+    "items": [
+        {
+            "position": 7,
+            "description": "EVENING REPORT M-F",
+            "unit_price_gross": 170.0,
+            "quantity": 1,
+            "price_gross": 170.0
+        },
+        {
+            "position": 2,
+            "description": "TODAY SHOW",
+            "unit_price_gross": 56.0,
+            "quantity": 1,
+            "price_gross": 56.0
+        },
+        {
+            "position": 2,
+            "description": "TODAY SHOW",
+            "unit_price_gross": 56.0,
+            "quantity": 1,
+            "price_gross": 56.0
+        },
+        {
+            "position": 2,
+            "description": "TODAY SHOW",
+            "unit_price_gross": 56.0,
+            "quantity": 1,
+            "price_gross": 56.0
+        },
+        {
+            "position": 2,
+            "description": "TODAY SHOW",
+            "unit_price_gross": 56.0,
+            "quantity": 1,
+            "price_gross": 56.0
+        },
+        {
+            "position": 2,
+            "description": "TODAY SHOW",
+            "unit_price_gross": 56.0,
+            "quantity": 1,
+            "price_gross": 56.0
+        },
+        {
+            "position": 2,
+            "description": "TODAY SHOW",
+            "unit_price_gross": 56.0,
+            "quantity": 1,
+            "price_gross": 56.0
+        }
+    ]
+}

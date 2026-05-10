@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"Each gold item and predicted item have identical numeric fields (unit_price_gross, quantity, price_gross) which satisfy the exact‑numeric evaluation rule. The description strings differ only by prefix..."

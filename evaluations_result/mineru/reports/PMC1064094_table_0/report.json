@@ -1,0 +1,192 @@
+{
+  "output_name": "PMC1064094_table_0",
+  "timestamp": "2026-05-09T22:21:27.012547",
+  "schema_hash": "71964b02",
+  "gold_hash": "d3157ca5",
+  "extracted_hash": "ab96bb81",
+  "schema_stats": {
+    "total_nodes": 7,
+    "counts_by_type": {
+      "object": 2,
+      "array": 1,
+      "integer": 2,
+      "string": 2
+    },
+    "required_keys_count": 5,
+    "optional_keys_count": 0,
+    "required_by_type": {
+      "array": 1,
+      "integer": 2,
+      "string": 2
+    },
+    "optional_by_type": {}
+  },
+  "gold_stats": {
+    "label": "gold",
+    "total_keys": 21,
+    "counts_by_type": {
+      "array": 1,
+      "string": 10,
+      "integer": 10
+    },
+    "array_stats": {
+      "array_field_count": 1,
+      "total_items": 5,
+      "min_length": 5,
+      "median_length": 5,
+      "max_length": 5
+    },
+    "null_count": 0,
+    "missing_count": 0
+  },
+  "extracted_stats": {
+    "label": "extracted",
+    "total_keys": 21,
+    "counts_by_type": {
+      "array": 1,
+      "string": 10,
+      "integer": 10
+    },
+    "array_stats": {
+      "array_field_count": 1,
+      "total_items": 5,
+      "min_length": 5,
+      "median_length": 5,
+      "max_length": 5
+    },
+    "null_count": 0,
+    "missing_count": 0
+  },
+  "coverage": {
+    "present_in_both": 20,
+    "missing_in_extracted": 0,
+    "spurious_in_extracted": 0,
+    "required_missing": 0,
+    "missing_paths": [],
+    "spurious_paths": []
+  },
+  "outcomes": {
+    "total_evaluated": 5,
+    "total_passed": 4,
+    "total_failed": 1,
+    "pass_rate": 0.8,
+    "pass_by_metric": {
+      "error_137448389190528": {
+        "passed": 0,
+        "failed": 1
+      },
+      "integer_exact": {
+        "passed": 2,
+        "failed": 0
+      },
+      "string_exact": {
+        "passed": 2,
+        "failed": 0
+      }
+    },
+    "pass_by_type": {
+      "unknown": {
+        "passed": 0,
+        "failed": 1
+      },
+      "integer": {
+        "passed": 2,
+        "failed": 0
+      },
+      "string": {
+        "passed": 2,
+        "failed": 0
+      }
+    },
+    "pass_by_required": {
+      "optional": {
+        "passed": 4,
+        "failed": 1
+      }
+    },
+    "confusion": {
+      "true_positive": 0,
+      "false_positive": 0,
+      "false_negative": 1,
+      "true_negative": 4
+    },
+    "llm_stats": null,
+    "error_breakdown": {
+      "by_path_prefix": {
+        "items": 1
+      },
+      "by_metric_type": {
+        "error_137448389190528": 1
+      },
+      "by_reason": {
+        "value_mismatch": 1
+      },
+      "details": [
+        {
+          "category": "value_mismatch",
+          "count": 1,
+          "paths": []
+        }
+      ]
+    }
+  },
+  "field_outcomes": [
+    {
+      "path": "$.properties.items",
+      "normalized_path": "items",
+      "metric_id": "error_137448389190528",
+      "score": 0.0,
+      "passed": false,
+      "reason": null,
+      "gold_value": null,
+      "extracted_value": null,
+      "reasoning": null
+    },
+    {
+      "path": "$.properties.items.items.properties.number_tested",
+      "normalized_path": "items.items.number_tested",
+      "metric_id": "integer_exact",
+      "score": 1.0,
+      "passed": true,
+      "reason": "both_null",
+      "gold_value": null,
+      "extracted_value": null,
+      "reasoning": null
+    },
+    {
+      "path": "$.properties.items.items.properties.hpv_dna_positive",
+      "normalized_path": "items.items.hpv_dna_positive",
+      "metric_id": "integer_exact",
+      "score": 1.0,
+      "passed": true,
+      "reason": "both_null",
+      "gold_value": null,
+      "extracted_value": null,
+      "reasoning": null
+    },
+    {
+      "path": "$.properties.items.items.properties.carcinoma_type",
+      "normalized_path": "items.items.carcinoma_type",
+      "metric_id": "string_exact",
+      "score": 1.0,
+      "passed": true,
+      "reason": "both_null",
+      "gold_value": null,
+      "extracted_value": null,
+      "reasoning": null
+    },
+    {
+      "path": "$.properties.items.items.properties.location",
+      "normalized_path": "items.items.location",
+      "metric_id": "string_exact",
+      "score": 1.0,
+      "passed": true,
+      "reason": "both_null",
+      "gold_value": null,
+      "extracted_value": null,
+      "reasoning": null
+    }
+  ],
+  "overall_score": 0.8,
+  "overall_pass_rate": 0.8
+}

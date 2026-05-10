@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"Each gold item and predicted item share identical integer fields (position, quantity) and numeric fields (unit_price_gross). The only differences are in the description strings, where the gold uses '/..."

@@ -1,0 +1,54 @@
+{
+    "type": "object",
+    "properties": {
+        "items": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "variables": {
+                        "type": "string",
+                        "evaluation_config": "string_exact"
+                    },
+                    "p_value": {
+                        "type": "number",
+                        "evaluation_config": "number_exact"
+                    },
+                    "hazard_ratio": {
+                        "type": "number",
+                        "evaluation_config": "number_exact"
+                    },
+                    "ci_lower": {
+                        "type": "number",
+                        "evaluation_config": "number_exact"
+                    },
+                    "model_id": {
+                        "type": "string",
+                        "evaluation_config": "string_exact"
+                    },
+                    "ci_upper": {
+                        "type": "number",
+                        "evaluation_config": "number_exact"
+                    },
+                    "patient_group": {
+                        "type": "string",
+                        "evaluation_config": "string_exact"
+                    }
+                },
+                "required": [
+                    "hazard_ratio",
+                    "ci_lower",
+                    "model_id",
+                    "variables",
+                    "ci_upper",
+                    "patient_group",
+                    "p_value"
+                ]
+            },
+            "evaluation_config": "array_llm"
+        }
+    },
+    "required": [
+        "items"
+    ]
+}

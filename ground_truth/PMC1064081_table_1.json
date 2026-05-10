@@ -1,0 +1,9 @@
+{
+    "items": [
+        {
+            "log_odds_range": "-2 < L <= -1",
+            "number_of_patients_at_risk": 17619,
+            "breast_cancer_mortality_rate": 8.0
+        }
+    ]
+}

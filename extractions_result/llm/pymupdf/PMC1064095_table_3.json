@@ -1,0 +1,12 @@
+{
+    "data": [
+        {
+            "pcb_level": ">=0.349",
+            "genotype": "AryMa",
+            "patients_controls": "2B",
+            "odds_ratio": 0.2,
+            "confidence_interval": "0.0-0.6",
+            "menopausal_status": "Postmenopausal"
+        }
+    ]
+}

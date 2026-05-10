@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.000000,false,"[{'position': 1, 'description': 'NHormal Line / News (2/1.7)', 'date': '08/22/20/08/22/20', 'quantity': 2, 'unit_price_gross': 200.0, 'price_gross': 400.0}, {'position': 2, 'description': 'Normal Line / News (3/2.3)', 'date': '08/23/20/08/23/20', 'quantity': 2, 'unit_price_gross': 250.0, 'price_gross': 500.0}]",[],extracted_empty_array,

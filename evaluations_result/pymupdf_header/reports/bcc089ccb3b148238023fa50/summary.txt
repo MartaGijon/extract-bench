@@ -1,0 +1,42 @@
+================================================================================
+EVALUATION REPORT: bcc089ccb3b148238023fa50
+Timestamp: 2026-05-09T21:39:28.343118
+================================================================================
+
+OVERALL RESULTS
+----------------------------------------
+  Pass Rate: 100.0%
+  Overall Score: 0.800
+  Evaluated Fields: 1
+  Passed: 1
+  Failed: 0
+
+SCHEMA STATISTICS
+----------------------------------------
+  Total Nodes: 7
+  Required Keys: 5
+  Optional Keys: 0
+  By Type: array: 1, integer: 1, number: 2, object: 2, string: 1
+
+COVERAGE
+----------------------------------------
+  Present in Both: 16
+  Missing in Extracted: 4
+  Spurious in Extracted: 0
+  Required Missing: 0
+
+PASS RATE BY METRIC
+----------------------------------------
+  array_llm: 100.0% (1/1)
+
+LLM METRICS
+----------------------------------------
+  Calls: 1
+  Avg Score: 0.800
+  Median Score: 0.800
+
+  Top Lowest-Scoring Fields:
+    - items (array_llm): 0.800
+      Reason: All fields are evaluated with exact equality: dates as strings must match exactly, quantity as an in...
+
+================================================================================

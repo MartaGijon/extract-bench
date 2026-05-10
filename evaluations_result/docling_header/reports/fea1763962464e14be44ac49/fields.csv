@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"All fields (date, quantity, unit_price_gross, price_gross) are compared using exact equality for numbers (number_exact) and semantic equality for strings (string_semantic). The two gold items are pres..."

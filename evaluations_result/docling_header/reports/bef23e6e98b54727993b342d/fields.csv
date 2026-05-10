@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.000000,false,,,,"Each gold record must exactly match a predicted record on all three numeric fields because no tolerance or alternative rule is specified. The gold item has unit_price_gross=28.0, unit_price_net=23.8, ..."

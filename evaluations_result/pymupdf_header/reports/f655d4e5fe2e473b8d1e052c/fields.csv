@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.480000,false,,,,"Using the provided schema, each field (code, description, quantity, unit_price_net, amount_net) must match exactly (string_exact for text, integer_exact for quantities, number_exact for prices and amo..."

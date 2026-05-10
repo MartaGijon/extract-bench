@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.000000,false,,,,"To consider a gold–prediction pair a TRUE MATCH, every field must satisfy its evaluation rule. No per‑field tolerance or semantic matching was provided, so we applied the strict definitions: numeric f..."

@@ -1,0 +1,22 @@
+{
+    "type": "object",
+    "properties": {
+        "total_number": {
+            "type": "integer",
+            "evaluation_config": "integer_exact"
+        },
+        "median_age": {
+            "type": "integer",
+            "evaluation_config": "integer_exact"
+        },
+        "pre_menopausal_count": {
+            "type": "integer",
+            "evaluation_config": "integer_exact"
+        }
+    },
+    "required": [
+        "total_number",
+        "median_age",
+        "pre_menopausal_count"
+    ]
+}

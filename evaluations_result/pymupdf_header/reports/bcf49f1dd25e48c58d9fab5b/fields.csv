@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"All three gold objects have exact counterparts in the predicted array. Since the schema does not specify any tolerance, each field (position, dates, numeric values) must match exactly. The predicted i..."

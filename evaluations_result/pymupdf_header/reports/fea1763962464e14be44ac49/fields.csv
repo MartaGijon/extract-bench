@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"Both gold and predicted arrays contain exactly the same two records. Each record matches on every field (date, quantity, unit_price_gross, price_gross) with exact equality, satisfying the strict per‑f..."

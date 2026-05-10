@@ -1,0 +1,39 @@
+{
+    "type": "object",
+    "properties": {
+        "items": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "date": {
+                        "type": "string",
+                        "evaluation_config": "string_semantic"
+                    },
+                    "position": {
+                        "type": "integer",
+                        "evaluation_config": "integer_exact"
+                    },
+                    "unit_price_gross": {
+                        "type": "number",
+                        "evaluation_config": "number_exact"
+                    },
+                    "date_2": {
+                        "type": "string",
+                        "evaluation_config": "string_semantic"
+                    }
+                },
+                "required": [
+                    "date",
+                    "position",
+                    "unit_price_gross",
+                    "date_2"
+                ]
+            },
+            "evaluation_config": "array_llm"
+        }
+    },
+    "required": [
+        "items"
+    ]
+}

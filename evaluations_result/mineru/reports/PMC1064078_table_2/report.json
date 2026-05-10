@@ -1,0 +1,270 @@
+{
+  "output_name": "PMC1064078_table_2",
+  "timestamp": "2026-05-09T22:24:56.262099",
+  "schema_hash": "6354c035",
+  "gold_hash": "5113fe38",
+  "extracted_hash": "7da25c88",
+  "schema_stats": {
+    "total_nodes": 13,
+    "counts_by_type": {
+      "object": 2,
+      "array": 1,
+      "number": 6,
+      "string": 2,
+      "integer": 2
+    },
+    "required_keys_count": 11,
+    "optional_keys_count": 0,
+    "required_by_type": {
+      "array": 1,
+      "number": 6,
+      "string": 2,
+      "integer": 2
+    },
+    "optional_by_type": {}
+  },
+  "gold_stats": {
+    "label": "gold",
+    "total_keys": 21,
+    "counts_by_type": {
+      "array": 1,
+      "string": 4,
+      "integer": 4,
+      "number": 12
+    },
+    "array_stats": {
+      "array_field_count": 1,
+      "total_items": 2,
+      "min_length": 2,
+      "median_length": 2,
+      "max_length": 2
+    },
+    "null_count": 0,
+    "missing_count": 0
+  },
+  "extracted_stats": {
+    "label": "extracted",
+    "total_keys": 21,
+    "counts_by_type": {
+      "array": 1,
+      "string": 4,
+      "integer": 4,
+      "number": 12
+    },
+    "array_stats": {
+      "array_field_count": 1,
+      "total_items": 2,
+      "min_length": 2,
+      "median_length": 2,
+      "max_length": 2
+    },
+    "null_count": 0,
+    "missing_count": 0
+  },
+  "coverage": {
+    "present_in_both": 20,
+    "missing_in_extracted": 0,
+    "spurious_in_extracted": 0,
+    "required_missing": 0,
+    "missing_paths": [],
+    "spurious_paths": []
+  },
+  "outcomes": {
+    "total_evaluated": 11,
+    "total_passed": 10,
+    "total_failed": 1,
+    "pass_rate": 0.9090909090909091,
+    "pass_by_metric": {
+      "error_137448387962304": {
+        "passed": 0,
+        "failed": 1
+      },
+      "number_exact": {
+        "passed": 6,
+        "failed": 0
+      },
+      "string_exact": {
+        "passed": 2,
+        "failed": 0
+      },
+      "integer_exact": {
+        "passed": 2,
+        "failed": 0
+      }
+    },
+    "pass_by_type": {
+      "unknown": {
+        "passed": 0,
+        "failed": 1
+      },
+      "number": {
+        "passed": 6,
+        "failed": 0
+      },
+      "string": {
+        "passed": 2,
+        "failed": 0
+      },
+      "integer": {
+        "passed": 2,
+        "failed": 0
+      }
+    },
+    "pass_by_required": {
+      "optional": {
+        "passed": 10,
+        "failed": 1
+      }
+    },
+    "confusion": {
+      "true_positive": 0,
+      "false_positive": 0,
+      "false_negative": 1,
+      "true_negative": 10
+    },
+    "llm_stats": null,
+    "error_breakdown": {
+      "by_path_prefix": {
+        "items": 1
+      },
+      "by_metric_type": {
+        "error_137448387962304": 1
+      },
+      "by_reason": {
+        "value_mismatch": 1
+      },
+      "details": [
+        {
+          "category": "value_mismatch",
+          "count": 1,
+          "paths": []
+        }
+      ]
+    }
+  },
+  "field_outcomes": [
+    {
+      "path": "$.properties.items",
+      "normalized_path": "items",
+      "metric_id": "error_137448387962304",
+      "score": 0.0,
+      "passed": false,
+      "reason": null,
+      "gold_value": null,
+      "extracted_value": null,
+      "reasoning": null
+    },
+    {
+      "path": "$.properties.items.items.properties.minimally_adjusted_or",
+      "normalized_path": "items.items.minimally_adjusted_or",
+      "metric_id": "number_exact",
+      "score": 1.0,
+      "passed": true,
+      "reason": "both_null",
+      "gold_value": null,
+      "extracted_value": null,
+      "reasoning": null
+    },
+    {
+      "path": "$.properties.items.items.properties.minimally_adjusted_ci_upper",
+      "normalized_path": "items.items.minimally_adjusted_ci_upper",
+      "metric_id": "number_exact",
+      "score": 1.0,
+      "passed": true,
+      "reason": "both_null",
+      "gold_value": null,
+      "extracted_value": null,
+      "reasoning": null
+    },
+    {
+      "path": "$.properties.items.items.properties.tertile_group",
+      "normalized_path": "items.items.tertile_group",
+      "metric_id": "string_exact",
+      "score": 1.0,
+      "passed": true,
+      "reason": "both_null",
+      "gold_value": null,
+      "extracted_value": null,
+      "reasoning": null
+    },
+    {
+      "path": "$.properties.items.items.properties.fully_adjusted_ci_upper",
+      "normalized_path": "items.items.fully_adjusted_ci_upper",
+      "metric_id": "number_exact",
+      "score": 1.0,
+      "passed": true,
+      "reason": "both_null",
+      "gold_value": null,
+      "extracted_value": null,
+      "reasoning": null
+    },
+    {
+      "path": "$.properties.items.items.properties.fully_adjusted_or",
+      "normalized_path": "items.items.fully_adjusted_or",
+      "metric_id": "number_exact",
+      "score": 1.0,
+      "passed": true,
+      "reason": "both_null",
+      "gold_value": null,
+      "extracted_value": null,
+      "reasoning": null
+    },
+    {
+      "path": "$.properties.items.items.properties.minimally_adjusted_ci_lower",
+      "normalized_path": "items.items.minimally_adjusted_ci_lower",
+      "metric_id": "number_exact",
+      "score": 1.0,
+      "passed": true,
+      "reason": "both_null",
+      "gold_value": null,
+      "extracted_value": null,
+      "reasoning": null
+    },
+    {
+      "path": "$.properties.items.items.properties.cases_count",
+      "normalized_path": "items.items.cases_count",
+      "metric_id": "integer_exact",
+      "score": 1.0,
+      "passed": true,
+      "reason": "both_null",
+      "gold_value": null,
+      "extracted_value": null,
+      "reasoning": null
+    },
+    {
+      "path": "$.properties.items.items.properties.fully_adjusted_ci_lower",
+      "normalized_path": "items.items.fully_adjusted_ci_lower",
+      "metric_id": "number_exact",
+      "score": 1.0,
+      "passed": true,
+      "reason": "both_null",
+      "gold_value": null,
+      "extracted_value": null,
+      "reasoning": null
+    },
+    {
+      "path": "$.properties.items.items.properties.controls_count",
+      "normalized_path": "items.items.controls_count",
+      "metric_id": "integer_exact",
+      "score": 1.0,
+      "passed": true,
+      "reason": "both_null",
+      "gold_value": null,
+      "extracted_value": null,
+      "reasoning": null
+    },
+    {
+      "path": "$.properties.items.items.properties.dataset_type",
+      "normalized_path": "items.items.dataset_type",
+      "metric_id": "string_exact",
+      "score": 1.0,
+      "passed": true,
+      "reason": "both_null",
+      "gold_value": null,
+      "extracted_value": null,
+      "reasoning": null
+    }
+  ],
+  "overall_score": 0.9090909090909091,
+  "overall_pass_rate": 0.9090909090909091
+}

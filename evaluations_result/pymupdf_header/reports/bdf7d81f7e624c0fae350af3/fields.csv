@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"The gold array contains three distinct items. The predicted array also contains three items with identical field values for description, date, unit_price_gross, position, and quantity; only the order ..."

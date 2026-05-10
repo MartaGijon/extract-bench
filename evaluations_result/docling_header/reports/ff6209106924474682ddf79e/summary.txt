@@ -1,0 +1,54 @@
+================================================================================
+EVALUATION REPORT: ff6209106924474682ddf79e
+Timestamp: 2026-05-09T21:30:48.411376
+================================================================================
+
+OVERALL RESULTS
+----------------------------------------
+  Pass Rate: 0.0%
+  Overall Score: 0.143
+  Evaluated Fields: 1
+  Passed: 0
+  Failed: 1
+
+SCHEMA STATISTICS
+----------------------------------------
+  Total Nodes: 6
+  Required Keys: 4
+  Optional Keys: 0
+  By Type: array: 1, integer: 1, number: 1, object: 2, string: 1
+
+COVERAGE
+----------------------------------------
+  Present in Both: 21
+  Missing in Extracted: 0
+  Spurious in Extracted: 0
+  Required Missing: 0
+
+PASS RATE BY METRIC
+----------------------------------------
+  array_llm: 0.0% (0/1)
+
+LLM METRICS
+----------------------------------------
+  Calls: 1
+  Avg Score: 0.143
+  Median Score: 0.143
+
+  Top Lowest-Scoring Fields:
+    - items (array_llm): 0.143
+      Reason: Arrays are treated as unordered collections and each item must match on every field (date, quantity,...
+
+ERROR BREAKDOWN
+----------------------------------------
+  By Reason:
+    semantic_mismatch: 1
+  By Path Prefix:
+    items: 1
+
+FAILED FIELDS (first 10)
+----------------------------------------
+  items
+    Metric: array_llm, Score: 0.143
+
+================================================================================

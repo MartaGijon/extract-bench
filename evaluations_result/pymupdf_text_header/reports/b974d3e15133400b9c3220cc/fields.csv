@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"Each predicted entry was compared to the gold entries using field‑wise evaluation rules derived from the metric definitions. The numeric fields (quantity, unit_price_gross, price_gross) passed exact i..."

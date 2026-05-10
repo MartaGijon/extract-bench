@@ -1,0 +1,54 @@
+{
+    "type": "object",
+    "properties": {
+        "items": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "case_count": {
+                        "type": "integer",
+                        "evaluation_config": "integer_exact"
+                    },
+                    "minimally_adjusted_or": {
+                        "type": "number",
+                        "evaluation_config": "number_exact"
+                    },
+                    "birth_order_category": {
+                        "type": "string",
+                        "evaluation_config": "string_exact"
+                    },
+                    "ci_upper_bound": {
+                        "type": "number",
+                        "evaluation_config": "number_exact"
+                    },
+                    "ci_lower_bound": {
+                        "type": "number",
+                        "evaluation_config": "number_exact"
+                    },
+                    "race": {
+                        "type": "string",
+                        "evaluation_config": "string_exact"
+                    },
+                    "control_count": {
+                        "type": "integer",
+                        "evaluation_config": "integer_exact"
+                    }
+                },
+                "required": [
+                    "case_count",
+                    "minimally_adjusted_or",
+                    "birth_order_category",
+                    "ci_upper_bound",
+                    "ci_lower_bound",
+                    "control_count",
+                    "race"
+                ]
+            },
+            "evaluation_config": "array_llm"
+        }
+    },
+    "required": [
+        "items"
+    ]
+}

@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"All four gold entries have a corresponding predicted entry that satisfies every field's evaluation rule. For the numeric fields (quantity, unit_price_gross, price_gross) the values are identical, meet..."

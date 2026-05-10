@@ -1,0 +1,20 @@
+{
+    "items": [
+        {
+            "age_category": "<50",
+            "tumor_size_category": "T1",
+            "low_expression_count": 20,
+            "low_expression_percentage": 56.0,
+            "high_expression_count": 16,
+            "high_expression_percentage": 33.0
+        },
+        {
+            "age_category": "<50",
+            "tumor_size_category": "T1",
+            "low_expression_count": 16,
+            "low_expression_percentage": 44.0,
+            "high_expression_count": 17,
+            "high_expression_percentage": 35.0
+        }
+    ]
+}

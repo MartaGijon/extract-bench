@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.000000,false,,,,"The predicted item does not match the gold item because at least one field fails its evaluation. For the string field `variant_allele`, exact string equality is required, but the gold value ""(TTTA)>=1..."

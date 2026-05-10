@@ -1,0 +1,34 @@
+{
+    "type": "object",
+    "properties": {
+        "items": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "case_count": {
+                        "type": "integer",
+                        "evaluation_config": "integer_exact"
+                    },
+                    "histology_type": {
+                        "type": "string",
+                        "evaluation_config": "string_exact"
+                    },
+                    "frequency_percentage": {
+                        "type": "number",
+                        "evaluation_config": "number_exact"
+                    }
+                },
+                "required": [
+                    "case_count",
+                    "histology_type",
+                    "frequency_percentage"
+                ]
+            },
+            "evaluation_config": "array_llm"
+        }
+    },
+    "required": [
+        "items"
+    ]
+}

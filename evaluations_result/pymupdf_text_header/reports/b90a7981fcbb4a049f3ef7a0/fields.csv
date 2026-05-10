@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"All fields (date, description, price_gross) are exact string or numeric matches between the gold and predicted arrays. Since the arrays are treated as unordered collections, each of the four Fri 10/30..."

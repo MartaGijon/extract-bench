@@ -1,0 +1,34 @@
+{
+    "type": "object",
+    "properties": {
+        "items": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "igf_ii_level": {
+                        "type": "number",
+                        "evaluation_config": "number_exact"
+                    },
+                    "cell_type": {
+                        "type": "string",
+                        "evaluation_config": "string_exact"
+                    },
+                    "mean_igf_ii_level": {
+                        "type": "number",
+                        "evaluation_config": "number_exact"
+                    }
+                },
+                "required": [
+                    "igf_ii_level",
+                    "cell_type",
+                    "mean_igf_ii_level"
+                ]
+            },
+            "evaluation_config": "array_llm"
+        }
+    },
+    "required": [
+        "items"
+    ]
+}

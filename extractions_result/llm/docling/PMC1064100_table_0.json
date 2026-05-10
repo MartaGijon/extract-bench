@@ -1,0 +1,15 @@
+{
+    "data": [
+        {
+            "genotype": "CC",
+            "mothers_affected": 2,
+            "mothers_unaffected": 10,
+            "daughters_affected": 47,
+            "daughters_unaffected": 0,
+            "fathers_affected": 0,
+            "fathers_unaffected": 0,
+            "sons_affected": 0,
+            "sons_unaffected": 0
+        }
+    ]
+}

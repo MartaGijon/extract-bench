@@ -1,0 +1,37 @@
+{
+    "items": [
+        {
+            "kinetic_parameter": "Vmax",
+            "nd_value": 0.0,
+            "nd_error": 0.0,
+            "d_value": 0.0,
+            "d_error": 0.0,
+            "d_dn_rhoa_value": 0.0,
+            "d_dn_rhoa_error": 0.0,
+            "d_dn_rac1_value": 0.0,
+            "d_dn_rac1_error": 0.0
+        },
+        {
+            "kinetic_parameter": "K' for H+",
+            "nd_value": 0.0,
+            "nd_error": 0.0,
+            "d_value": 0.0,
+            "d_error": 0.0,
+            "d_dn_rhoa_value": 0.0,
+            "d_dn_rhoa_error": 0.0,
+            "d_dn_rac1_value": 0.0,
+            "d_dn_rac1_error": 0.0
+        },
+        {
+            "kinetic_parameter": "napp",
+            "nd_value": 0.0,
+            "nd_error": 0.0,
+            "d_value": 0.0,
+            "d_error": 0.0,
+            "d_dn_rhoa_value": 0.0,
+            "d_dn_rhoa_error": 0.0,
+            "d_dn_rac1_value": 0.0,
+            "d_dn_rac1_error": 0.0
+        }
+    ]
+}

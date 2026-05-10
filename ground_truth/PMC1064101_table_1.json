@@ -1,0 +1,14 @@
+{
+    "items": [
+        {
+            "histology_type": "Ca ductale",
+            "case_count": 37,
+            "frequency_percentage": 72.5
+        },
+        {
+            "histology_type": "Ca lobulare",
+            "case_count": 8,
+            "frequency_percentage": 15.7
+        }
+    ]
+}

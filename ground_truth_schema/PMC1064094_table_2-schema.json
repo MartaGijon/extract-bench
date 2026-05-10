@@ -1,0 +1,34 @@
+{
+    "type": "object",
+    "properties": {
+        "items": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "carcinoma_type": {
+                        "type": "string",
+                        "evaluation_config": "string_exact"
+                    },
+                    "location": {
+                        "type": "string",
+                        "evaluation_config": "string_exact"
+                    },
+                    "hpv_type_16_count": {
+                        "type": "integer",
+                        "evaluation_config": "integer_exact"
+                    }
+                },
+                "required": [
+                    "carcinoma_type",
+                    "location",
+                    "hpv_type_16_count"
+                ]
+            },
+            "evaluation_config": "array_llm"
+        }
+    },
+    "required": [
+        "items"
+    ]
+}

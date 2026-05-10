@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.000000,false,,,,"According to the schema, each field is evaluated with exact matching semantics (string_exact for text fields and number_exact for numeric fields) because no alternative metric is specified. For a gold..."

@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.142857,false,,,,"Arrays are treated as unordered collections and each item must match on every field (date, quantity, price_gross) with exact equality (no tolerance is specified). Comparing each gold entry to the pred..."

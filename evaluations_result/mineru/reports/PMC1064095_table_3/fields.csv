@@ -1,0 +1,8 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.data,data,error_137448389188416,0.000000,false,,,,
+$.properties.data.items.properties.patients_controls,data.items.patients_controls,string_exact,1.000000,true,,,both_null,
+$.properties.data.items.properties.odds_ratio,data.items.odds_ratio,number_exact,1.000000,true,,,both_null,
+$.properties.data.items.properties.menopausal_status,data.items.menopausal_status,string_exact,1.000000,true,,,both_null,
+$.properties.data.items.properties.genotype,data.items.genotype,string_exact,1.000000,true,,,both_null,
+$.properties.data.items.properties.pcb_level,data.items.pcb_level,string_exact,1.000000,true,,,both_null,
+$.properties.data.items.properties.confidence_interval,data.items.confidence_interval,string_exact,1.000000,true,,,both_null,

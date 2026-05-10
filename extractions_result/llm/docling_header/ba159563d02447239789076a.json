@@ -1,0 +1,20 @@
+{
+    "items": [
+        {
+            "code": "42180 XXXX",
+            "description": "PARL FF MEN HP 61 PROM Le8b Comp Cigs",
+            "quantity": 20,
+            "unit_price_gross": 6.0,
+            "price_gross": 132.2,
+            "position": 2
+        },
+        {
+            "code": "42200 XXXX",
+            "description": "PARL LT MEN LS HP 6M PROM Less Comp Cigs",
+            "quantity": 20,
+            "unit_price_gross": 6.0,
+            "price_gross": 132.2,
+            "position": 4
+        }
+    ]
+}

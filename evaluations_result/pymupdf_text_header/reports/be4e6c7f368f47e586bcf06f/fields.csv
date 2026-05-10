@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.000000,false,,,,"Each gold record requires an exact match on all fields (integer_exact for position, quantity; number_exact for price_gross and unit_price_gross; string_exact for date, description, code). All predicte..."

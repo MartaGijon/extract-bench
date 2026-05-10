@@ -1,0 +1,25 @@
+{
+    "items": [
+        {
+            "position": 1,
+            "start_date": "FR 11/01/19",
+            "end_date": "TU 11/05/19",
+            "quantity": 6,
+            "unit_price_gross": 80.0
+        },
+        {
+            "position": 2,
+            "start_date": "SA 11/02/19",
+            "end_date": "SA 11/02/19",
+            "quantity": 4,
+            "unit_price_gross": 45.0
+        },
+        {
+            "position": 3,
+            "start_date": "SU 11/03/19",
+            "end_date": "SU 11/03/19",
+            "quantity": 4,
+            "unit_price_gross": 45.0
+        }
+    ]
+}

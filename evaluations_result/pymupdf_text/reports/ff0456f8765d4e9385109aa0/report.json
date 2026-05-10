@@ -1,0 +1,586 @@
+{
+  "output_name": "ff0456f8765d4e9385109aa0",
+  "timestamp": "2026-05-09T22:15:00.066944",
+  "schema_hash": "b79c278a",
+  "gold_hash": "085ce41b",
+  "extracted_hash": "eeb85c26",
+  "schema_stats": {
+    "total_nodes": 9,
+    "counts_by_type": {
+      "object": 2,
+      "array": 1,
+      "string": 2,
+      "integer": 2,
+      "number": 2
+    },
+    "required_keys_count": 7,
+    "optional_keys_count": 0,
+    "required_by_type": {
+      "array": 1,
+      "string": 2,
+      "integer": 2,
+      "number": 2
+    },
+    "optional_by_type": {}
+  },
+  "gold_stats": {
+    "label": "gold",
+    "total_keys": 187,
+    "counts_by_type": {
+      "array": 1,
+      "integer": 62,
+      "string": 62,
+      "number": 62
+    },
+    "array_stats": {
+      "array_field_count": 1,
+      "total_items": 31,
+      "min_length": 31,
+      "median_length": 31,
+      "max_length": 31
+    },
+    "null_count": 0,
+    "missing_count": 0
+  },
+  "extracted_stats": {
+    "label": "extracted",
+    "total_keys": 1,
+    "counts_by_type": {
+      "array": 1
+    },
+    "array_stats": {
+      "array_field_count": 1,
+      "total_items": 0,
+      "min_length": 0,
+      "median_length": 0,
+      "max_length": 0
+    },
+    "null_count": 0,
+    "missing_count": 0
+  },
+  "coverage": {
+    "present_in_both": 0,
+    "missing_in_extracted": 186,
+    "spurious_in_extracted": 1,
+    "required_missing": 0,
+    "missing_paths": [
+      "items[0].date",
+      "items[0].description",
+      "items[0].position",
+      "items[0].price_gross",
+      "items[0].quantity",
+      "items[0].unit_price_gross",
+      "items[10].date",
+      "items[10].description",
+      "items[10].position",
+      "items[10].price_gross",
+      "items[10].quantity",
+      "items[10].unit_price_gross",
+      "items[11].date",
+      "items[11].description",
+      "items[11].position",
+      "items[11].price_gross",
+      "items[11].quantity",
+      "items[11].unit_price_gross",
+      "items[12].date",
+      "items[12].description",
+      "items[12].position",
+      "items[12].price_gross",
+      "items[12].quantity",
+      "items[12].unit_price_gross",
+      "items[13].date",
+      "items[13].description",
+      "items[13].position",
+      "items[13].price_gross",
+      "items[13].quantity",
+      "items[13].unit_price_gross",
+      "items[14].date",
+      "items[14].description",
+      "items[14].position",
+      "items[14].price_gross",
+      "items[14].quantity",
+      "items[14].unit_price_gross",
+      "items[15].date",
+      "items[15].description",
+      "items[15].position",
+      "items[15].price_gross",
+      "items[15].quantity",
+      "items[15].unit_price_gross",
+      "items[16].date",
+      "items[16].description",
+      "items[16].position",
+      "items[16].price_gross",
+      "items[16].quantity",
+      "items[16].unit_price_gross",
+      "items[17].date",
+      "items[17].description",
+      "items[17].position",
+      "items[17].price_gross",
+      "items[17].quantity",
+      "items[17].unit_price_gross",
+      "items[18].date",
+      "items[18].description",
+      "items[18].position",
+      "items[18].price_gross",
+      "items[18].quantity",
+      "items[18].unit_price_gross",
+      "items[19].date",
+      "items[19].description",
+      "items[19].position",
+      "items[19].price_gross",
+      "items[19].quantity",
+      "items[19].unit_price_gross",
+      "items[1].date",
+      "items[1].description",
+      "items[1].position",
+      "items[1].price_gross",
+      "items[1].quantity",
+      "items[1].unit_price_gross",
+      "items[20].date",
+      "items[20].description",
+      "items[20].position",
+      "items[20].price_gross",
+      "items[20].quantity",
+      "items[20].unit_price_gross",
+      "items[21].date",
+      "items[21].description",
+      "items[21].position",
+      "items[21].price_gross",
+      "items[21].quantity",
+      "items[21].unit_price_gross",
+      "items[22].date",
+      "items[22].description",
+      "items[22].position",
+      "items[22].price_gross",
+      "items[22].quantity",
+      "items[22].unit_price_gross",
+      "items[23].date",
+      "items[23].description",
+      "items[23].position",
+      "items[23].price_gross",
+      "items[23].quantity",
+      "items[23].unit_price_gross",
+      "items[24].date",
+      "items[24].description",
+      "items[24].position",
+      "items[24].price_gross",
+      "items[24].quantity",
+      "items[24].unit_price_gross",
+      "items[25].date",
+      "items[25].description",
+      "items[25].position",
+      "items[25].price_gross",
+      "items[25].quantity",
+      "items[25].unit_price_gross",
+      "items[26].date",
+      "items[26].description",
+      "items[26].position",
+      "items[26].price_gross",
+      "items[26].quantity",
+      "items[26].unit_price_gross",
+      "items[27].date",
+      "items[27].description",
+      "items[27].position",
+      "items[27].price_gross",
+      "items[27].quantity",
+      "items[27].unit_price_gross",
+      "items[28].date",
+      "items[28].description",
+      "items[28].position",
+      "items[28].price_gross",
+      "items[28].quantity",
+      "items[28].unit_price_gross",
+      "items[29].date",
+      "items[29].description",
+      "items[29].position",
+      "items[29].price_gross",
+      "items[29].quantity",
+      "items[29].unit_price_gross",
+      "items[2].date",
+      "items[2].description",
+      "items[2].position",
+      "items[2].price_gross",
+      "items[2].quantity",
+      "items[2].unit_price_gross",
+      "items[30].date",
+      "items[30].description",
+      "items[30].position",
+      "items[30].price_gross",
+      "items[30].quantity",
+      "items[30].unit_price_gross",
+      "items[3].date",
+      "items[3].description",
+      "items[3].position",
+      "items[3].price_gross",
+      "items[3].quantity",
+      "items[3].unit_price_gross",
+      "items[4].date",
+      "items[4].description",
+      "items[4].position",
+      "items[4].price_gross",
+      "items[4].quantity",
+      "items[4].unit_price_gross",
+      "items[5].date",
+      "items[5].description",
+      "items[5].position",
+      "items[5].price_gross",
+      "items[5].quantity",
+      "items[5].unit_price_gross",
+      "items[6].date",
+      "items[6].description",
+      "items[6].position",
+      "items[6].price_gross",
+      "items[6].quantity",
+      "items[6].unit_price_gross",
+      "items[7].date",
+      "items[7].description",
+      "items[7].position",
+      "items[7].price_gross",
+      "items[7].quantity",
+      "items[7].unit_price_gross",
+      "items[8].date",
+      "items[8].description",
+      "items[8].position",
+      "items[8].price_gross",
+      "items[8].quantity",
+      "items[8].unit_price_gross",
+      "items[9].date",
+      "items[9].description",
+      "items[9].position",
+      "items[9].price_gross",
+      "items[9].quantity",
+      "items[9].unit_price_gross"
+    ],
+    "spurious_paths": [
+      "items"
+    ]
+  },
+  "outcomes": {
+    "total_evaluated": 1,
+    "total_passed": 0,
+    "total_failed": 1,
+    "pass_rate": 0.0,
+    "pass_by_metric": {
+      "array_llm": {
+        "passed": 0,
+        "failed": 1
+      }
+    },
+    "pass_by_type": {
+      "array": {
+        "passed": 0,
+        "failed": 1
+      }
+    },
+    "pass_by_required": {
+      "optional": {
+        "passed": 0,
+        "failed": 1
+      }
+    },
+    "confusion": {
+      "true_positive": 0,
+      "false_positive": 0,
+      "false_negative": 1,
+      "true_negative": 0
+    },
+    "llm_stats": {
+      "call_count": 1,
+      "avg_score": 0.0,
+      "median_score": 0.0,
+      "score_distribution": {
+        "0.0-0.2": 1
+      },
+      "top_lowest_fields": [
+        {
+          "path": "items",
+          "metric_id": "array_llm",
+          "score": 0.0,
+          "reasoning": ""
+        }
+      ]
+    },
+    "error_breakdown": {
+      "by_path_prefix": {
+        "items": 1
+      },
+      "by_metric_type": {
+        "array_llm": 1
+      },
+      "by_reason": {
+        "semantic_mismatch": 1
+      },
+      "details": [
+        {
+          "category": "semantic_mismatch",
+          "count": 1,
+          "paths": []
+        }
+      ]
+    }
+  },
+  "field_outcomes": [
+    {
+      "path": "$.properties.items",
+      "normalized_path": "items",
+      "metric_id": "array_llm",
+      "score": 0.0,
+      "passed": false,
+      "reason": "extracted_empty_array",
+      "gold_value": [
+        {
+          "position": 1,
+          "quantity": 10,
+          "date": "05/18/22",
+          "description": "M/F 6a/7p",
+          "unit_price_gross": 70.0,
+          "price_gross": 700.0
+        },
+        {
+          "position": 1,
+          "quantity": 12,
+          "date": "05/19/22",
+          "description": "M/F 6a/7p",
+          "unit_price_gross": 70.0,
+          "price_gross": 840.0
+        },
+        {
+          "position": 1,
+          "quantity": 6,
+          "date": "05/19/22",
+          "description": "M/F 6a/7p",
+          "unit_price_gross": 70.0,
+          "price_gross": 420.0
+        },
+        {
+          "position": 1,
+          "quantity": 8,
+          "date": "05/20/22",
+          "description": "M/F 6a/7p",
+          "unit_price_gross": 70.0,
+          "price_gross": 560.0
+        },
+        {
+          "position": 1,
+          "quantity": 7,
+          "date": "05/20/22",
+          "description": "M/F 6a/7p",
+          "unit_price_gross": 70.0,
+          "price_gross": 490.0
+        },
+        {
+          "position": 1,
+          "quantity": 9,
+          "date": "05/20/22",
+          "description": "M/F 6a/7p",
+          "unit_price_gross": 70.0,
+          "price_gross": 630.0
+        },
+        {
+          "position": 1,
+          "quantity": 11,
+          "date": "05/20/22",
+          "description": "M/F 6a/7p",
+          "unit_price_gross": 70.0,
+          "price_gross": 770.0
+        },
+        {
+          "position": 1,
+          "quantity": 13,
+          "date": "05/23/22",
+          "description": "M/F 6a/7p",
+          "unit_price_gross": 70.0,
+          "price_gross": 910.0
+        },
+        {
+          "position": 1,
+          "quantity": 15,
+          "date": "05/23/22",
+          "description": "M/F 6a/7p",
+          "unit_price_gross": 70.0,
+          "price_gross": 1050.0
+        },
+        {
+          "position": 1,
+          "quantity": 16,
+          "date": "05/23/22",
+          "description": "M/F 6a/7p",
+          "unit_price_gross": 70.0,
+          "price_gross": 1120.0
+        },
+        {
+          "position": 1,
+          "quantity": 14,
+          "date": "05/23/22",
+          "description": "M/F 6a/7p",
+          "unit_price_gross": 70.0,
+          "price_gross": 980.0
+        },
+        {
+          "position": 1,
+          "quantity": 34,
+          "date": "05/23/22",
+          "description": "M/F 6a/7p",
+          "unit_price_gross": 70.0,
+          "price_gross": 2380.0
+        },
+        {
+          "position": 1,
+          "quantity": 20,
+          "date": "05/24/22",
+          "description": "M/F 6a/7p",
+          "unit_price_gross": 70.0,
+          "price_gross": 1400.0
+        },
+        {
+          "position": 1,
+          "quantity": 18,
+          "date": "05/24/22",
+          "description": "M/F 6a/7p",
+          "unit_price_gross": 70.0,
+          "price_gross": 1260.0
+        },
+        {
+          "position": 1,
+          "quantity": 19,
+          "date": "05/24/22",
+          "description": "M/F 6a/7p",
+          "unit_price_gross": 70.0,
+          "price_gross": 1330.0
+        },
+        {
+          "position": 1,
+          "quantity": 33,
+          "date": "05/24/22",
+          "description": "M/F 6a/7p",
+          "unit_price_gross": 70.0,
+          "price_gross": 2310.0
+        },
+        {
+          "position": 1,
+          "quantity": 17,
+          "date": "05/24/22",
+          "description": "M/F 6a/7p",
+          "unit_price_gross": 70.0,
+          "price_gross": 1190.0
+        },
+        {
+          "position": 1,
+          "quantity": 36,
+          "date": "05/25/22",
+          "description": "M/F 6a/7p",
+          "unit_price_gross": 70.0,
+          "price_gross": 2520.0
+        },
+        {
+          "position": 1,
+          "quantity": 21,
+          "date": "05/25/22",
+          "description": "M/F 6a/7p",
+          "unit_price_gross": 70.0,
+          "price_gross": 1470.0
+        },
+        {
+          "position": 1,
+          "quantity": 24,
+          "date": "05/25/22",
+          "description": "M/F 6a/7p",
+          "unit_price_gross": 70.0,
+          "price_gross": 1680.0
+        },
+        {
+          "position": 1,
+          "quantity": 22,
+          "date": "05/25/22",
+          "description": "M/F 6a/7p",
+          "unit_price_gross": 70.0,
+          "price_gross": 1540.0
+        },
+        {
+          "position": 1,
+          "quantity": 23,
+          "date": "05/25/22",
+          "description": "M/F 6a/7p",
+          "unit_price_gross": 70.0,
+          "price_gross": 1610.0
+        },
+        {
+          "position": 1,
+          "quantity": 25,
+          "date": "05/26/22",
+          "description": "M/F 6a/7p",
+          "unit_price_gross": 70.0,
+          "price_gross": 1750.0
+        },
+        {
+          "position": 1,
+          "quantity": 26,
+          "date": "05/26/22",
+          "description": "M/F 6a/7p",
+          "unit_price_gross": 70.0,
+          "price_gross": 1820.0
+        },
+        {
+          "position": 1,
+          "quantity": 27,
+          "date": "05/26/22",
+          "description": "M/F 6a/7p",
+          "unit_price_gross": 70.0,
+          "price_gross": 1890.0
+        },
+        {
+          "position": 1,
+          "quantity": 28,
+          "date": "05/26/22",
+          "description": "M/F 6a/7p",
+          "unit_price_gross": 70.0,
+          "price_gross": 1960.0
+        },
+        {
+          "position": 1,
+          "quantity": 35,
+          "date": "05/26/22",
+          "description": "M/F 6a/7p",
+          "unit_price_gross": 70.0,
+          "price_gross": 2450.0
+        },
+        {
+          "position": 1,
+          "quantity": 30,
+          "date": "05/27/22",
+          "description": "M/F 6a/7p",
+          "unit_price_gross": 70.0,
+          "price_gross": 2100.0
+        },
+        {
+          "position": 1,
+          "quantity": 29,
+          "date": "05/27/22",
+          "description": "M/F 6a/7p",
+          "unit_price_gross": 70.0,
+          "price_gross": 2030.0
+        },
+        {
+          "position": 1,
+          "quantity": 31,
+          "date": "05/27/22",
+          "description": "M/F 6a/7p",
+          "unit_price_gross": 70.0,
+          "price_gross": 2170.0
+        },
+        {
+          "position": 1,
+          "quantity": 32,
+          "date": "05/27/22",
+          "description": "M/F 6a/7p",
+          "unit_price_gross": 70.0,
+          "price_gross": 2240.0
+        }
+      ],
+      "extracted_value": [],
+      "reasoning": null
+    }
+  ],
+  "overall_score": 0.0,
+  "overall_pass_rate": 0.0
+}

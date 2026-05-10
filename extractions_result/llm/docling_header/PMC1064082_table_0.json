@@ -1,0 +1,10 @@
+{
+    "items": [
+        {
+            "expression_group": "Low",
+            "count_less_than_3000": 12,
+            "count_greater_than_3000": 12,
+            "p_value": 0.0001
+        }
+    ]
+}

@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.000000,false,,,,"We evaluated each gold item against the predicted items field‑by‑field using the default metric definitions: integer_exact for integer fields, number_exact for numeric fields, and string_semantic for ..."

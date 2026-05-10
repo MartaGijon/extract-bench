@@ -1,0 +1,12 @@
+{
+    "items": [
+        {
+            "position": 28,
+            "date": "2/22/2020",
+            "currency": "$",
+            "unit_price_gross": 70.0,
+            "quantity": 2,
+            "price_gross": 140.0
+        }
+    ]
+}

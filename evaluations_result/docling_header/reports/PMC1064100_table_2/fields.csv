@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.000000,false,,,,"The only gold item has fields (variant_allele='C', estimated_allele_frequency_percent=42.46, recessive_model_odds_ratio=1.01, recessive_model_p_value=0.16). The predicted item differs on every field: ..."

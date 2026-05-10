@@ -1,0 +1,5 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,error_138134563621952,0.000000,false,,,,
+$.properties.items.items.properties.case_count,items.items.case_count,integer_exact,1.000000,true,,,both_null,
+$.properties.items.items.properties.histology_type,items.items.histology_type,string_exact,1.000000,true,,,both_null,
+$.properties.items.items.properties.frequency_percentage,items.items.frequency_percentage,number_exact,1.000000,true,,,both_null,

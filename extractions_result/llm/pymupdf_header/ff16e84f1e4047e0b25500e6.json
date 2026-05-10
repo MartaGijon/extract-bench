@@ -1,0 +1,12 @@
+{
+    "Extractions": [
+        {
+            "position": 1,
+            "date": "5/30/2022 - 6/3/2022",
+            "quantity": 40,
+            "description": "Spot",
+            "unit_price_gross": 17.0,
+            "price_gross": 680.0
+        }
+    ]
+}

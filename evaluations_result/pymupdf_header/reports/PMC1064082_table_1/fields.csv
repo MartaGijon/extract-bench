@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.500000,false,,,,"We compare each gold item with the predicted items using exact matching for each field (string_exact for string fields, integer_exact for integer counts, and number_exact for percentage numbers). The ..."

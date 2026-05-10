@@ -1,0 +1,39 @@
+{
+    "type": "object",
+    "properties": {
+        "items": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "number_tested": {
+                        "type": "integer",
+                        "evaluation_config": "integer_exact"
+                    },
+                    "hpv_dna_positive": {
+                        "type": "integer",
+                        "evaluation_config": "integer_exact"
+                    },
+                    "carcinoma_type": {
+                        "type": "string",
+                        "evaluation_config": "string_exact"
+                    },
+                    "location": {
+                        "type": "string",
+                        "evaluation_config": "string_exact"
+                    }
+                },
+                "required": [
+                    "number_tested",
+                    "hpv_dna_positive",
+                    "carcinoma_type",
+                    "location"
+                ]
+            },
+            "evaluation_config": "array_llm"
+        }
+    },
+    "required": [
+        "items"
+    ]
+}

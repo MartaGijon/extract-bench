@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"Each object in the predicted array exactly matches a gold object on all fields. The 'date' strings are identical, and the numeric fields ('quantity', 'unit_price_gross', 'price_gross') are equal to th..."

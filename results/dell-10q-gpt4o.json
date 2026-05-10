@@ -1,0 +1,306 @@
+{
+    "output_name": "dell-10q-gpt4o",
+    "timestamp": "2026-03-05T10:59:00.154382",
+    "schema_hash": "b5d963da",
+    "gold_hash": "a58dd0ee",
+    "extracted_hash": "db5f11a2",
+    "schema_stats": {
+        "total_nodes": 30,
+        "counts_by_type": {
+            "object": 4,
+            "anyof": 3,
+            "string": 14,
+            "null": 3,
+            "array": 4,
+            "integer": 2
+        },
+        "required_keys_count": 6,
+        "optional_keys_count": 13,
+        "required_by_type": {
+            "string": 3,
+            "array": 2,
+            "integer": 1
+        },
+        "optional_by_type": {
+            "anyof": 3,
+            "string": 7,
+            "array": 2,
+            "integer": 1
+        }
+    },
+    "gold_stats": {
+        "label": "gold",
+        "total_keys": 28,
+        "counts_by_type": {
+            "string": 18,
+            "array": 3,
+            "integer": 7
+        },
+        "array_stats": {
+            "array_field_count": 3,
+            "total_items": 282,
+            "min_length": 0,
+            "median_length": 6,
+            "max_length": 276
+        },
+        "null_count": 0,
+        "missing_count": 0
+    },
+    "extracted_stats": {
+        "label": "extracted",
+        "total_keys": 28,
+        "counts_by_type": {
+            "string": 18,
+            "array": 3,
+            "integer": 7
+        },
+        "array_stats": {
+            "array_field_count": 3,
+            "total_items": 282,
+            "min_length": 0,
+            "median_length": 6,
+            "max_length": 276
+        },
+        "null_count": 0,
+        "missing_count": 0
+    },
+    "coverage": {
+        "present_in_both": 302,
+        "missing_in_extracted": 0,
+        "spurious_in_extracted": 0,
+        "required_missing": 0,
+        "missing_paths": [],
+        "spurious_paths": []
+    },
+    "outcomes": {
+        "total_evaluated": 10,
+        "total_passed": 8,
+        "total_failed": 2,
+        "pass_rate": 0.8,
+        "pass_by_metric": {
+            "string_exact": {
+                "passed": 1,
+                "failed": 1
+            },
+            "array_llm": {
+                "passed": 2,
+                "failed": 1
+            },
+            "integer_exact": {
+                "passed": 1,
+                "failed": 0
+            },
+            "string_semantic": {
+                "passed": 4,
+                "failed": 0
+            }
+        },
+        "pass_by_type": {
+            "string": {
+                "passed": 5,
+                "failed": 1
+            },
+            "array": {
+                "passed": 2,
+                "failed": 1
+            },
+            "integer": {
+                "passed": 1,
+                "failed": 0
+            }
+        },
+        "pass_by_required": {
+            "optional": {
+                "passed": 8,
+                "failed": 2
+            }
+        },
+        "confusion": {
+            "true_positive": 7,
+            "false_positive": 0,
+            "false_negative": 2,
+            "true_negative": 1
+        },
+        "llm_stats": {
+            "call_count": 7,
+            "avg_score": 0.8742857142857143,
+            "median_score": 1.0,
+            "score_distribution": {
+                "0.8-1.0": 6,
+                "0.0-0.2": 1
+            },
+            "top_lowest_fields": [
+                {
+                    "path": "citations",
+                    "metric_id": "array_llm",
+                    "score": 0.12,
+                    "reasoning": "All predicted citations are exact string copies of items that appear in the gold reference list. The evaluation uses exact‑string matching, so each predicted entry is a true match. The gold list conta..."
+                },
+                {
+                    "path": "keywords",
+                    "metric_id": "array_llm",
+                    "score": 1.0,
+                    "reasoning": ""
+                },
+                {
+                    "path": "authors",
+                    "metric_id": "array_llm",
+                    "score": 1.0,
+                    "reasoning": "Each predicted entry exactly matches a gold entry on all three fields (name, array_index, email). Because the evaluation treats arrays as unordered, we can pair each gold item with the identical predi..."
+                },
+                {
+                    "path": "publication_date",
+                    "metric_id": "string_semantic",
+                    "score": 1.0,
+                    "reasoning": "The predicted string exactly matches the gold string ('6 Apr 2025'), preserving the same day, month, and year. No semantic discrepancy is present, so a full score is warranted."
+                },
+                {
+                    "path": "title",
+                    "metric_id": "string_semantic",
+                    "score": 1.0,
+                    "reasoning": "The predicted title is exactly identical to the gold title, including case, punctuation, and spacing. No semantic discrepancies are present."
+                }
+            ]
+        },
+        "error_breakdown": {
+            "by_path_prefix": {
+                "ids": 1,
+                "citations": 1
+            },
+            "by_metric_type": {
+                "string_exact": 1,
+                "array_llm": 1
+            },
+            "by_reason": {
+                "value_mismatch": 1,
+                "semantic_mismatch": 1
+            },
+            "details": [
+                {
+                    "category": "value_mismatch",
+                    "count": 1,
+                    "paths": []
+                },
+                {
+                    "category": "semantic_mismatch",
+                    "count": 1,
+                    "paths": []
+                }
+            ]
+        }
+    },
+    "field_outcomes": [
+        {
+            "path": "$.properties.ids",
+            "normalized_path": "ids",
+            "metric_id": "string_exact",
+            "score": 0.0,
+            "passed": false,
+            "reason": null,
+            "gold_value": "arXiv:2501.02189v6",
+            "extracted_value": "MARTAAAAA",
+            "reasoning": null
+        },
+        {
+            "path": "$.properties.keywords",
+            "normalized_path": "keywords",
+            "metric_id": "array_llm",
+            "score": 1.0,
+            "passed": true,
+            "reason": "both_empty_array",
+            "gold_value": null,
+            "extracted_value": null,
+            "reasoning": null
+        },
+        {
+            "path": "$.properties.number_of_pages",
+            "normalized_path": "number_of_pages",
+            "metric_id": "integer_exact",
+            "score": 1.0,
+            "passed": true,
+            "reason": null,
+            "gold_value": 22,
+            "extracted_value": 22,
+            "reasoning": null
+        },
+        {
+            "path": "$.properties.publication_type",
+            "normalized_path": "publication_type",
+            "metric_id": "string_exact",
+            "score": 1.0,
+            "passed": true,
+            "reason": null,
+            "gold_value": "Preprint",
+            "extracted_value": "Preprint",
+            "reasoning": null
+        },
+        {
+            "path": "$.properties.authors",
+            "normalized_path": "authors",
+            "metric_id": "array_llm",
+            "score": 1.0,
+            "passed": true,
+            "reason": null,
+            "gold_value": null,
+            "extracted_value": null,
+            "reasoning": "Each predicted entry exactly matches a gold entry on all three fields (name, array_index, email). Because the evaluation treats arrays as unordered, we can pair each gold item with the identical predi..."
+        },
+        {
+            "path": "$.properties.publication_date",
+            "normalized_path": "publication_date",
+            "metric_id": "string_semantic",
+            "score": 1.0,
+            "passed": true,
+            "reason": null,
+            "gold_value": null,
+            "extracted_value": null,
+            "reasoning": "The predicted string exactly matches the gold string ('6 Apr 2025'), preserving the same day, month, and year. No semantic discrepancy is present, so a full score is warranted."
+        },
+        {
+            "path": "$.properties.title",
+            "normalized_path": "title",
+            "metric_id": "string_semantic",
+            "score": 1.0,
+            "passed": true,
+            "reason": null,
+            "gold_value": null,
+            "extracted_value": null,
+            "reasoning": "The predicted title is exactly identical to the gold title, including case, punctuation, and spacing. No semantic discrepancies are present."
+        },
+        {
+            "path": "$.properties.venue",
+            "normalized_path": "venue",
+            "metric_id": "string_semantic",
+            "score": 1.0,
+            "passed": true,
+            "reason": null,
+            "gold_value": null,
+            "extracted_value": null,
+            "reasoning": "The predicted value exactly matches the gold string 'arXiv' with no differences in casing, punctuation, whitespace, or meaning. Therefore it is fully correct."
+        },
+        {
+            "path": "$.properties.abstract",
+            "normalized_path": "abstract",
+            "metric_id": "string_semantic",
+            "score": 1.0,
+            "passed": true,
+            "reason": null,
+            "gold_value": null,
+            "extracted_value": null,
+            "reasoning": "The predicted string matches the gold reference exactly, word for word, including punctuation, citations, and formatting. No semantic loss, addition, or alteration is present, so the prediction is ful..."
+        },
+        {
+            "path": "$.properties.citations",
+            "normalized_path": "citations",
+            "metric_id": "array_llm",
+            "score": 0.12,
+            "passed": false,
+            "reason": null,
+            "gold_value": null,
+            "extracted_value": null,
+            "reasoning": "All predicted citations are exact string copies of items that appear in the gold reference list. The evaluation uses exact‑string matching, so each predicted entry is a true match. The gold list conta..."
+        }
+    ],
+    "overall_score": 0.8119999999999999,
+    "overall_pass_rate": 0.8
+}

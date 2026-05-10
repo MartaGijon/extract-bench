@@ -1,0 +1,311 @@
+{
+  "output_name": "PMC1064078_table_3",
+  "timestamp": "2026-05-09T22:31:32.065692",
+  "schema_hash": "2968a3b1",
+  "gold_hash": "0be49926",
+  "extracted_hash": "78e18c49",
+  "schema_stats": {
+    "total_nodes": 13,
+    "counts_by_type": {
+      "object": 2,
+      "array": 1,
+      "number": 3,
+      "integer": 2,
+      "string": 5
+    },
+    "required_keys_count": 11,
+    "optional_keys_count": 0,
+    "required_by_type": {
+      "array": 1,
+      "number": 3,
+      "integer": 2,
+      "string": 5
+    },
+    "optional_by_type": {}
+  },
+  "gold_stats": {
+    "label": "gold",
+    "total_keys": 81,
+    "counts_by_type": {
+      "array": 1,
+      "string": 40,
+      "integer": 16,
+      "number": 24
+    },
+    "array_stats": {
+      "array_field_count": 1,
+      "total_items": 8,
+      "min_length": 8,
+      "median_length": 8,
+      "max_length": 8
+    },
+    "null_count": 0,
+    "missing_count": 0
+  },
+  "extracted_stats": {
+    "label": "extracted",
+    "total_keys": 41,
+    "counts_by_type": {
+      "array": 1,
+      "string": 20,
+      "integer": 8,
+      "number": 12
+    },
+    "array_stats": {
+      "array_field_count": 1,
+      "total_items": 4,
+      "min_length": 4,
+      "median_length": 4,
+      "max_length": 4
+    },
+    "null_count": 0,
+    "missing_count": 0
+  },
+  "coverage": {
+    "present_in_both": 40,
+    "missing_in_extracted": 40,
+    "spurious_in_extracted": 0,
+    "required_missing": 0,
+    "missing_paths": [
+      "items[4].adjustment_model",
+      "items[4].ci_lower",
+      "items[4].ci_upper",
+      "items[4].dataset_type",
+      "items[4].group_type",
+      "items[4].n_cases",
+      "items[4].n_controls",
+      "items[4].odds_ratio",
+      "items[4].race",
+      "items[4].tertile",
+      "items[5].adjustment_model",
+      "items[5].ci_lower",
+      "items[5].ci_upper",
+      "items[5].dataset_type",
+      "items[5].group_type",
+      "items[5].n_cases",
+      "items[5].n_controls",
+      "items[5].odds_ratio",
+      "items[5].race",
+      "items[5].tertile",
+      "items[6].adjustment_model",
+      "items[6].ci_lower",
+      "items[6].ci_upper",
+      "items[6].dataset_type",
+      "items[6].group_type",
+      "items[6].n_cases",
+      "items[6].n_controls",
+      "items[6].odds_ratio",
+      "items[6].race",
+      "items[6].tertile",
+      "items[7].adjustment_model",
+      "items[7].ci_lower",
+      "items[7].ci_upper",
+      "items[7].dataset_type",
+      "items[7].group_type",
+      "items[7].n_cases",
+      "items[7].n_controls",
+      "items[7].odds_ratio",
+      "items[7].race",
+      "items[7].tertile"
+    ],
+    "spurious_paths": []
+  },
+  "outcomes": {
+    "total_evaluated": 11,
+    "total_passed": 10,
+    "total_failed": 1,
+    "pass_rate": 0.9090909090909091,
+    "pass_by_metric": {
+      "error_140081204315136": {
+        "passed": 0,
+        "failed": 1
+      },
+      "number_exact": {
+        "passed": 3,
+        "failed": 0
+      },
+      "integer_exact": {
+        "passed": 2,
+        "failed": 0
+      },
+      "string_exact": {
+        "passed": 5,
+        "failed": 0
+      }
+    },
+    "pass_by_type": {
+      "unknown": {
+        "passed": 0,
+        "failed": 1
+      },
+      "number": {
+        "passed": 3,
+        "failed": 0
+      },
+      "integer": {
+        "passed": 2,
+        "failed": 0
+      },
+      "string": {
+        "passed": 5,
+        "failed": 0
+      }
+    },
+    "pass_by_required": {
+      "optional": {
+        "passed": 10,
+        "failed": 1
+      }
+    },
+    "confusion": {
+      "true_positive": 0,
+      "false_positive": 0,
+      "false_negative": 1,
+      "true_negative": 10
+    },
+    "llm_stats": null,
+    "error_breakdown": {
+      "by_path_prefix": {
+        "items": 1
+      },
+      "by_metric_type": {
+        "error_140081204315136": 1
+      },
+      "by_reason": {
+        "value_mismatch": 1
+      },
+      "details": [
+        {
+          "category": "value_mismatch",
+          "count": 1,
+          "paths": []
+        }
+      ]
+    }
+  },
+  "field_outcomes": [
+    {
+      "path": "$.properties.items",
+      "normalized_path": "items",
+      "metric_id": "error_140081204315136",
+      "score": 0.0,
+      "passed": false,
+      "reason": null,
+      "gold_value": null,
+      "extracted_value": null,
+      "reasoning": null
+    },
+    {
+      "path": "$.properties.items.items.properties.odds_ratio",
+      "normalized_path": "items.items.odds_ratio",
+      "metric_id": "number_exact",
+      "score": 1.0,
+      "passed": true,
+      "reason": "both_null",
+      "gold_value": null,
+      "extracted_value": null,
+      "reasoning": null
+    },
+    {
+      "path": "$.properties.items.items.properties.n_controls",
+      "normalized_path": "items.items.n_controls",
+      "metric_id": "integer_exact",
+      "score": 1.0,
+      "passed": true,
+      "reason": "both_null",
+      "gold_value": null,
+      "extracted_value": null,
+      "reasoning": null
+    },
+    {
+      "path": "$.properties.items.items.properties.adjustment_model",
+      "normalized_path": "items.items.adjustment_model",
+      "metric_id": "string_exact",
+      "score": 1.0,
+      "passed": true,
+      "reason": "both_null",
+      "gold_value": null,
+      "extracted_value": null,
+      "reasoning": null
+    },
+    {
+      "path": "$.properties.items.items.properties.group_type",
+      "normalized_path": "items.items.group_type",
+      "metric_id": "string_exact",
+      "score": 1.0,
+      "passed": true,
+      "reason": "both_null",
+      "gold_value": null,
+      "extracted_value": null,
+      "reasoning": null
+    },
+    {
+      "path": "$.properties.items.items.properties.race",
+      "normalized_path": "items.items.race",
+      "metric_id": "string_exact",
+      "score": 1.0,
+      "passed": true,
+      "reason": "both_null",
+      "gold_value": null,
+      "extracted_value": null,
+      "reasoning": null
+    },
+    {
+      "path": "$.properties.items.items.properties.tertile",
+      "normalized_path": "items.items.tertile",
+      "metric_id": "string_exact",
+      "score": 1.0,
+      "passed": true,
+      "reason": "both_null",
+      "gold_value": null,
+      "extracted_value": null,
+      "reasoning": null
+    },
+    {
+      "path": "$.properties.items.items.properties.n_cases",
+      "normalized_path": "items.items.n_cases",
+      "metric_id": "integer_exact",
+      "score": 1.0,
+      "passed": true,
+      "reason": "both_null",
+      "gold_value": null,
+      "extracted_value": null,
+      "reasoning": null
+    },
+    {
+      "path": "$.properties.items.items.properties.ci_lower",
+      "normalized_path": "items.items.ci_lower",
+      "metric_id": "number_exact",
+      "score": 1.0,
+      "passed": true,
+      "reason": "both_null",
+      "gold_value": null,
+      "extracted_value": null,
+      "reasoning": null
+    },
+    {
+      "path": "$.properties.items.items.properties.ci_upper",
+      "normalized_path": "items.items.ci_upper",
+      "metric_id": "number_exact",
+      "score": 1.0,
+      "passed": true,
+      "reason": "both_null",
+      "gold_value": null,
+      "extracted_value": null,
+      "reasoning": null
+    },
+    {
+      "path": "$.properties.items.items.properties.dataset_type",
+      "normalized_path": "items.items.dataset_type",
+      "metric_id": "string_exact",
+      "score": 1.0,
+      "passed": true,
+      "reason": "both_null",
+      "gold_value": null,
+      "extracted_value": null,
+      "reasoning": null
+    }
+  ],
+  "overall_score": 0.9090909090909091,
+  "overall_pass_rate": 0.9090909090909091
+}

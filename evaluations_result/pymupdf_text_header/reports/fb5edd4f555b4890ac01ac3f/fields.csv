@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"Using the metric definitions, integer fields (position, quantity) are evaluated with integer_exact, numeric fields (price_gross, unit_price_gross) with number_exact, and string fields (date_start, dat..."

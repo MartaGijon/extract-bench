@@ -1,0 +1,25 @@
+{
+    "items": [
+        {
+            "code": "0103",
+            "description": "Tobacco Loose Leaf",
+            "quantity": 2,
+            "unit_price_net": 18.0,
+            "amount_net": 36.0
+        },
+        {
+            "code": "0001",
+            "description": "Cigarettes Brand A",
+            "quantity": 10,
+            "unit_price_net": 3.5,
+            "amount_net": 35.0
+        },
+        {
+            "code": "0025",
+            "description": "Cigars Premium",
+            "quantity": 5,
+            "unit_price_net": 7.2,
+            "amount_net": 36.0
+        }
+    ]
+}

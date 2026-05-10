@@ -1,0 +1,64 @@
+{
+    "type": "object",
+    "properties": {
+        "items": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "positive_predictive_value": {
+                        "type": "number",
+                        "evaluation_config": "number_exact"
+                    },
+                    "subgroup_type": {
+                        "type": "string",
+                        "evaluation_config": "string_exact"
+                    },
+                    "accuracy": {
+                        "type": "number",
+                        "evaluation_config": "number_exact"
+                    },
+                    "negative_predictive_value": {
+                        "type": "number",
+                        "evaluation_config": "number_exact"
+                    },
+                    "sensitivity": {
+                        "type": "number",
+                        "evaluation_config": "number_exact"
+                    },
+                    "radiotracer_name": {
+                        "type": "string",
+                        "evaluation_config": "string_semantic"
+                    },
+                    "patient_count": {
+                        "type": "integer",
+                        "evaluation_config": "integer_exact"
+                    },
+                    "total_patients": {
+                        "type": "integer",
+                        "evaluation_config": "integer_exact"
+                    },
+                    "specificity": {
+                        "type": "number",
+                        "evaluation_config": "number_exact"
+                    }
+                },
+                "required": [
+                    "positive_predictive_value",
+                    "subgroup_type",
+                    "accuracy",
+                    "negative_predictive_value",
+                    "sensitivity",
+                    "radiotracer_name",
+                    "patient_count",
+                    "total_patients",
+                    "specificity"
+                ]
+            },
+            "evaluation_config": "array_llm"
+        }
+    },
+    "required": [
+        "items"
+    ]
+}

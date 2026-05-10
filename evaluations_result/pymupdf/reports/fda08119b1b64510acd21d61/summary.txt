@@ -1,0 +1,57 @@
+================================================================================
+EVALUATION REPORT: fda08119b1b64510acd21d61
+Timestamp: 2026-05-09T21:59:10.685313
+================================================================================
+
+OVERALL RESULTS
+----------------------------------------
+  Pass Rate: 80.0%
+  Overall Score: 0.800
+  Evaluated Fields: 5
+  Passed: 4
+  Failed: 1
+
+SCHEMA STATISTICS
+----------------------------------------
+  Total Nodes: 7
+  Required Keys: 5
+  Optional Keys: 0
+  By Type: array: 1, number: 1, object: 2, string: 3
+
+COVERAGE
+----------------------------------------
+  Present in Both: 32
+  Missing in Extracted: 0
+  Spurious in Extracted: 4
+  Required Missing: 0
+
+PASS RATE BY METRIC
+----------------------------------------
+  error_138134565845984: 0.0% (0/1)
+  number_exact: 100.0% (1/1)
+  string_exact: 100.0% (1/1)
+  string_semantic: 100.0% (2/2)
+
+LLM METRICS
+----------------------------------------
+  Calls: 2
+  Avg Score: 1.000
+  Median Score: 1.000
+
+  Top Lowest-Scoring Fields:
+    - items.items.date (string_semantic): 1.000
+    - items.items.description (string_semantic): 1.000
+
+ERROR BREAKDOWN
+----------------------------------------
+  By Reason:
+    value_mismatch: 1
+  By Path Prefix:
+    items: 1
+
+FAILED FIELDS (first 10)
+----------------------------------------
+  items
+    Metric: error_138134565845984, Score: 0.000
+
+================================================================================

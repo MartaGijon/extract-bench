@@ -1,0 +1,42 @@
+================================================================================
+EVALUATION REPORT: fdcc4f7003894c71929b4cff
+Timestamp: 2026-05-09T21:11:56.258108
+================================================================================
+
+OVERALL RESULTS
+----------------------------------------
+  Pass Rate: 100.0%
+  Overall Score: 1.000
+  Evaluated Fields: 1
+  Passed: 1
+  Failed: 0
+
+SCHEMA STATISTICS
+----------------------------------------
+  Total Nodes: 6
+  Required Keys: 4
+  Optional Keys: 0
+  By Type: array: 1, number: 1, object: 2, string: 2
+
+COVERAGE
+----------------------------------------
+  Present in Both: 18
+  Missing in Extracted: 0
+  Spurious in Extracted: 6
+  Required Missing: 0
+
+PASS RATE BY METRIC
+----------------------------------------
+  array_llm: 100.0% (1/1)
+
+LLM METRICS
+----------------------------------------
+  Calls: 1
+  Avg Score: 1.000
+  Median Score: 1.000
+
+  Top Lowest-Scoring Fields:
+    - items (array_llm): 1.000
+      Reason: All six gold records have an exact counterpart in the predicted array (date, description, and price_...
+
+================================================================================

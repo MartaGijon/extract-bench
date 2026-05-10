@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"Each gold record contains four fields (date, code, unit_price_gross, description). The predicted array provides nine records. Eight of the predicted records are identical to the gold records in every ..."

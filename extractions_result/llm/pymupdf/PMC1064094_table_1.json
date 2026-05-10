@@ -1,0 +1,28 @@
+{
+    "items": [
+        {
+            "tumor_pair_status": "Same type in both samples",
+            "nipple_status": "Positive",
+            "number_of_samples": 11,
+            "hpv_types": "17 (7x), 6 (1x), 57 (2x)"
+        },
+        {
+            "tumor_pair_status": "Carcinome nipple",
+            "nipple_status": "Positive",
+            "number_of_samples": 3,
+            "hpv_types": "6, 11, 392, 37, 66"
+        },
+        {
+            "tumor_pair_status": "Carcinamat nipple",
+            "nipple_status": "Positive",
+            "number_of_samples": 6,
+            "hpv_types": "6, 11, 24, 87, DL250, DL4a73"
+        },
+        {
+            "tumor_pair_status": "Different types",
+            "nipple_status": "Positive",
+            "number_of_samples": 13,
+            "hpv_types": "3, 15, 16, 20, 21, 29, 27, 37, 98, 66, 87, DL250, DLATS, GAd-1"
+        }
+    ]
+}

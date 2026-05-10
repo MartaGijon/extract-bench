@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.000000,false,,,,"A true match requires every field in a gold item to meet its evaluation rule. Numeric fields (position, unit_price_gross, quantity, price_gross) must be exactly equal, and string fields (code, descrip..."

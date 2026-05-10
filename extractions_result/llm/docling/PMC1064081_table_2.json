@@ -1,0 +1,13 @@
+{
+    "items": [
+        {
+            "model_id": "0.109",
+            "variables": "np, nx",
+            "p_value": 0.109,
+            "hazard_ratio": 1.016,
+            "ci_lower": 1.005,
+            "ci_upper": 1.025,
+            "patient_group": "Node-negative patients"
+        }
+    ]
+}

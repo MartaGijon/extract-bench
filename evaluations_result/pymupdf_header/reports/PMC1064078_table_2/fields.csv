@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.500000,false,,,,"Each field is evaluated with exact equality (string_exact for strings, integer_exact for integer counts, number_exact for numeric odds). The lower‑tertile gold entry does not match any prediction beca..."

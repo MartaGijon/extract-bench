@@ -1,0 +1,34 @@
+{
+    "items": [
+        {
+            "carcinoma_type": "Lobular",
+            "location": "Carcinoma",
+            "number_tested": 2,
+            "hpv_dna_positive": 1
+        },
+        {
+            "carcinoma_type": "Medullary",
+            "location": "Carcinoma",
+            "number_tested": 5,
+            "hpv_dna_positive": 4
+        },
+        {
+            "carcinoma_type": "Invasive ductal",
+            "location": "Carcinoma",
+            "number_tested": 18,
+            "hpv_dna_positive": 16
+        },
+        {
+            "carcinoma_type": "Tubular",
+            "location": "Carcinoma",
+            "number_tested": 3,
+            "hpv_dna_positive": 3
+        },
+        {
+            "carcinoma_type": "Mucinous",
+            "location": "Carcinoma",
+            "number_tested": 1,
+            "hpv_dna_positive": 1
+        }
+    ]
+}

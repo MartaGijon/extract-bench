@@ -1,0 +1,8 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,error_137448387964512,0.000000,false,,,,
+$.properties.items.items.properties.monoculture_level,items.items.monoculture_level,number_exact,1.000000,true,,,both_null,
+$.properties.items.items.properties.monoculture_mean,items.items.monoculture_mean,number_exact,1.000000,true,,,both_null,
+$.properties.items.items.properties.coculture_mean,items.items.coculture_mean,number_exact,1.000000,true,,,both_null,
+$.properties.items.items.properties.cell_type,items.items.cell_type,string_exact,1.000000,true,,,both_null,
+$.properties.items.items.properties.sample_id,items.items.sample_id,string_exact,1.000000,true,,,both_null,
+$.properties.items.items.properties.coculture_level,items.items.coculture_level,number_exact,1.000000,true,,,both_null,

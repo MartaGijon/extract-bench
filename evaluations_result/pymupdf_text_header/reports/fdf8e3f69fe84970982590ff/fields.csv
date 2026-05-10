@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.000000,false,,,,"To be a true match, every field of a predicted item must satisfy the per‑field evaluation rules. No explicit evaluation_config was provided, so we default to the most stringent definitions: numeric fi..."

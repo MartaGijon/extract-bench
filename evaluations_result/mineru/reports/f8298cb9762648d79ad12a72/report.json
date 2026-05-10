@@ -1,0 +1,200 @@
+{
+  "output_name": "f8298cb9762648d79ad12a72",
+  "timestamp": "2026-05-09T22:27:21.681027",
+  "schema_hash": "15946cc4",
+  "gold_hash": "d0a107dd",
+  "extracted_hash": "a799deb0",
+  "schema_stats": {
+    "total_nodes": 5,
+    "counts_by_type": {
+      "object": 2,
+      "array": 1,
+      "string": 1,
+      "number": 1
+    },
+    "required_keys_count": 3,
+    "optional_keys_count": 0,
+    "required_by_type": {
+      "array": 1,
+      "string": 1,
+      "number": 1
+    },
+    "optional_by_type": {}
+  },
+  "gold_stats": {
+    "label": "gold",
+    "total_keys": 15,
+    "counts_by_type": {
+      "array": 1,
+      "string": 7,
+      "number": 7
+    },
+    "array_stats": {
+      "array_field_count": 1,
+      "total_items": 7,
+      "min_length": 7,
+      "median_length": 7,
+      "max_length": 7
+    },
+    "null_count": 0,
+    "missing_count": 0
+  },
+  "extracted_stats": {
+    "label": "extracted",
+    "total_keys": 29,
+    "counts_by_type": {
+      "array": 1,
+      "string": 14,
+      "number": 14
+    },
+    "array_stats": {
+      "array_field_count": 1,
+      "total_items": 14,
+      "min_length": 14,
+      "median_length": 14,
+      "max_length": 14
+    },
+    "null_count": 0,
+    "missing_count": 0
+  },
+  "coverage": {
+    "present_in_both": 14,
+    "missing_in_extracted": 0,
+    "spurious_in_extracted": 14,
+    "required_missing": 0,
+    "missing_paths": [],
+    "spurious_paths": [
+      "items[10].date",
+      "items[10].unit_price_gross",
+      "items[11].date",
+      "items[11].unit_price_gross",
+      "items[12].date",
+      "items[12].unit_price_gross",
+      "items[13].date",
+      "items[13].unit_price_gross",
+      "items[7].date",
+      "items[7].unit_price_gross",
+      "items[8].date",
+      "items[8].unit_price_gross",
+      "items[9].date",
+      "items[9].unit_price_gross"
+    ]
+  },
+  "outcomes": {
+    "total_evaluated": 3,
+    "total_passed": 2,
+    "total_failed": 1,
+    "pass_rate": 0.6666666666666666,
+    "pass_by_metric": {
+      "error_137448387962304": {
+        "passed": 0,
+        "failed": 1
+      },
+      "string_semantic": {
+        "passed": 1,
+        "failed": 0
+      },
+      "number_exact": {
+        "passed": 1,
+        "failed": 0
+      }
+    },
+    "pass_by_type": {
+      "unknown": {
+        "passed": 0,
+        "failed": 1
+      },
+      "string": {
+        "passed": 1,
+        "failed": 0
+      },
+      "number": {
+        "passed": 1,
+        "failed": 0
+      }
+    },
+    "pass_by_required": {
+      "optional": {
+        "passed": 2,
+        "failed": 1
+      }
+    },
+    "confusion": {
+      "true_positive": 0,
+      "false_positive": 0,
+      "false_negative": 1,
+      "true_negative": 2
+    },
+    "llm_stats": {
+      "call_count": 1,
+      "avg_score": 1.0,
+      "median_score": 1.0,
+      "score_distribution": {
+        "0.8-1.0": 1
+      },
+      "top_lowest_fields": [
+        {
+          "path": "items.items.date",
+          "metric_id": "string_semantic",
+          "score": 1.0,
+          "reasoning": ""
+        }
+      ]
+    },
+    "error_breakdown": {
+      "by_path_prefix": {
+        "items": 1
+      },
+      "by_metric_type": {
+        "error_137448387962304": 1
+      },
+      "by_reason": {
+        "value_mismatch": 1
+      },
+      "details": [
+        {
+          "category": "value_mismatch",
+          "count": 1,
+          "paths": []
+        }
+      ]
+    }
+  },
+  "field_outcomes": [
+    {
+      "path": "$.properties.items",
+      "normalized_path": "items",
+      "metric_id": "error_137448387962304",
+      "score": 0.0,
+      "passed": false,
+      "reason": null,
+      "gold_value": null,
+      "extracted_value": null,
+      "reasoning": null
+    },
+    {
+      "path": "$.properties.items.items.properties.date",
+      "normalized_path": "items.items.date",
+      "metric_id": "string_semantic",
+      "score": 1.0,
+      "passed": true,
+      "reason": "both_null",
+      "gold_value": null,
+      "extracted_value": null,
+      "reasoning": null
+    },
+    {
+      "path": "$.properties.items.items.properties.unit_price_gross",
+      "normalized_path": "items.items.unit_price_gross",
+      "metric_id": "number_exact",
+      "score": 1.0,
+      "passed": true,
+      "reason": "both_null",
+      "gold_value": null,
+      "extracted_value": null,
+      "reasoning": null
+    }
+  ],
+  "overall_score": 0.6666666666666666,
+  "overall_pass_rate": 0.6666666666666666
+}

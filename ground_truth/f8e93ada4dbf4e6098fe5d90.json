@@ -1,0 +1,164 @@
+{
+    "items": [
+        {
+            "position": 2,
+            "date": "Tu/F,M 1p/2p",
+            "description": "TMZ Live",
+            "unit_price_gross": 35.0,
+            "quantity": 1,
+            "price_gross": 35.0
+        },
+        {
+            "position": 1,
+            "date": "Tu/F,M 7a/8a",
+            "description": "WCTI Morning News on Fox",
+            "unit_price_gross": 40.0,
+            "quantity": 2,
+            "price_gross": 80.0
+        },
+        {
+            "position": 3,
+            "date": "Tu/F,M 2p/2:30p",
+            "description": "Hot Bench",
+            "unit_price_gross": 45.0,
+            "quantity": 1,
+            "price_gross": 45.0
+        },
+        {
+            "position": 19,
+            "date": "Tu/F,M 11p/11:30p",
+            "description": "TMZ",
+            "unit_price_gross": 45.0,
+            "quantity": 2,
+            "price_gross": 90.0
+        },
+        {
+            "position": 4,
+            "date": "Tu/F,M 2:30p/3p",
+            "description": "Hot Bench",
+            "unit_price_gross": 50.0,
+            "quantity": 2,
+            "price_gross": 100.0
+        },
+        {
+            "position": 7,
+            "date": "Tu/F,M 4p/5p",
+            "description": "Maury",
+            "unit_price_gross": 55.0,
+            "quantity": 1,
+            "price_gross": 55.0
+        },
+        {
+            "position": 14,
+            "date": "Sa 7p/7:30p",
+            "description": "Big Bang Theory",
+            "unit_price_gross": 190.0,
+            "quantity": 1,
+            "price_gross": 190.0
+        },
+        {
+            "position": 18,
+            "date": "Sa 11:30p/12m",
+            "description": "FOX Eastern Carolina News 10p Sat",
+            "unit_price_gross": 205.0,
+            "quantity": 1,
+            "price_gross": 205.0
+        },
+        {
+            "position": 13,
+            "date": "Su 10p/10:30p",
+            "description": "FOX Eastern Carolina News 10p Sun",
+            "unit_price_gross": 210.0,
+            "quantity": 1,
+            "price_gross": 210.0
+        },
+        {
+            "position": 15,
+            "date": "Tu/F,M 7:30p/8p",
+            "description": "Big Bang Theory",
+            "unit_price_gross": 240.0,
+            "quantity": 2,
+            "price_gross": 480.0
+        },
+        {
+            "position": 16,
+            "date": "Tu/F,M 10p/10:30p",
+            "description": "FOX Eastern Carolina News 10p",
+            "unit_price_gross": 245.0,
+            "quantity": 2,
+            "price_gross": 490.0
+        },
+        {
+            "position": 12,
+            "date": "Tu/F,M 10:30p/11p",
+            "description": "FOX Eastern Carolina News 10p",
+            "unit_price_gross": 245.0,
+            "quantity": 5,
+            "price_gross": 1225.0
+        },
+        {
+            "position": 12,
+            "date": "Tu/F,M 7p/7:30p",
+            "description": "Big Bang Theory",
+            "unit_price_gross": 250.0,
+            "quantity": 3,
+            "price_gross": 750.0
+        },
+        {
+            "position": 25,
+            "date": "Su 12n/1p",
+            "description": "FOX NFL SUNDAY",
+            "unit_price_gross": 350.0,
+            "quantity": 1,
+            "price_gross": 350.0
+        },
+        {
+            "position": 25,
+            "date": "F 8p/10p",
+            "description": "Friday Night SmackDown/FOX",
+            "unit_price_gross": 430.0,
+            "quantity": 1,
+            "price_gross": 430.0
+        },
+        {
+            "position": 32,
+            "date": "Sa 12n/3:30p",
+            "description": "COLLEGE FOOTBALL EARLY",
+            "unit_price_gross": 550.0,
+            "quantity": 1,
+            "price_gross": 550.0
+        },
+        {
+            "position": 23,
+            "date": "Tu 8p/9p",
+            "description": "COSMOS: POSSIBLE WORLDS",
+            "unit_price_gross": 550.0,
+            "quantity": 1,
+            "price_gross": 550.0
+        },
+        {
+            "position": 31,
+            "date": "M 8p/9p",
+            "description": "L.A.'S FINEST",
+            "unit_price_gross": 800.0,
+            "quantity": 1,
+            "price_gross": 800.0
+        },
+        {
+            "position": 30,
+            "date": "Th 8:20p/11:30p",
+            "description": "Thursday Night Football",
+            "unit_price_gross": 1820.0,
+            "quantity": 1,
+            "price_gross": 1820.0
+        },
+        {
+            "position": 27,
+            "date": "Su 1p/4:25p",
+            "description": "FOX NFL EARLY GAME",
+            "unit_price_gross": 4115.0,
+            "quantity": 1,
+            "price_gross": 4115.0
+        }
+    ]
+}

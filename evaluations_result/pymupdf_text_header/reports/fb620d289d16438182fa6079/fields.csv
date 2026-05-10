@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.000000,false,,,,"Each gold object must be paired with a predicted object where **all** fields satisfy their evaluation criteria. Numeric fields (position, quantity, unit_price_gross, price_gross) match exactly, and da..."

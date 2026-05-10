@@ -1,0 +1,34 @@
+{
+    "items": [
+        {
+            "description": "EAGLES",
+            "unit_price_gross": 900.0,
+            "price_gross": 900.0,
+            "quantity": 1
+        },
+        {
+            "description": "NEWS",
+            "unit_price_gross": 250.0,
+            "price_gross": 250.0,
+            "quantity": 1
+        },
+        {
+            "description": "STEELERS",
+            "unit_price_gross": 100.0,
+            "price_gross": 100.0,
+            "quantity": 1
+        },
+        {
+            "description": "NFL",
+            "unit_price_gross": 100.0,
+            "price_gross": 100.0,
+            "quantity": 1
+        },
+        {
+            "description": "SEINFELD",
+            "unit_price_gross": 250.0,
+            "price_gross": 250.0,
+            "quantity": 1
+        }
+    ]
+}

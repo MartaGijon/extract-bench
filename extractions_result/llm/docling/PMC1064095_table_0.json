@@ -1,0 +1,15 @@
+{
+    "items": [
+        {
+            "ethnicity": "African Americans",
+            "pcb_level": ">=0.430",
+            "genotype": "M1 Any",
+            "menopausal_status": "Premenopausal",
+            "patients_controls": "17/14",
+            "odds_ratio": 1.2,
+            "confidence_interval": "0.6-2.2",
+            "interaction_contrast_ratio": 1.4,
+            "icr_confidence_interval": "0.8-2.5"
+        }
+    ]
+}

@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"Each field of the single gold item matches the corresponding field of the predicted item exactly. String fields (genotype, subgroup, confidence_interval) satisfy string_exact, integer fields (cases_co..."

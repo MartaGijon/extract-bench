@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.000000,false,,,,"Each object in the gold array must be paired with a predicted object such that **all** fields satisfy their evaluation criteria. The schema does not provide custom tolerances, so the default exact‑mat..."

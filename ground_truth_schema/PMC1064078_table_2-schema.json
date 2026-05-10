@@ -1,0 +1,69 @@
+{
+    "type": "object",
+    "properties": {
+        "items": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "minimally_adjusted_or": {
+                        "type": "number",
+                        "evaluation_config": "number_exact"
+                    },
+                    "minimally_adjusted_ci_upper": {
+                        "type": "number",
+                        "evaluation_config": "number_exact"
+                    },
+                    "tertile_group": {
+                        "type": "string",
+                        "evaluation_config": "string_exact"
+                    },
+                    "fully_adjusted_ci_upper": {
+                        "type": "number",
+                        "evaluation_config": "number_exact"
+                    },
+                    "fully_adjusted_or": {
+                        "type": "number",
+                        "evaluation_config": "number_exact"
+                    },
+                    "minimally_adjusted_ci_lower": {
+                        "type": "number",
+                        "evaluation_config": "number_exact"
+                    },
+                    "cases_count": {
+                        "type": "integer",
+                        "evaluation_config": "integer_exact"
+                    },
+                    "fully_adjusted_ci_lower": {
+                        "type": "number",
+                        "evaluation_config": "number_exact"
+                    },
+                    "controls_count": {
+                        "type": "integer",
+                        "evaluation_config": "integer_exact"
+                    },
+                    "dataset_type": {
+                        "type": "string",
+                        "evaluation_config": "string_exact"
+                    }
+                },
+                "required": [
+                    "minimally_adjusted_or",
+                    "minimally_adjusted_ci_upper",
+                    "tertile_group",
+                    "fully_adjusted_ci_upper",
+                    "fully_adjusted_or",
+                    "minimally_adjusted_ci_lower",
+                    "cases_count",
+                    "fully_adjusted_ci_lower",
+                    "controls_count",
+                    "dataset_type"
+                ]
+            },
+            "evaluation_config": "array_llm"
+        }
+    },
+    "required": [
+        "items"
+    ]
+}

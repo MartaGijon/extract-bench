@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.000000,false,,,,"Each gold object must be paired with a predicted object that matches *all* fields exactly, because no tolerance or alternative evaluation rules are provided in the schema metadata. The only string fie..."

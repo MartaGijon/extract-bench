@@ -1,0 +1,14 @@
+{
+    "items": [
+        {
+            "histology_type": "Ductal carcinoma (Ca ductale)",
+            "case_count": 0,
+            "frequency_percentage": 0.0
+        },
+        {
+            "histology_type": "Lobular carcinoma (Ca lobulare)",
+            "case_count": 0,
+            "frequency_percentage": 0.0
+        }
+    ]
+}

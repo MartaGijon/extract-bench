@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.extractions,extractions,array_llm,0.000000,false,,,,"The evaluation requires every field of a gold‑predicted pair to meet its exact‑match criteria (string_exact for strings, integer_exact/number_exact for numbers). Although the 'involved_nodes_range' fi..."

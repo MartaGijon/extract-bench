@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.000000,false,,,,"There is one gold item and one predicted item. All fields must match exactly according to the available metric definitions (integer_exact for integer fields, number_exact for numeric fields, and strin..."

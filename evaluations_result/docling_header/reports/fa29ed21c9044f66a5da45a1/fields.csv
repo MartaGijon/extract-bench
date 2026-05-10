@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"The gold array contains eight records, each uniquely identified by their date (10/26/20 through 11/02/20) with identical numeric fields (quantity = 3, unit_price_gross = 16.0, price_gross = 48.0). The..."

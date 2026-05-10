@@ -1,0 +1,52 @@
+{
+    "items": [
+        {
+            "position": 2,
+            "start_date": "09/17/18",
+            "end_date": "09/17/18",
+            "description": "M-F9a-10a",
+            "quantity": 1,
+            "unit_price_gross": 20.0
+        },
+        {
+            "position": 1,
+            "start_date": "09/11/18",
+            "end_date": "09/14/18",
+            "description": "M-F9a-10a",
+            "quantity": 2,
+            "unit_price_gross": 20.0
+        },
+        {
+            "position": 3,
+            "start_date": "09/11/18",
+            "end_date": "09/14/18",
+            "description": "M-F9a-10a",
+            "quantity": 2,
+            "unit_price_gross": 20.0
+        },
+        {
+            "position": 4,
+            "start_date": "09/17/18",
+            "end_date": "09/17/18",
+            "description": "M-F9a-10a",
+            "quantity": 1,
+            "unit_price_gross": 20.0
+        },
+        {
+            "position": 6,
+            "start_date": "09/15/18",
+            "end_date": "09/16/18",
+            "description": "10:00PM-10:30PM",
+            "quantity": 1,
+            "unit_price_gross": 150.0
+        },
+        {
+            "position": 7,
+            "start_date": "09/12/18",
+            "end_date": "09/14/18",
+            "description": "ENM-F7a-9a",
+            "quantity": 1,
+            "unit_price_gross": 40.0
+        }
+    ]
+}

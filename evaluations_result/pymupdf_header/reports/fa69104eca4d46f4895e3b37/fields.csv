@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.000000,false,,,,"To determine a match, every field of a gold item must satisfy its strict evaluation rule. In the absence of explicit metric overrides, we apply exact equality: string_exact for string fields, number_e..."

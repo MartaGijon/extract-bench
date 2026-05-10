@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.000000,false,,,,"Each object must match on all four fields using the exact‑equality rules implied by the metric definitions (integer_exact for 'position', string_exact for 'quantity' and 'code', number_exact for 'pric..."

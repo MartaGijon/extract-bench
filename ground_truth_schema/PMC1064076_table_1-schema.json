@@ -1,0 +1,49 @@
+{
+    "type": "object",
+    "properties": {
+        "items": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "odds_ratio": {
+                        "type": "number",
+                        "evaluation_config": "number_exact"
+                    },
+                    "subgroup": {
+                        "type": "string",
+                        "evaluation_config": "string_exact"
+                    },
+                    "cases_percentage": {
+                        "type": "number",
+                        "evaluation_config": "number_exact"
+                    },
+                    "genotype": {
+                        "type": "string",
+                        "evaluation_config": "string_exact"
+                    },
+                    "confidence_interval": {
+                        "type": "string",
+                        "evaluation_config": "string_exact"
+                    },
+                    "cases_count": {
+                        "type": "integer",
+                        "evaluation_config": "integer_exact"
+                    }
+                },
+                "required": [
+                    "cases_percentage",
+                    "genotype",
+                    "odds_ratio",
+                    "confidence_interval",
+                    "cases_count",
+                    "subgroup"
+                ]
+            },
+            "evaluation_config": "array_llm"
+        }
+    },
+    "required": [
+        "items"
+    ]
+}

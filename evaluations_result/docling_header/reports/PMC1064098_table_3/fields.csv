@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.000000,false,,,,"The evaluation uses exact matching for both strings and numbers (as defined by the 'string_exact' and 'number_exact' metrics). For a gold item to be considered matched, every field – cell_type, sample..."

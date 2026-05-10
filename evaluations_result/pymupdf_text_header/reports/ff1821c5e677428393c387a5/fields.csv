@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"Both gold items are exactly present in the predicted array. Each field (position, date, date_2, unit_price_gross) matches exactly, satisfying the integer_exact, string_semantic, and number_exact crite..."

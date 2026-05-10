@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"All six gold objects have exact counterparts in the predicted array. Because the evaluation treats arrays as unordered collections and requires every field to match exactly, each gold item (positions ..."

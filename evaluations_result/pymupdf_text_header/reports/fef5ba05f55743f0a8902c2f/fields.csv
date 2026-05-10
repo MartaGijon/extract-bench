@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"Both the gold and predicted arrays contain 57 objects, each representing a unique combination of date, position, description, and unit_price_net repeated three times. Every object in the prediction ex..."

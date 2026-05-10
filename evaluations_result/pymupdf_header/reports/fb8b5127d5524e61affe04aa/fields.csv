@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"All fields (date, unit_price_gross, description) must match exactly. The gold array contains six items with dates 09/21, 09/22, 09/24, 09/28, 09/30, and 10/01. The predicted array includes items with ..."

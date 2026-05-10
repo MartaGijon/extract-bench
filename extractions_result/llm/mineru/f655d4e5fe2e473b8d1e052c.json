@@ -1,0 +1,18 @@
+{
+    "items": [
+        {
+            "code": "0100",
+            "description": "LUCKY STRIKE REG",
+            "quantity": 400,
+            "unit_price_net": 0.65,
+            "amount_net": 260.0
+        },
+        {
+            "code": "0130",
+            "description": "MARLBORO BOX KS",
+            "quantity": 130,
+            "unit_price_net": 0.65,
+            "amount_net": 84.5
+        }
+    ]
+}

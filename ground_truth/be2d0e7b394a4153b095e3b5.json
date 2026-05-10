@@ -1,0 +1,74 @@
+{
+    "items": [
+        {
+            "position": 1,
+            "description": "Marlboro Lights 20",
+            "quantity": "4 cartons/ 200 cig.",
+            "price_gross": 199.6,
+            "unit_price_gross": 0.998
+        },
+        {
+            "position": 2,
+            "description": "Marlboro 20",
+            "quantity": "4 cartons/ 200 cig.",
+            "price_gross": 199.6,
+            "unit_price_gross": 0.998
+        },
+        {
+            "position": 3,
+            "description": "Marlboro Ligh.20 100's",
+            "quantity": "4 cartons/ 200 cig.",
+            "price_gross": 199.6,
+            "unit_price_gross": 0.998
+        },
+        {
+            "position": 4,
+            "description": "Marlboro Lights 10",
+            "quantity": "4 cartons/ 200 cig.",
+            "price_gross": 199.6,
+            "unit_price_gross": 0.998
+        },
+        {
+            "position": 5,
+            "description": "Marlboro 10",
+            "quantity": "4 cartons/ 200 cig.",
+            "price_gross": 199.6,
+            "unit_price_gross": 0.998
+        },
+        {
+            "position": 6,
+            "description": "Marlboro 20 100's",
+            "quantity": "4 cartons/ 200 cig.",
+            "price_gross": 199.6,
+            "unit_price_gross": 0.998
+        },
+        {
+            "position": 7,
+            "description": "Marlboro Lights Menthol",
+            "quantity": "4 cartons/ 200 cig.",
+            "price_gross": 199.6,
+            "unit_price_gross": 0.998
+        },
+        {
+            "position": 8,
+            "description": "Marlboro Medium 20",
+            "quantity": "4 cartons/ 200 cig.",
+            "price_gross": 199.6,
+            "unit_price_gross": 0.998
+        },
+        {
+            "position": 9,
+            "description": "Merit Ultra Lights 20",
+            "quantity": "4 cartons / 200 cig.",
+            "price_gross": 199.6,
+            "unit_price_gross": 0.998
+        },
+        {
+            "position": 10,
+            "description": "Merit Lights",
+            "quantity": "4 cartons/ 200 cig.",
+            "price_gross": 199.6,
+            "unit_price_gross": 0.998
+        }
+    ]
+}

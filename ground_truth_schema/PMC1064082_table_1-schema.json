@@ -1,0 +1,49 @@
+{
+    "type": "object",
+    "properties": {
+        "items": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "high_expression_count": {
+                        "type": "integer",
+                        "evaluation_config": "integer_exact"
+                    },
+                    "high_expression_percentage": {
+                        "type": "number",
+                        "evaluation_config": "number_exact"
+                    },
+                    "low_expression_count": {
+                        "type": "integer",
+                        "evaluation_config": "integer_exact"
+                    },
+                    "low_expression_percentage": {
+                        "type": "number",
+                        "evaluation_config": "number_exact"
+                    },
+                    "tumor_size_category": {
+                        "type": "string",
+                        "evaluation_config": "string_exact"
+                    },
+                    "age_category": {
+                        "type": "string",
+                        "evaluation_config": "string_exact"
+                    }
+                },
+                "required": [
+                    "high_expression_count",
+                    "high_expression_percentage",
+                    "low_expression_count",
+                    "low_expression_percentage",
+                    "tumor_size_category",
+                    "age_category"
+                ]
+            },
+            "evaluation_config": "array_llm"
+        }
+    },
+    "required": [
+        "items"
+    ]
+}

@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.333333,false,,,,"Each field is evaluated according to the metric definitions: numeric fields (quantity, unit_price_gross, price_gross, position) use **number_exact** which requires exact equality after conversion to f..."

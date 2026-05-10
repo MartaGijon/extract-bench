@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"All gold items have a corresponding predicted item with identical integer fields (position, quantity) and exact numeric equality for unit_price_gross. The description strings differ only by using a hy..."

@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.000000,false,,,,"According to the available schema metadata there is no custom evaluation configuration, so each field is judged with the default exact‑match rules (string_exact for string fields and number_exact/inte..."

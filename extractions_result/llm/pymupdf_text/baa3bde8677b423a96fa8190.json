@@ -1,0 +1,28 @@
+{
+    "items": [
+        {
+            "description": "Midday, M-F, 10/22/2018 - 1/0 Midday / 10:00:00 - 30",
+            "unit_price_gross": 7.65,
+            "quantity": 46,
+            "price_gross": 351.9
+        },
+        {
+            "description": "Morning, M-F, 10/22/2018 - 1/0 Morning Drive / 30",
+            "unit_price_gross": 7.65,
+            "quantity": 44,
+            "price_gross": 336.6
+        },
+        {
+            "description": "Morning, M-F, 11/5/2018 - 1/0 Morning Drive / 30",
+            "unit_price_gross": 7.65,
+            "quantity": 10,
+            "price_gross": 76.5
+        },
+        {
+            "description": "Midday, M-F, 11/5/2018 - 1/0 Midday / 10:00:00 - 30",
+            "unit_price_gross": 7.65,
+            "quantity": 10,
+            "price_gross": 76.5
+        }
+    ]
+}

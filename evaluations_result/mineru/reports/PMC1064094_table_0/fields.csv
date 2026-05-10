@@ -1,0 +1,6 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,error_137448389190528,0.000000,false,,,,
+$.properties.items.items.properties.number_tested,items.items.number_tested,integer_exact,1.000000,true,,,both_null,
+$.properties.items.items.properties.hpv_dna_positive,items.items.hpv_dna_positive,integer_exact,1.000000,true,,,both_null,
+$.properties.items.items.properties.carcinoma_type,items.items.carcinoma_type,string_exact,1.000000,true,,,both_null,
+$.properties.items.items.properties.location,items.items.location,string_exact,1.000000,true,,,both_null,

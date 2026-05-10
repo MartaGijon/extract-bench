@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.000000,false,,,,"The array contains a single gold item and a single predicted item. For a match, every field must satisfy its evaluation rule. Using the default inference rules (string_exact for strings, integer_exact..."

@@ -1,0 +1,221 @@
+{
+  "output_name": "PMC1064095_table_3",
+  "timestamp": "2026-05-09T21:55:45.710329",
+  "schema_hash": "2ce1ac39",
+  "gold_hash": "8c885c2e",
+  "extracted_hash": "346da9ec",
+  "schema_stats": {
+    "total_nodes": 9,
+    "counts_by_type": {
+      "object": 2,
+      "array": 1,
+      "string": 5,
+      "number": 1
+    },
+    "required_keys_count": 7,
+    "optional_keys_count": 0,
+    "required_by_type": {
+      "array": 1,
+      "string": 5,
+      "number": 1
+    },
+    "optional_by_type": {}
+  },
+  "gold_stats": {
+    "label": "gold",
+    "total_keys": 7,
+    "counts_by_type": {
+      "array": 1,
+      "string": 5,
+      "number": 1
+    },
+    "array_stats": {
+      "array_field_count": 1,
+      "total_items": 1,
+      "min_length": 1,
+      "median_length": 1,
+      "max_length": 1
+    },
+    "null_count": 0,
+    "missing_count": 0
+  },
+  "extracted_stats": {
+    "label": "extracted",
+    "total_keys": 13,
+    "counts_by_type": {
+      "array": 1,
+      "string": 10,
+      "number": 2
+    },
+    "array_stats": {
+      "array_field_count": 1,
+      "total_items": 2,
+      "min_length": 2,
+      "median_length": 2,
+      "max_length": 2
+    },
+    "null_count": 0,
+    "missing_count": 0
+  },
+  "coverage": {
+    "present_in_both": 6,
+    "missing_in_extracted": 0,
+    "spurious_in_extracted": 6,
+    "required_missing": 0,
+    "missing_paths": [],
+    "spurious_paths": [
+      "data[1].confidence_interval",
+      "data[1].genotype",
+      "data[1].menopausal_status",
+      "data[1].odds_ratio",
+      "data[1].patients_controls",
+      "data[1].pcb_level"
+    ]
+  },
+  "outcomes": {
+    "total_evaluated": 7,
+    "total_passed": 6,
+    "total_failed": 1,
+    "pass_rate": 0.8571428571428571,
+    "pass_by_metric": {
+      "error_125130322136608": {
+        "passed": 0,
+        "failed": 1
+      },
+      "string_exact": {
+        "passed": 5,
+        "failed": 0
+      },
+      "number_exact": {
+        "passed": 1,
+        "failed": 0
+      }
+    },
+    "pass_by_type": {
+      "unknown": {
+        "passed": 0,
+        "failed": 1
+      },
+      "string": {
+        "passed": 5,
+        "failed": 0
+      },
+      "number": {
+        "passed": 1,
+        "failed": 0
+      }
+    },
+    "pass_by_required": {
+      "optional": {
+        "passed": 6,
+        "failed": 1
+      }
+    },
+    "confusion": {
+      "true_positive": 0,
+      "false_positive": 0,
+      "false_negative": 1,
+      "true_negative": 6
+    },
+    "llm_stats": null,
+    "error_breakdown": {
+      "by_path_prefix": {
+        "data": 1
+      },
+      "by_metric_type": {
+        "error_125130322136608": 1
+      },
+      "by_reason": {
+        "value_mismatch": 1
+      },
+      "details": [
+        {
+          "category": "value_mismatch",
+          "count": 1,
+          "paths": []
+        }
+      ]
+    }
+  },
+  "field_outcomes": [
+    {
+      "path": "$.properties.data",
+      "normalized_path": "data",
+      "metric_id": "error_125130322136608",
+      "score": 0.0,
+      "passed": false,
+      "reason": null,
+      "gold_value": null,
+      "extracted_value": null,
+      "reasoning": null
+    },
+    {
+      "path": "$.properties.data.items.properties.patients_controls",
+      "normalized_path": "data.items.patients_controls",
+      "metric_id": "string_exact",
+      "score": 1.0,
+      "passed": true,
+      "reason": "both_null",
+      "gold_value": null,
+      "extracted_value": null,
+      "reasoning": null
+    },
+    {
+      "path": "$.properties.data.items.properties.odds_ratio",
+      "normalized_path": "data.items.odds_ratio",
+      "metric_id": "number_exact",
+      "score": 1.0,
+      "passed": true,
+      "reason": "both_null",
+      "gold_value": null,
+      "extracted_value": null,
+      "reasoning": null
+    },
+    {
+      "path": "$.properties.data.items.properties.menopausal_status",
+      "normalized_path": "data.items.menopausal_status",
+      "metric_id": "string_exact",
+      "score": 1.0,
+      "passed": true,
+      "reason": "both_null",
+      "gold_value": null,
+      "extracted_value": null,
+      "reasoning": null
+    },
+    {
+      "path": "$.properties.data.items.properties.genotype",
+      "normalized_path": "data.items.genotype",
+      "metric_id": "string_exact",
+      "score": 1.0,
+      "passed": true,
+      "reason": "both_null",
+      "gold_value": null,
+      "extracted_value": null,
+      "reasoning": null
+    },
+    {
+      "path": "$.properties.data.items.properties.pcb_level",
+      "normalized_path": "data.items.pcb_level",
+      "metric_id": "string_exact",
+      "score": 1.0,
+      "passed": true,
+      "reason": "both_null",
+      "gold_value": null,
+      "extracted_value": null,
+      "reasoning": null
+    },
+    {
+      "path": "$.properties.data.items.properties.confidence_interval",
+      "normalized_path": "data.items.confidence_interval",
+      "metric_id": "string_exact",
+      "score": 1.0,
+      "passed": true,
+      "reason": "both_null",
+      "gold_value": null,
+      "extracted_value": null,
+      "reasoning": null
+    }
+  ],
+  "overall_score": 0.8571428571428571,
+  "overall_pass_rate": 0.8571428571428571
+}

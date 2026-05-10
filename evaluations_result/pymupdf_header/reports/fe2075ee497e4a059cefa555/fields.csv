@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"Each gold object is compared field‑by‑field with the predicted objects. All fields (position, date, date_end, unit_price_gross) are identical in value and type, and the evaluation uses exact matching ..."

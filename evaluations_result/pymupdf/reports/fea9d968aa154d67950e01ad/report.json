@@ -1,0 +1,166 @@
+{
+  "output_name": "fea9d968aa154d67950e01ad",
+  "timestamp": "2026-05-09T22:04:46.820983",
+  "schema_hash": "57b01e8c",
+  "gold_hash": "d2acae69",
+  "extracted_hash": "eeb85c26",
+  "schema_stats": {
+    "total_nodes": 9,
+    "counts_by_type": {
+      "object": 2,
+      "array": 1,
+      "integer": 2,
+      "number": 2,
+      "string": 2
+    },
+    "required_keys_count": 7,
+    "optional_keys_count": 0,
+    "required_by_type": {
+      "array": 1,
+      "integer": 2,
+      "number": 2,
+      "string": 2
+    },
+    "optional_by_type": {}
+  },
+  "gold_stats": {
+    "label": "gold",
+    "total_keys": 7,
+    "counts_by_type": {
+      "array": 1,
+      "integer": 2,
+      "string": 2,
+      "number": 2
+    },
+    "array_stats": {
+      "array_field_count": 1,
+      "total_items": 1,
+      "min_length": 1,
+      "median_length": 1,
+      "max_length": 1
+    },
+    "null_count": 0,
+    "missing_count": 0
+  },
+  "extracted_stats": {
+    "label": "extracted",
+    "total_keys": 1,
+    "counts_by_type": {
+      "array": 1
+    },
+    "array_stats": {
+      "array_field_count": 1,
+      "total_items": 0,
+      "min_length": 0,
+      "median_length": 0,
+      "max_length": 0
+    },
+    "null_count": 0,
+    "missing_count": 0
+  },
+  "coverage": {
+    "present_in_both": 0,
+    "missing_in_extracted": 6,
+    "spurious_in_extracted": 1,
+    "required_missing": 0,
+    "missing_paths": [
+      "items[0].currency",
+      "items[0].date",
+      "items[0].position",
+      "items[0].price_gross",
+      "items[0].quantity",
+      "items[0].unit_price_gross"
+    ],
+    "spurious_paths": [
+      "items"
+    ]
+  },
+  "outcomes": {
+    "total_evaluated": 1,
+    "total_passed": 0,
+    "total_failed": 1,
+    "pass_rate": 0.0,
+    "pass_by_metric": {
+      "array_llm": {
+        "passed": 0,
+        "failed": 1
+      }
+    },
+    "pass_by_type": {
+      "array": {
+        "passed": 0,
+        "failed": 1
+      }
+    },
+    "pass_by_required": {
+      "optional": {
+        "passed": 0,
+        "failed": 1
+      }
+    },
+    "confusion": {
+      "true_positive": 0,
+      "false_positive": 0,
+      "false_negative": 1,
+      "true_negative": 0
+    },
+    "llm_stats": {
+      "call_count": 1,
+      "avg_score": 0.0,
+      "median_score": 0.0,
+      "score_distribution": {
+        "0.0-0.2": 1
+      },
+      "top_lowest_fields": [
+        {
+          "path": "items",
+          "metric_id": "array_llm",
+          "score": 0.0,
+          "reasoning": ""
+        }
+      ]
+    },
+    "error_breakdown": {
+      "by_path_prefix": {
+        "items": 1
+      },
+      "by_metric_type": {
+        "array_llm": 1
+      },
+      "by_reason": {
+        "semantic_mismatch": 1
+      },
+      "details": [
+        {
+          "category": "semantic_mismatch",
+          "count": 1,
+          "paths": []
+        }
+      ]
+    }
+  },
+  "field_outcomes": [
+    {
+      "path": "$.properties.items",
+      "normalized_path": "items",
+      "metric_id": "array_llm",
+      "score": 0.0,
+      "passed": false,
+      "reason": "extracted_empty_array",
+      "gold_value": [
+        {
+          "position": 28,
+          "date": "2/22/2020",
+          "currency": "$",
+          "unit_price_gross": 70.0,
+          "quantity": 2,
+          "price_gross": 140.0
+        }
+      ],
+      "extracted_value": [],
+      "reasoning": null
+    }
+  ],
+  "overall_score": 0.0,
+  "overall_pass_rate": 0.0
+}

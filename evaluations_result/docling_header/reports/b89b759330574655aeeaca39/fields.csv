@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.000000,false,,,,"To be considered a match, every field of a predicted object must satisfy the evaluation rule for its type. Integers use `integer_exact`, numbers use `number_exact`, and strings use `string_semantic` (..."

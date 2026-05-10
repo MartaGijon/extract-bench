@@ -1,0 +1,12 @@
+{
+    "items": [
+        {
+            "transaction_date": "11/01/2020",
+            "description": "JOBS REVISED",
+            "duration_minutes": 30,
+            "unit_price_gross": 0.0,
+            "price_gross": 0.0,
+            "position": 0
+        }
+    ]
+}

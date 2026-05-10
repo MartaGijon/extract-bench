@@ -1,0 +1,40 @@
+{
+    "items": [
+        {
+            "culture_group": "",
+            "sample_size": 0,
+            "mean_index": 21.9,
+            "standard_error": 4.2
+        },
+        {
+            "culture_group": "",
+            "sample_size": 0,
+            "mean_index": 10.7,
+            "standard_error": 3.6
+        },
+        {
+            "culture_group": "",
+            "sample_size": 0,
+            "mean_index": 14.7,
+            "standard_error": 5.0
+        },
+        {
+            "culture_group": "",
+            "sample_size": 0,
+            "mean_index": 15.2,
+            "standard_error": 2.0
+        },
+        {
+            "culture_group": "",
+            "sample_size": 0,
+            "mean_index": 15.5,
+            "standard_error": 4.2
+        },
+        {
+            "culture_group": "",
+            "sample_size": 0,
+            "mean_index": 27.6,
+            "standard_error": 6.7
+        }
+    ]
+}

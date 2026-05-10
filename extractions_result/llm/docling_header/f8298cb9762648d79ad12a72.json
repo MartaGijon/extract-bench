@@ -1,0 +1,28 @@
+{
+    "items": [
+        {
+            "date": "03-May-18",
+            "unit_price_gross": 3.0
+        },
+        {
+            "date": "02-May-18",
+            "unit_price_gross": 3.0
+        },
+        {
+            "date": "07-May-18",
+            "unit_price_gross": 3.0
+        },
+        {
+            "date": "09-May-18",
+            "unit_price_gross": 3.0
+        },
+        {
+            "date": "08-May-18",
+            "unit_price_gross": 3.0
+        },
+        {
+            "date": "04-May-18",
+            "unit_price_gross": 3.0
+        }
+    ]
+}

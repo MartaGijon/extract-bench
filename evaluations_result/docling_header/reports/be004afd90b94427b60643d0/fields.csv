@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.000000,false,,,,"The evaluation uses exact equality for all fields (integer_exact, number_exact, string_exact) because no custom evaluation_config was supplied. For a predicted item to match a gold item, every field m..."

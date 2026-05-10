@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.800000,true,,,,"Each gold item was compared against the predicted items using exact numeric equality for the integer and numeric fields (quantity, price_gross, unit_price_gross, position) and semantic string matching..."

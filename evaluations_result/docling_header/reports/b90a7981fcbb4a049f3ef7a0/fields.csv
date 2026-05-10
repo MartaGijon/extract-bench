@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"Every gold entry has an exact counterpart in the predicted array. The dates, descriptions, and price_gross values all match exactly (string equality for the date and description, numeric exact equalit..."

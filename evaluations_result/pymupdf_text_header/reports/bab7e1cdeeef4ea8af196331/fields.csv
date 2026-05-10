@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.000000,false,"[{'description': 'CH11 LATE NEWS', 'unit_price_gross': 1150.0, 'price_gross': 1150.0, 'quantity': 1}, {'description': 'CH11 LATE NEWS', 'unit_price_gross': 950.0, 'price_gross': 950.0, 'quantity': 1}, {'description': 'FULL MEASURE', 'unit_price_gross': 100.0, 'price_gross': 100.0, 'quantity': 1}, {'description': 'NFL STEELERS v EAGLES 10/11', 'unit_price_gross': 20000.0, 'price_gross': 20000.0, 'quantity': 1}]",[],extracted_empty_array,

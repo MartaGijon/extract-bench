@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"The task requires exact matching on all fields for each item. All numeric fields (quantity, unit_price_gross, price_gross) are identical between gold and predicted entries, and the date strings match ..."

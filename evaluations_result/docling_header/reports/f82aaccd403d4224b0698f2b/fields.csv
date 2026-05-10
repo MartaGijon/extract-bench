@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.863636,true,,,,"The evaluation treats the arrays as unordered collections. Each gold item must find a predicted item where **all** fields (position, description, unit_price_gross, quantity, price_gross) match exactly..."

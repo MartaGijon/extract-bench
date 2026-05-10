@@ -1,0 +1,10 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,error_140081194706944,0.000000,false,,,,
+$.properties.items.items.properties.minimally_adjusted_or,items.items.minimally_adjusted_or,number_exact,1.000000,true,,,both_null,
+$.properties.items.items.properties.minimally_adjusted_ci,items.items.minimally_adjusted_ci,string_exact,1.000000,true,,,both_null,
+$.properties.items.items.properties.group_type,items.items.group_type,string_exact,1.000000,true,,,both_null,
+$.properties.items.items.properties.race,items.items.race,string_exact,1.000000,true,,,both_null,
+$.properties.items.items.properties.fully_adjusted_ci,items.items.fully_adjusted_ci,string_exact,1.000000,true,,,both_null,
+$.properties.items.items.properties.n_count,items.items.n_count,integer_exact,1.000000,true,,,both_null,
+$.properties.items.items.properties.fully_adjusted_or,items.items.fully_adjusted_or,number_exact,1.000000,true,,,both_null,
+$.properties.items.items.properties.maternal_age_range,items.items.maternal_age_range,string_exact,1.000000,true,,,both_null,

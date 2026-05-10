@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.000000,false,,,,"Each gold record must match the single predicted record on every field using exact equality (integer_exact for numeric fields, string_exact for textual fields) because no alternative evaluation config..."

@@ -1,0 +1,22 @@
+{
+    "items": [
+        {
+            "position": 2,
+            "date_start": "07/18/22",
+            "date_end": "07/22/22",
+            "description": "M-F Midday",
+            "quantity": 20,
+            "price_gross": 2400.0,
+            "unit_price_gross": 120.0
+        },
+        {
+            "position": 3,
+            "date_start": "07/18/22",
+            "date_end": "07/22/22",
+            "description": "M-F PM Drive",
+            "quantity": 15,
+            "price_gross": 1800.0,
+            "unit_price_gross": 120.0
+        }
+    ]
+}

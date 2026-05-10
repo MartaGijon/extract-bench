@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.000000,false,,,,"To consider a gold–prediction pair a TRUE MATCH, every field must satisfy its evaluation rule. Numeric fields (quantity, unit_price_gross, price_gross) are evaluated with **number_exact**, requiring e..."

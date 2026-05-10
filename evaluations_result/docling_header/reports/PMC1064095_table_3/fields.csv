@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.data,data,array_llm,0.000000,false,,,,"To consider a gold‑predicted pair a true match, every field must satisfy its evaluation rule. No explicit per‑field rules are given, so we apply the default semantics from the metric definitions: nume..."

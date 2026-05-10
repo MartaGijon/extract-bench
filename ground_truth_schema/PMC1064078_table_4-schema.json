@@ -1,0 +1,74 @@
+{
+    "type": "object",
+    "properties": {
+        "items": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "control_count_fully_adjusted": {
+                        "type": "integer",
+                        "evaluation_config": "integer_exact"
+                    },
+                    "ci_upper_minimally_adjusted": {
+                        "type": "number",
+                        "evaluation_config": "number_exact"
+                    },
+                    "control_count_minimally_adjusted": {
+                        "type": "integer",
+                        "evaluation_config": "integer_exact"
+                    },
+                    "odds_ratio_fully_adjusted": {
+                        "type": "number",
+                        "evaluation_config": "number_exact"
+                    },
+                    "ci_upper_fully_adjusted": {
+                        "type": "number",
+                        "evaluation_config": "number_exact"
+                    },
+                    "case_count_fully_adjusted": {
+                        "type": "integer",
+                        "evaluation_config": "integer_exact"
+                    },
+                    "ci_lower_fully_adjusted": {
+                        "type": "number",
+                        "evaluation_config": "number_exact"
+                    },
+                    "maternal_age_group": {
+                        "type": "string",
+                        "evaluation_config": "string_exact"
+                    },
+                    "case_count_minimally_adjusted": {
+                        "type": "integer",
+                        "evaluation_config": "integer_exact"
+                    },
+                    "odds_ratio_minimally_adjusted": {
+                        "type": "number",
+                        "evaluation_config": "number_exact"
+                    },
+                    "ci_lower_minimally_adjusted": {
+                        "type": "number",
+                        "evaluation_config": "number_exact"
+                    }
+                },
+                "required": [
+                    "control_count_fully_adjusted",
+                    "ci_upper_minimally_adjusted",
+                    "control_count_minimally_adjusted",
+                    "odds_ratio_fully_adjusted",
+                    "ci_upper_fully_adjusted",
+                    "case_count_fully_adjusted",
+                    "ci_lower_fully_adjusted",
+                    "maternal_age_group",
+                    "case_count_minimally_adjusted",
+                    "odds_ratio_minimally_adjusted",
+                    "ci_lower_minimally_adjusted"
+                ]
+            },
+            "evaluation_config": "array_llm"
+        }
+    },
+    "required": [
+        "items"
+    ]
+}

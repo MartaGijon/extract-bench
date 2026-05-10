@@ -1,0 +1,170 @@
+{
+  "output_name": "ff0456f8765d4e9385109aa0",
+  "timestamp": "2026-05-09T21:22:27.124731",
+  "schema_hash": "b79c278a",
+  "gold_hash": "085ce41b",
+  "extracted_hash": "65e4a48c",
+  "schema_stats": {
+    "total_nodes": 9,
+    "counts_by_type": {
+      "object": 2,
+      "array": 1,
+      "string": 2,
+      "integer": 2,
+      "number": 2
+    },
+    "required_keys_count": 7,
+    "optional_keys_count": 0,
+    "required_by_type": {
+      "array": 1,
+      "string": 2,
+      "integer": 2,
+      "number": 2
+    },
+    "optional_by_type": {}
+  },
+  "gold_stats": {
+    "label": "gold",
+    "total_keys": 187,
+    "counts_by_type": {
+      "array": 1,
+      "integer": 62,
+      "string": 62,
+      "number": 62
+    },
+    "array_stats": {
+      "array_field_count": 1,
+      "total_items": 31,
+      "min_length": 31,
+      "median_length": 31,
+      "max_length": 31
+    },
+    "null_count": 0,
+    "missing_count": 0
+  },
+  "extracted_stats": {
+    "label": "extracted",
+    "total_keys": 205,
+    "counts_by_type": {
+      "array": 1,
+      "integer": 68,
+      "string": 68,
+      "number": 68
+    },
+    "array_stats": {
+      "array_field_count": 1,
+      "total_items": 34,
+      "min_length": 34,
+      "median_length": 34,
+      "max_length": 34
+    },
+    "null_count": 0,
+    "missing_count": 0
+  },
+  "coverage": {
+    "present_in_both": 186,
+    "missing_in_extracted": 0,
+    "spurious_in_extracted": 18,
+    "required_missing": 0,
+    "missing_paths": [],
+    "spurious_paths": [
+      "items[31].date",
+      "items[31].description",
+      "items[31].position",
+      "items[31].price_gross",
+      "items[31].quantity",
+      "items[31].unit_price_gross",
+      "items[32].date",
+      "items[32].description",
+      "items[32].position",
+      "items[32].price_gross",
+      "items[32].quantity",
+      "items[32].unit_price_gross",
+      "items[33].date",
+      "items[33].description",
+      "items[33].position",
+      "items[33].price_gross",
+      "items[33].quantity",
+      "items[33].unit_price_gross"
+    ]
+  },
+  "outcomes": {
+    "total_evaluated": 1,
+    "total_passed": 0,
+    "total_failed": 1,
+    "pass_rate": 0.0,
+    "pass_by_metric": {
+      "array_llm": {
+        "passed": 0,
+        "failed": 1
+      }
+    },
+    "pass_by_type": {
+      "array": {
+        "passed": 0,
+        "failed": 1
+      }
+    },
+    "pass_by_required": {
+      "optional": {
+        "passed": 0,
+        "failed": 1
+      }
+    },
+    "confusion": {
+      "true_positive": 0,
+      "false_positive": 0,
+      "false_negative": 1,
+      "true_negative": 0
+    },
+    "llm_stats": {
+      "call_count": 1,
+      "avg_score": 0.0,
+      "median_score": 0.0,
+      "score_distribution": {
+        "0.0-0.2": 1
+      },
+      "top_lowest_fields": [
+        {
+          "path": "items",
+          "metric_id": "array_llm",
+          "score": 0.0,
+          "reasoning": "To be considered a match, every field of a predicted object must exactly equal the corresponding field of a gold object (numeric fields must match exactly, and string/date fields must be identical). T..."
+        }
+      ]
+    },
+    "error_breakdown": {
+      "by_path_prefix": {
+        "items": 1
+      },
+      "by_metric_type": {
+        "array_llm": 1
+      },
+      "by_reason": {
+        "semantic_mismatch": 1
+      },
+      "details": [
+        {
+          "category": "semantic_mismatch",
+          "count": 1,
+          "paths": []
+        }
+      ]
+    }
+  },
+  "field_outcomes": [
+    {
+      "path": "$.properties.items",
+      "normalized_path": "items",
+      "metric_id": "array_llm",
+      "score": 0.0,
+      "passed": false,
+      "reason": null,
+      "gold_value": null,
+      "extracted_value": null,
+      "reasoning": "To be considered a match, every field of a predicted object must exactly equal the corresponding field of a gold object (numeric fields must match exactly, and string/date fields must be identical). T..."
+    }
+  ],
+  "overall_score": 0.0,
+  "overall_pass_rate": 0.0
+}

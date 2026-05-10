@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.000000,false,,,,"Each gold object must be paired with a predicted object such that **all** fields match exactly, because no explicit evaluation_config was supplied and the safe default is to use the exact‑match metric..."

@@ -1,0 +1,167 @@
+{
+  "output_name": "f6fd10f20e5b4da48080a434",
+  "timestamp": "2026-05-09T21:34:45.174761",
+  "schema_hash": "5f388ef1",
+  "gold_hash": "02053a5b",
+  "extracted_hash": "f6182a9e",
+  "schema_stats": {
+    "total_nodes": 8,
+    "counts_by_type": {
+      "object": 2,
+      "array": 1,
+      "string": 1,
+      "integer": 2,
+      "number": 2
+    },
+    "required_keys_count": 6,
+    "optional_keys_count": 0,
+    "required_by_type": {
+      "array": 1,
+      "string": 1,
+      "integer": 2,
+      "number": 2
+    },
+    "optional_by_type": {}
+  },
+  "gold_stats": {
+    "label": "gold",
+    "total_keys": 31,
+    "counts_by_type": {
+      "array": 1,
+      "string": 6,
+      "integer": 12,
+      "number": 12
+    },
+    "array_stats": {
+      "array_field_count": 1,
+      "total_items": 6,
+      "min_length": 6,
+      "median_length": 6,
+      "max_length": 6
+    },
+    "null_count": 0,
+    "missing_count": 0
+  },
+  "extracted_stats": {
+    "label": "extracted",
+    "total_keys": 16,
+    "counts_by_type": {
+      "array": 1,
+      "string": 3,
+      "integer": 6,
+      "number": 6
+    },
+    "array_stats": {
+      "array_field_count": 1,
+      "total_items": 3,
+      "min_length": 3,
+      "median_length": 3,
+      "max_length": 3
+    },
+    "null_count": 0,
+    "missing_count": 0
+  },
+  "coverage": {
+    "present_in_both": 15,
+    "missing_in_extracted": 15,
+    "spurious_in_extracted": 0,
+    "required_missing": 0,
+    "missing_paths": [
+      "items[3].description",
+      "items[3].position",
+      "items[3].price_gross",
+      "items[3].quantity",
+      "items[3].unit_price_gross",
+      "items[4].description",
+      "items[4].position",
+      "items[4].price_gross",
+      "items[4].quantity",
+      "items[4].unit_price_gross",
+      "items[5].description",
+      "items[5].position",
+      "items[5].price_gross",
+      "items[5].quantity",
+      "items[5].unit_price_gross"
+    ],
+    "spurious_paths": []
+  },
+  "outcomes": {
+    "total_evaluated": 1,
+    "total_passed": 0,
+    "total_failed": 1,
+    "pass_rate": 0.0,
+    "pass_by_metric": {
+      "array_llm": {
+        "passed": 0,
+        "failed": 1
+      }
+    },
+    "pass_by_type": {
+      "array": {
+        "passed": 0,
+        "failed": 1
+      }
+    },
+    "pass_by_required": {
+      "optional": {
+        "passed": 0,
+        "failed": 1
+      }
+    },
+    "confusion": {
+      "true_positive": 0,
+      "false_positive": 0,
+      "false_negative": 1,
+      "true_negative": 0
+    },
+    "llm_stats": {
+      "call_count": 1,
+      "avg_score": 0.3333333333333333,
+      "median_score": 0.3333333333333333,
+      "score_distribution": {
+        "0.2-0.4": 1
+      },
+      "top_lowest_fields": [
+        {
+          "path": "items",
+          "metric_id": "array_llm",
+          "score": 0.3333333333333333,
+          "reasoning": "Each field is evaluated according to the metric definitions: numeric fields (quantity, unit_price_gross, price_gross, position) use **number_exact** which requires exact equality after conversion to f..."
+        }
+      ]
+    },
+    "error_breakdown": {
+      "by_path_prefix": {
+        "items": 1
+      },
+      "by_metric_type": {
+        "array_llm": 1
+      },
+      "by_reason": {
+        "semantic_mismatch": 1
+      },
+      "details": [
+        {
+          "category": "semantic_mismatch",
+          "count": 1,
+          "paths": []
+        }
+      ]
+    }
+  },
+  "field_outcomes": [
+    {
+      "path": "$.properties.items",
+      "normalized_path": "items",
+      "metric_id": "array_llm",
+      "score": 0.3333333333333333,
+      "passed": false,
+      "reason": null,
+      "gold_value": null,
+      "extracted_value": null,
+      "reasoning": "Each field is evaluated according to the metric definitions: numeric fields (quantity, unit_price_gross, price_gross, position) use **number_exact** which requires exact equality after conversion to f..."
+    }
+  ],
+  "overall_score": 0.3333333333333333,
+  "overall_pass_rate": 0.0
+}

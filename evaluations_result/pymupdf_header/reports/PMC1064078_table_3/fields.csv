@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.000000,false,,,,"To be considered a match, every field of a gold entry must exactly equal the corresponding field in a predicted entry, using exact string, integer, and numeric equality (no tolerances were provided). ..."

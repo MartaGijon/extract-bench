@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.data,data,array_llm,0.000000,false,,,,"The gold array contains a single record. When comparing each field against the predicted record using the appropriate metrics (string_exact for the genotype and integer_exact for all numeric counts), ..."

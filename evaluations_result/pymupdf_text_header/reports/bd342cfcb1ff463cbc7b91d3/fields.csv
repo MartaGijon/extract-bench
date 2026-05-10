@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.200000,false,,,,"Each field is evaluated with exact equality because no tolerance or special metric is specified. Only one predicted record (P1) matches a gold record (G5) on all four fields (date, amount_net, quantit..."

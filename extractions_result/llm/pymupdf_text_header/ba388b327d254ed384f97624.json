@@ -1,0 +1,49 @@
+{
+    "items": [
+        {
+            "position": 4,
+            "date_start": "10/18/16",
+            "date_end": "10/21/16",
+            "description": "Dr. Oz",
+            "quantity": 1,
+            "price_gross": 90.0,
+            "unit_price_gross": 90.0
+        },
+        {
+            "position": 2,
+            "date_start": "10/07/16",
+            "date_end": "10/07/16",
+            "description": "Dr. Oz",
+            "quantity": 1,
+            "price_gross": 90.0,
+            "unit_price_gross": 90.0
+        },
+        {
+            "position": 1,
+            "date_start": "09/28/16",
+            "date_end": "09/30/16",
+            "description": "Dr. Oz",
+            "quantity": 2,
+            "price_gross": 360.0,
+            "unit_price_gross": 180.0
+        },
+        {
+            "position": 5,
+            "date_start": "10/26/16",
+            "date_end": "10/28/16",
+            "description": "Dr. Oz",
+            "quantity": 1,
+            "price_gross": 90.0,
+            "unit_price_gross": 90.0
+        },
+        {
+            "position": 6,
+            "date_start": "11/02/16",
+            "date_end": "11/04/16",
+            "description": "Dr. Oz",
+            "quantity": 1,
+            "price_gross": 90.0,
+            "unit_price_gross": 90.0
+        }
+    ]
+}

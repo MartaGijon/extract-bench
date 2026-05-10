@@ -1,0 +1,40 @@
+{
+    "items": [
+        {
+            "position": 2,
+            "description": "ROANOKE 15:00-19:00 WROV-FM Commercial National Agency-Political",
+            "date": "01/22/20",
+            "date_end": "01/24/20",
+            "quantity": 8,
+            "unit_price_gross": 113.0,
+            "price_gross": 904.0
+        },
+        {
+            "position": 4,
+            "description": "ROANOKE 19:00-22:00 WROV-FM Commercial National Agency-Political",
+            "date": "01/22/20",
+            "date_end": "01/24/20",
+            "quantity": 3,
+            "unit_price_gross": 15.0,
+            "price_gross": 45.0
+        },
+        {
+            "position": 1,
+            "description": "ROANOKE 10:00-15:00 WROV-FM Commercial National Agency-Political",
+            "date": "01/22/20",
+            "date_end": "01/24/20",
+            "quantity": 5,
+            "unit_price_gross": 85.0,
+            "price_gross": 425.0
+        },
+        {
+            "position": 3,
+            "description": "ROANOKE 06:00-10:00 WROV-FM Commercial National Agency-Political",
+            "date": "01/22/20",
+            "date_end": "01/24/20",
+            "quantity": 8,
+            "unit_price_gross": 107.0,
+            "price_gross": 856.0
+        }
+    ]
+}

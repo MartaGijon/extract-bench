@@ -1,0 +1,28 @@
+{
+    "items": [
+        {
+            "position": 9,
+            "date_start": "10/19/20",
+            "date_end": "10/19/20",
+            "unit_price_gross": 15.0,
+            "quantity": 4,
+            "price_gross": 60.0
+        },
+        {
+            "position": 7,
+            "date_start": "10/19/20",
+            "date_end": "10/19/20",
+            "unit_price_gross": 10.0,
+            "quantity": 4,
+            "price_gross": 40.0
+        },
+        {
+            "position": 8,
+            "date_start": "10/19/20",
+            "date_end": "10/19/20",
+            "unit_price_gross": 11.0,
+            "quantity": 5,
+            "price_gross": 55.0
+        }
+    ]
+}

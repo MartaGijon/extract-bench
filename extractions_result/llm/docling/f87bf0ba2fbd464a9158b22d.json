@@ -1,0 +1,12 @@
+{
+    "items": [
+        {
+            "position": 1,
+            "description": "News (2-1,7)",
+            "date": "08/17/20",
+            "quantity": 2,
+            "unit_price_gross": 26700.0,
+            "price_gross": 53400.0
+        }
+    ]
+}

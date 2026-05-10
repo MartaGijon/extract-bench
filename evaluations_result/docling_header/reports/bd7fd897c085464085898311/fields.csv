@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.000000,false,"[{'date': '10/27/20', 'quantity': 4, 'unit_price_gross': 30.0, 'price_gross': 120.0}, {'date': '10/28/20', 'quantity': 4, 'unit_price_gross': 30.0, 'price_gross': 120.0}, {'date': '10/29/20', 'quantity': 4, 'unit_price_gross': 30.0, 'price_gross': 120.0}, {'date': '10/30/20', 'quantity': 4, 'unit_price_gross': 30.0, 'price_gross': 120.0}]",[],extracted_empty_array,

@@ -1,0 +1,46 @@
+{
+    "items": [
+        {
+            "description": "6:00 AM 7:00 AM KWWL 6a News L2",
+            "unit_price_gross": 600.0,
+            "quantity": 2,
+            "price_gross": 1200.0
+        },
+        {
+            "description": "5:00 AM 6:00 AM KWWL 5a News",
+            "unit_price_gross": 38.0,
+            "quantity": 1,
+            "price_gross": 38.0
+        },
+        {
+            "description": "4:30 AM 5:00 AM KWWL 4:30a News",
+            "unit_price_gross": 75.0,
+            "quantity": 5,
+            "price_gross": 375.0
+        },
+        {
+            "description": "4:00 AM 4:30 AM KWWL 4a News",
+            "unit_price_gross": 25.0,
+            "quantity": 5,
+            "price_gross": 125.0
+        },
+        {
+            "description": "6:00 AM 7:00 AM Sun 6a News",
+            "unit_price_gross": 25.0,
+            "quantity": 1,
+            "price_gross": 25.0
+        },
+        {
+            "description": "8:00 AM 9:00 AM Sat 8a News",
+            "unit_price_gross": 80.0,
+            "quantity": 1,
+            "price_gross": 80.0
+        },
+        {
+            "description": "12:00 PM 1:00 PM KWWL 12p News Level 2",
+            "unit_price_gross": 300.0,
+            "quantity": 2,
+            "price_gross": 600.0
+        }
+    ]
+}

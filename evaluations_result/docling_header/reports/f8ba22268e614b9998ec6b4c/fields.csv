@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.500000,false,,,,"Each gold record must be identical to a predicted record in all fields (position, date, date_2, unit_price_gross). The predicted array is treated as an unordered set. We found exact matches for two go..."

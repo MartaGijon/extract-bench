@@ -1,0 +1,20 @@
+{
+    "items": [
+        {
+            "menopausal_status": "",
+            "bmi_category": "",
+            "genotype": "Val/Ala",
+            "cases_controls": "",
+            "odds_ratio": 1.1,
+            "confidence_interval": "0.8\u20131.6"
+        },
+        {
+            "menopausal_status": "",
+            "bmi_category": "",
+            "genotype": "Ala/Ala",
+            "cases_controls": "",
+            "odds_ratio": 2.5,
+            "confidence_interval": "0.9\u20137.0"
+        }
+    ]
+}

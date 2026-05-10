@@ -1,0 +1,54 @@
+================================================================================
+EVALUATION REPORT: fe2111eeabac4236a055773f
+Timestamp: 2026-05-09T21:26:14.724550
+================================================================================
+
+OVERALL RESULTS
+----------------------------------------
+  Pass Rate: 0.0%
+  Overall Score: 0.000
+  Evaluated Fields: 1
+  Passed: 0
+  Failed: 1
+
+SCHEMA STATISTICS
+----------------------------------------
+  Total Nodes: 7
+  Required Keys: 5
+  Optional Keys: 0
+  By Type: array: 1, integer: 2, number: 2, object: 2
+
+COVERAGE
+----------------------------------------
+  Present in Both: 4
+  Missing in Extracted: 0
+  Spurious in Extracted: 0
+  Required Missing: 0
+
+PASS RATE BY METRIC
+----------------------------------------
+  array_llm: 0.0% (0/1)
+
+LLM METRICS
+----------------------------------------
+  Calls: 1
+  Avg Score: 0.000
+  Median Score: 0.000
+
+  Top Lowest-Scoring Fields:
+    - items (array_llm): 0.000
+      Reason: The gold array contains one item with fields unit_price_gross=120.0, quantity=10, price_gross=1200.0...
+
+ERROR BREAKDOWN
+----------------------------------------
+  By Reason:
+    semantic_mismatch: 1
+  By Path Prefix:
+    items: 1
+
+FAILED FIELDS (first 10)
+----------------------------------------
+  items
+    Metric: array_llm, Score: 0.000
+
+================================================================================

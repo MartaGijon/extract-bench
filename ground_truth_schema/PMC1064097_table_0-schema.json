@@ -1,0 +1,39 @@
+{
+    "type": "object",
+    "properties": {
+        "items": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "inclusion_sex": {
+                        "type": "string",
+                        "evaluation_config": "string_exact"
+                    },
+                    "exclusion_pregnancy": {
+                        "type": "string",
+                        "evaluation_config": "string_exact"
+                    },
+                    "exclusion_recurrent_disease": {
+                        "type": "string",
+                        "evaluation_config": "string_exact"
+                    },
+                    "inclusion_age": {
+                        "type": "string",
+                        "evaluation_config": "string_exact"
+                    }
+                },
+                "required": [
+                    "inclusion_sex",
+                    "exclusion_pregnancy",
+                    "exclusion_recurrent_disease",
+                    "inclusion_age"
+                ]
+            },
+            "evaluation_config": "array_llm"
+        }
+    },
+    "required": [
+        "items"
+    ]
+}

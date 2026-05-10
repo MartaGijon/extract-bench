@@ -1,0 +1,64 @@
+{
+    "type": "object",
+    "properties": {
+        "items": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "nd_value": {
+                        "type": "number",
+                        "evaluation_config": "number_exact"
+                    },
+                    "d_dn_rhoa_value": {
+                        "type": "number",
+                        "evaluation_config": "number_exact"
+                    },
+                    "d_dn_rhoa_error": {
+                        "type": "number",
+                        "evaluation_config": "number_exact"
+                    },
+                    "d_dn_rac1_error": {
+                        "type": "number",
+                        "evaluation_config": "number_exact"
+                    },
+                    "d_error": {
+                        "type": "number",
+                        "evaluation_config": "number_exact"
+                    },
+                    "nd_error": {
+                        "type": "number",
+                        "evaluation_config": "number_exact"
+                    },
+                    "d_value": {
+                        "type": "number",
+                        "evaluation_config": "number_exact"
+                    },
+                    "kinetic_parameter": {
+                        "type": "string",
+                        "evaluation_config": "string_exact"
+                    },
+                    "d_dn_rac1_value": {
+                        "type": "number",
+                        "evaluation_config": "number_exact"
+                    }
+                },
+                "required": [
+                    "nd_value",
+                    "d_dn_rhoa_value",
+                    "d_dn_rhoa_error",
+                    "d_dn_rac1_error",
+                    "d_error",
+                    "nd_error",
+                    "d_value",
+                    "kinetic_parameter",
+                    "d_dn_rac1_value"
+                ]
+            },
+            "evaluation_config": "array_llm"
+        }
+    },
+    "required": [
+        "items"
+    ]
+}

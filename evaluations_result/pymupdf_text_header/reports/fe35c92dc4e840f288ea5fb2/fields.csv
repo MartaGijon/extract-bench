@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.000000,false,,,,"According to the provided schema there are no explicit evaluation tolerances, so each field must match exactly (integer_exact, number_exact, string_exact). I compared every gold entry with all predict..."

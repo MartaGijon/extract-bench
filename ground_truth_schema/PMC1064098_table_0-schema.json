@@ -1,0 +1,39 @@
+{
+    "type": "object",
+    "properties": {
+        "items": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "culture_group": {
+                        "type": "string",
+                        "evaluation_config": "string_exact"
+                    },
+                    "mean_index": {
+                        "type": "number",
+                        "evaluation_config": "number_exact"
+                    },
+                    "standard_error": {
+                        "type": "number",
+                        "evaluation_config": "number_exact"
+                    },
+                    "sample_size": {
+                        "type": "integer",
+                        "evaluation_config": "integer_exact"
+                    }
+                },
+                "required": [
+                    "culture_group",
+                    "mean_index",
+                    "standard_error",
+                    "sample_size"
+                ]
+            },
+            "evaluation_config": "array_llm"
+        }
+    },
+    "required": [
+        "items"
+    ]
+}

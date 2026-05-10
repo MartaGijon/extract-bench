@@ -1,0 +1,19 @@
+{
+    "items": [
+        {
+            "carcinoma_type": "Tubaler",
+            "location": "Carcinoma",
+            "hpv_type_16_count": 2
+        },
+        {
+            "carcinoma_type": "Total carcncma",
+            "location": "Carcinoma",
+            "hpv_type_16_count": 19
+        },
+        {
+            "carcinoma_type": "Intraouctal",
+            "location": "Carcirroma",
+            "hpv_type_16_count": 16
+        }
+    ]
+}

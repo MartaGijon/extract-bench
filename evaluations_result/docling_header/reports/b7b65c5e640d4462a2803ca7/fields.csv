@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.400000,false,,,,"Using unordered matching, each field is evaluated with the appropriate metric: integer_exact for 'position', 'quantity'; number_exact for 'unit_price_gross'; string_semantic for 'description' (allowin..."

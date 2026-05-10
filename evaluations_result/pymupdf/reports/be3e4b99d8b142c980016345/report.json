@@ -1,0 +1,278 @@
+{
+  "output_name": "be3e4b99d8b142c980016345",
+  "timestamp": "2026-05-09T22:03:34.133705",
+  "schema_hash": "2c2209ea",
+  "gold_hash": "7f29df62",
+  "extracted_hash": "8749541f",
+  "schema_stats": {
+    "total_nodes": 9,
+    "counts_by_type": {
+      "object": 2,
+      "array": 1,
+      "string": 2,
+      "integer": 2,
+      "number": 2
+    },
+    "required_keys_count": 7,
+    "optional_keys_count": 0,
+    "required_by_type": {
+      "array": 1,
+      "string": 2,
+      "integer": 2,
+      "number": 2
+    },
+    "optional_by_type": {}
+  },
+  "gold_stats": {
+    "label": "gold",
+    "total_keys": 37,
+    "counts_by_type": {
+      "array": 1,
+      "string": 12,
+      "integer": 12,
+      "number": 12
+    },
+    "array_stats": {
+      "array_field_count": 1,
+      "total_items": 6,
+      "min_length": 6,
+      "median_length": 6,
+      "max_length": 6
+    },
+    "null_count": 0,
+    "missing_count": 0
+  },
+  "extracted_stats": {
+    "label": "extracted",
+    "total_keys": 7,
+    "counts_by_type": {
+      "array": 1,
+      "string": 2,
+      "integer": 2,
+      "number": 2
+    },
+    "array_stats": {
+      "array_field_count": 1,
+      "total_items": 1,
+      "min_length": 1,
+      "median_length": 1,
+      "max_length": 1
+    },
+    "null_count": 0,
+    "missing_count": 0
+  },
+  "coverage": {
+    "present_in_both": 6,
+    "missing_in_extracted": 30,
+    "spurious_in_extracted": 0,
+    "required_missing": 0,
+    "missing_paths": [
+      "items[1].description",
+      "items[1].duration_minutes",
+      "items[1].position",
+      "items[1].price_gross",
+      "items[1].transaction_date",
+      "items[1].unit_price_gross",
+      "items[2].description",
+      "items[2].duration_minutes",
+      "items[2].position",
+      "items[2].price_gross",
+      "items[2].transaction_date",
+      "items[2].unit_price_gross",
+      "items[3].description",
+      "items[3].duration_minutes",
+      "items[3].position",
+      "items[3].price_gross",
+      "items[3].transaction_date",
+      "items[3].unit_price_gross",
+      "items[4].description",
+      "items[4].duration_minutes",
+      "items[4].position",
+      "items[4].price_gross",
+      "items[4].transaction_date",
+      "items[4].unit_price_gross",
+      "items[5].description",
+      "items[5].duration_minutes",
+      "items[5].position",
+      "items[5].price_gross",
+      "items[5].transaction_date",
+      "items[5].unit_price_gross"
+    ],
+    "spurious_paths": []
+  },
+  "outcomes": {
+    "total_evaluated": 7,
+    "total_passed": 6,
+    "total_failed": 1,
+    "pass_rate": 0.8571428571428571,
+    "pass_by_metric": {
+      "error_138134565250688": {
+        "passed": 0,
+        "failed": 1
+      },
+      "string_semantic": {
+        "passed": 2,
+        "failed": 0
+      },
+      "integer_exact": {
+        "passed": 2,
+        "failed": 0
+      },
+      "number_exact": {
+        "passed": 2,
+        "failed": 0
+      }
+    },
+    "pass_by_type": {
+      "unknown": {
+        "passed": 0,
+        "failed": 1
+      },
+      "string": {
+        "passed": 2,
+        "failed": 0
+      },
+      "integer": {
+        "passed": 2,
+        "failed": 0
+      },
+      "number": {
+        "passed": 2,
+        "failed": 0
+      }
+    },
+    "pass_by_required": {
+      "optional": {
+        "passed": 6,
+        "failed": 1
+      }
+    },
+    "confusion": {
+      "true_positive": 0,
+      "false_positive": 0,
+      "false_negative": 1,
+      "true_negative": 6
+    },
+    "llm_stats": {
+      "call_count": 2,
+      "avg_score": 1.0,
+      "median_score": 1.0,
+      "score_distribution": {
+        "0.8-1.0": 2
+      },
+      "top_lowest_fields": [
+        {
+          "path": "items.items.description",
+          "metric_id": "string_semantic",
+          "score": 1.0,
+          "reasoning": ""
+        },
+        {
+          "path": "items.items.transaction_date",
+          "metric_id": "string_semantic",
+          "score": 1.0,
+          "reasoning": ""
+        }
+      ]
+    },
+    "error_breakdown": {
+      "by_path_prefix": {
+        "items": 1
+      },
+      "by_metric_type": {
+        "error_138134565250688": 1
+      },
+      "by_reason": {
+        "value_mismatch": 1
+      },
+      "details": [
+        {
+          "category": "value_mismatch",
+          "count": 1,
+          "paths": []
+        }
+      ]
+    }
+  },
+  "field_outcomes": [
+    {
+      "path": "$.properties.items",
+      "normalized_path": "items",
+      "metric_id": "error_138134565250688",
+      "score": 0.0,
+      "passed": false,
+      "reason": null,
+      "gold_value": null,
+      "extracted_value": null,
+      "reasoning": null
+    },
+    {
+      "path": "$.properties.items.items.properties.description",
+      "normalized_path": "items.items.description",
+      "metric_id": "string_semantic",
+      "score": 1.0,
+      "passed": true,
+      "reason": "both_null",
+      "gold_value": null,
+      "extracted_value": null,
+      "reasoning": null
+    },
+    {
+      "path": "$.properties.items.items.properties.transaction_date",
+      "normalized_path": "items.items.transaction_date",
+      "metric_id": "string_semantic",
+      "score": 1.0,
+      "passed": true,
+      "reason": "both_null",
+      "gold_value": null,
+      "extracted_value": null,
+      "reasoning": null
+    },
+    {
+      "path": "$.properties.items.items.properties.position",
+      "normalized_path": "items.items.position",
+      "metric_id": "integer_exact",
+      "score": 1.0,
+      "passed": true,
+      "reason": "both_null",
+      "gold_value": null,
+      "extracted_value": null,
+      "reasoning": null
+    },
+    {
+      "path": "$.properties.items.items.properties.price_gross",
+      "normalized_path": "items.items.price_gross",
+      "metric_id": "number_exact",
+      "score": 1.0,
+      "passed": true,
+      "reason": "both_null",
+      "gold_value": null,
+      "extracted_value": null,
+      "reasoning": null
+    },
+    {
+      "path": "$.properties.items.items.properties.unit_price_gross",
+      "normalized_path": "items.items.unit_price_gross",
+      "metric_id": "number_exact",
+      "score": 1.0,
+      "passed": true,
+      "reason": "both_null",
+      "gold_value": null,
+      "extracted_value": null,
+      "reasoning": null
+    },
+    {
+      "path": "$.properties.items.items.properties.duration_minutes",
+      "normalized_path": "items.items.duration_minutes",
+      "metric_id": "integer_exact",
+      "score": 1.0,
+      "passed": true,
+      "reason": "both_null",
+      "gold_value": null,
+      "extracted_value": null,
+      "reasoning": null
+    }
+  ],
+  "overall_score": 0.8571428571428571,
+  "overall_pass_rate": 0.8571428571428571
+}

@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,0.000000,false,,,,"The single gold object and the single predicted object were compared field by field. All integer and numeric fields (cases_count, cases_percentage, controls_count, controls_percentage) match exactly. ..."

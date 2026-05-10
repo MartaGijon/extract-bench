@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.extractions,extractions,array_llm,1.000000,true,,,,"All four gold records have exact counterparts in the prediction set. The string fields (date, description, code) match case‑sensitively, and the numeric field unit_price_gross matches exactly (24.0). ..."

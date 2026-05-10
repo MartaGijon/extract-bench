@@ -1,0 +1,49 @@
+{
+    "type": "object",
+    "properties": {
+        "items": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "monoculture_level": {
+                        "type": "number",
+                        "evaluation_config": "number_exact"
+                    },
+                    "monoculture_mean": {
+                        "type": "number",
+                        "evaluation_config": "number_exact"
+                    },
+                    "coculture_mean": {
+                        "type": "number",
+                        "evaluation_config": "number_exact"
+                    },
+                    "cell_type": {
+                        "type": "string",
+                        "evaluation_config": "string_exact"
+                    },
+                    "sample_id": {
+                        "type": "string",
+                        "evaluation_config": "string_exact"
+                    },
+                    "coculture_level": {
+                        "type": "number",
+                        "evaluation_config": "number_exact"
+                    }
+                },
+                "required": [
+                    "monoculture_level",
+                    "sample_id",
+                    "coculture_mean",
+                    "monoculture_mean",
+                    "coculture_level",
+                    "cell_type"
+                ]
+            },
+            "evaluation_config": "array_llm"
+        }
+    },
+    "required": [
+        "items"
+    ]
+}

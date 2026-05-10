@@ -1,0 +1,2 @@
+path,normalized_path,metric_id,score,passed,gold_value,extracted_value,reason,reasoning
+$.properties.items,items,array_llm,1.000000,true,,,,"All numeric fields (unit_price_gross, quantity, price_gross) match exactly between gold and predicted items, satisfying the number_exact and integer_exact metrics. The description strings differ in fo..."

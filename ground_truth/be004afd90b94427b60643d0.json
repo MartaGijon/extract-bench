@@ -1,0 +1,39 @@
+{
+    "items": [
+        {
+            "position": 4,
+            "code": "Normal Line / SPOT",
+            "date": "03/18/20/03/18/20",
+            "unit_price_gross": 900.0,
+            "price_gross": 900.0
+        },
+        {
+            "position": 5,
+            "code": "Normal Line / SPOT",
+            "date": "03/19/20/03/19/20",
+            "unit_price_gross": 900.0,
+            "price_gross": 900.0
+        },
+        {
+            "position": 6,
+            "code": "Normal Line / SPOT",
+            "date": "03/20/20/03/20/20",
+            "unit_price_gross": 900.0,
+            "price_gross": 900.0
+        },
+        {
+            "position": 7,
+            "code": "Normal Line / SPOT",
+            "date": "03/17/20/03/17/20",
+            "unit_price_gross": 325.0,
+            "price_gross": 325.0
+        },
+        {
+            "position": 8,
+            "code": "Normal Line / SPOT",
+            "date": "03/20/20/03/20/20",
+            "unit_price_gross": 325.0,
+            "price_gross": 325.0
+        }
+    ]
+}
