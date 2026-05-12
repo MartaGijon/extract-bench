@@ -1,0 +1,10 @@
+{
+    "items": [
+        {
+            "inclusion_age": "Age oluer than 21 ycars",
+            "inclusion_sex": "Female sex",
+            "exclusion_pregnancy": "Pregnancy",
+            "exclusion_recurrent_disease": "Previous cnemotherapy"
+        }
+    ]
+}

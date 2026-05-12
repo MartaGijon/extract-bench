@@ -1,0 +1,28 @@
+{
+    "extractions": [
+        {
+            "date": "11/03/18",
+            "description": "R102X138 18 FACTS",
+            "code": "R102X13818FACTS",
+            "unit_price_gross": 24.0
+        },
+        {
+            "date": "11/03/18",
+            "description": "11/03/18 - 11/04/18 9:00AM-4:00PM 4/WK @ $24.00 S-Su Length: 60 R102X13818 FACTS",
+            "code": "R102X13818 FACTS",
+            "unit_price_gross": 24.0
+        },
+        {
+            "date": "11/04/18",
+            "description": "R102X13818 FACTS",
+            "code": "R102X138 18 FACTS",
+            "unit_price_gross": 24.0
+        },
+        {
+            "date": "11/04/18",
+            "description": "R102X13818 FACTS",
+            "code": "R102X138 18 FACTS",
+            "unit_price_gross": 24.0
+        }
+    ]
+}

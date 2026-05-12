@@ -1,0 +1,22 @@
+{
+    "items": [
+        {
+            "model_id": "4:np\uff0cnx",
+            "variables": "np, nx",
+            "p_value": 0.102,
+            "hazard_ratio": 1.088,
+            "ci_lower": 1.083,
+            "ci_upper": 1.093,
+            "patient_group": "Node-positive patients"
+        },
+        {
+            "model_id": "4:np\uff0cnx",
+            "variables": "np, nx",
+            "p_value": 0.102,
+            "hazard_ratio": 0.966,
+            "ci_lower": 0.961,
+            "ci_upper": 0.971,
+            "patient_group": "Node-positive patients"
+        }
+    ]
+}

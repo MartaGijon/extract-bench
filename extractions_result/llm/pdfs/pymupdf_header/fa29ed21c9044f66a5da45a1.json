@@ -1,0 +1,52 @@
+{
+    "items": [
+        {
+            "date": "10/27/20",
+            "quantity": 3,
+            "unit_price_gross": 16.0,
+            "price_gross": 48.0
+        },
+        {
+            "date": "10/29/20",
+            "quantity": 3,
+            "unit_price_gross": 16.0,
+            "price_gross": 48.0
+        },
+        {
+            "date": "11/02/20",
+            "quantity": 3,
+            "unit_price_gross": 16.0,
+            "price_gross": 48.0
+        },
+        {
+            "date": "10/31/20",
+            "quantity": 3,
+            "unit_price_gross": 16.0,
+            "price_gross": 48.0
+        },
+        {
+            "date": "10/26/20",
+            "quantity": 3,
+            "unit_price_gross": 16.0,
+            "price_gross": 48.0
+        },
+        {
+            "date": "10/28/20",
+            "quantity": 3,
+            "unit_price_gross": 16.0,
+            "price_gross": 48.0
+        },
+        {
+            "date": "11/01/20",
+            "quantity": 3,
+            "unit_price_gross": 16.0,
+            "price_gross": 48.0
+        },
+        {
+            "date": "10/30/20",
+            "quantity": 3,
+            "unit_price_gross": 16.0,
+            "price_gross": 48.0
+        }
+    ]
+}

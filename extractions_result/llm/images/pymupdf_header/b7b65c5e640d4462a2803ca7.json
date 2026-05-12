@@ -1,0 +1,36 @@
+{
+    "items": [
+        {
+            "position": 4,
+            "start_date": "09/11/18",
+            "end_date": "09/14/18",
+            "description": "M-F 9a-10a",
+            "quantity": 2,
+            "unit_price_gross": 20.0
+        },
+        {
+            "position": 2,
+            "start_date": "09/11/18",
+            "end_date": "09/14/18",
+            "description": "M-F 9a-10a",
+            "quantity": 2,
+            "unit_price_gross": 20.0
+        },
+        {
+            "position": 3,
+            "start_date": "09/11/18",
+            "end_date": "09/14/18",
+            "description": "M-F 9a-10a",
+            "quantity": 2,
+            "unit_price_gross": 20.0
+        },
+        {
+            "position": 1,
+            "start_date": "09/11/18",
+            "end_date": "09/14/18",
+            "description": "M-F 9a-10a",
+            "quantity": 2,
+            "unit_price_gross": 20.0
+        }
+    ]
+}

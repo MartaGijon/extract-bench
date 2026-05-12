@@ -1,0 +1,15 @@
+{
+    "items": [
+        {
+            "ethnicity": "",
+            "pcb_level": "",
+            "genotype": "",
+            "menopausal_status": "",
+            "patients_controls": "",
+            "odds_ratio": 1.7,
+            "confidence_interval": "0.8-4.1",
+            "interaction_contrast_ratio": 0.0,
+            "icr_confidence_interval": ""
+        }
+    ]
+}

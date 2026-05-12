@@ -1,0 +1,16 @@
+{
+    "items": [
+        {
+            "description": "POLITICAL/VOTE",
+            "unit_price_gross": 250.0,
+            "price_gross": 950.0,
+            "quantity": 4
+        },
+        {
+            "description": "POLITICAL/VOTE",
+            "unit_price_gross": 100.0,
+            "price_gross": 100.0,
+            "quantity": 1
+        }
+    ]
+}

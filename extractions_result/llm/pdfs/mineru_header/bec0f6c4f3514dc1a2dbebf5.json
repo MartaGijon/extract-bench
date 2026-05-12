@@ -1,0 +1,18 @@
+{
+    "items": [
+        {
+            "position": 2,
+            "date": "10/25/20",
+            "description": "Local News @ 6a Su",
+            "quantity": 1,
+            "unit_price_gross": 140.0
+        },
+        {
+            "position": 1,
+            "date": "10/24/20",
+            "description": "Local News @ 6a Sa",
+            "quantity": 1,
+            "unit_price_gross": 170.0
+        }
+    ]
+}

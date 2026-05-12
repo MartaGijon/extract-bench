@@ -1,0 +1,36 @@
+{
+    "items": [
+        {
+            "position": 2,
+            "code": "F--",
+            "unit_price_gross": 50.0,
+            "quantity": 5,
+            "price_gross": 250.0,
+            "description": "JUDGE JUDY, THE HI WAY"
+        },
+        {
+            "position": 2,
+            "code": "--M---",
+            "unit_price_gross": 50.0,
+            "quantity": 4,
+            "price_gross": 200.0,
+            "description": "JUDGE JUDY, THE HI WAY"
+        },
+        {
+            "position": 2,
+            "code": "--W-",
+            "unit_price_gross": 50.0,
+            "quantity": 4,
+            "price_gross": 200.0,
+            "description": "JUDGE JUDY, THE HI WAY"
+        },
+        {
+            "position": 2,
+            "code": "---T-",
+            "unit_price_gross": 50.0,
+            "quantity": 4,
+            "price_gross": 200.0,
+            "description": "JUDGE JUDY, THE HI WAY"
+        }
+    ]
+}

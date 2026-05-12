@@ -1,0 +1,26 @@
+{
+    "items": [
+        {
+            "ethnicity": "African American",
+            "pcb_level": ">=0.430",
+            "genotype": "Neon-M1",
+            "menopausal_status": "Premenopausal",
+            "patients_controls": "21/168",
+            "odds_ratio": 1.9,
+            "confidence_interval": "0.9-4.2",
+            "interaction_contrast_ratio": 1.9,
+            "icr_confidence_interval": "0.9-4.2"
+        },
+        {
+            "ethnicity": "African American",
+            "pcb_level": ">=0.430",
+            "genotype": "Any M1",
+            "menopausal_status": "Premenopausal",
+            "patients_controls": "35/33",
+            "odds_ratio": 1.2,
+            "confidence_interval": "0.6-2.2",
+            "interaction_contrast_ratio": 1.2,
+            "icr_confidence_interval": "0.6-2.2"
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "items": [
+        {
+            "position": 1,
+            "date_start": "9/23",
+            "date_end": "9/24",
+            "description": "MIDDLE",
+            "price_gross": 20.0,
+            "unit_price_gross": 20.0
+        },
+        {
+            "position": 2,
+            "date_start": "9/23",
+            "date_end": "9/26",
+            "description": "MIDDLE",
+            "price_gross": 20.0,
+            "unit_price_gross": 20.0
+        }
+    ]
+}

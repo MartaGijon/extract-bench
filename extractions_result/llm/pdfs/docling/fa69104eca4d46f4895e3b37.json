@@ -1,0 +1,32 @@
+{
+    "items": [
+        {
+            "date": "08/31/20",
+            "code": "BFP6020034R",
+            "unit_price_gross": 29.0,
+            "position": 1,
+            "description": "2 M-F Midday WKXBF"
+        },
+        {
+            "date": "08/31/20",
+            "code": "BFP6020034R",
+            "unit_price_gross": 31.0,
+            "position": 1,
+            "description": "1 M-F AM WKXBF"
+        },
+        {
+            "date": "08/31/20",
+            "code": "BFP6020034R",
+            "unit_price_gross": 31.0,
+            "position": 2,
+            "description": "1 M-F AM WKXBF"
+        },
+        {
+            "date": "08/31/20",
+            "code": "BFP6020034R",
+            "unit_price_gross": 29.0,
+            "position": 2,
+            "description": "2 M-F Midday WKXBF"
+        }
+    ]
+}

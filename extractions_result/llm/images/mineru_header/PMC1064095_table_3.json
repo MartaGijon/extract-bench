@@ -1,0 +1,12 @@
+{
+    "data": [
+        {
+            "pcb_level": "\u22650.349",
+            "genotype": "AnyM4",
+            "patients_controls": "9/12",
+            "odds_ratio": 0.7,
+            "confidence_interval": "(0.3-1.7)",
+            "menopausal_status": "Postmenopausal"
+        }
+    ]
+}

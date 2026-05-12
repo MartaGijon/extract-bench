@@ -1,0 +1,20 @@
+{
+    "items": [
+        {
+            "cell_type": "NAF",
+            "sample_id": "",
+            "monoculture_level": 0.0,
+            "monoculture_mean": 0.0,
+            "coculture_level": 0.0,
+            "coculture_mean": 0.0
+        },
+        {
+            "cell_type": "CAF",
+            "sample_id": "",
+            "monoculture_level": 0.0,
+            "monoculture_mean": 0.0,
+            "coculture_level": 0.0,
+            "coculture_mean": 0.0
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "items": [
+        {
+            "inclusion_age": "older than 21 years",
+            "inclusion_sex": "Female",
+            "exclusion_pregnancy": "Pregnancy",
+            "exclusion_recurrent_disease": "Recurrent disease"
+        }
+    ]
+}

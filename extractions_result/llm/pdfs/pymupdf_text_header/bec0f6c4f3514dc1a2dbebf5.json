@@ -1,0 +1,25 @@
+{
+    "items": [
+        {
+            "position": 1,
+            "date": "10/24/20",
+            "description": "Local News @ 6a Sa 6-7a",
+            "quantity": 1,
+            "unit_price_gross": 170.0
+        },
+        {
+            "position": 3,
+            "date": "10/25/20",
+            "description": "Local News @ 6a Su 6-7a",
+            "quantity": 1,
+            "unit_price_gross": 140.0
+        },
+        {
+            "position": 2,
+            "date": "10/24/20",
+            "description": "Major Crimes 1135p-1235a",
+            "quantity": 2,
+            "unit_price_gross": 100.0
+        }
+    ]
+}

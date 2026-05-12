@@ -1,0 +1,58 @@
+{
+    "items": [
+        {
+            "position": 12,
+            "date": "05/21/22 09:28 pm (Sa)",
+            "price_gross": 250.0,
+            "code": "DGAILBT2201H",
+            "description": "News-FOXIlinois News at9",
+            "quantity": 1,
+            "unit_price_gross": 250.0
+        },
+        {
+            "position": 4,
+            "date": "05/20/22 07:28 am (Fr)",
+            "price_gross": 30.0,
+            "code": "DGAILBT2201H",
+            "description": "News-FOXIllinois Sunrise",
+            "quantity": 1,
+            "unit_price_gross": 30.0
+        },
+        {
+            "position": 8,
+            "date": "05/20/22 05:50pm (Fr)",
+            "price_gross": 250.0,
+            "code": "DGAILBT2201H",
+            "description": "News-FOX linios News at530p",
+            "quantity": 1,
+            "unit_price_gross": 250.0
+        },
+        {
+            "position": 3,
+            "date": "05/19/22 07:21am (Th)",
+            "price_gross": 30.0,
+            "code": "DGAILBT2201H",
+            "description": "News-FOXIlinois Sunrise",
+            "quantity": 1,
+            "unit_price_gross": 30.0
+        },
+        {
+            "position": 15,
+            "date": "05/22/22 06:49 pm (Su)",
+            "price_gross": 75.0,
+            "code": "DGAILBT2201H",
+            "description": "FOX-Duncanvile (Sunday)",
+            "quantity": 1,
+            "unit_price_gross": 75.0
+        },
+        {
+            "position": 7,
+            "date": "05/19/22 05:54 pm (Th)",
+            "price_gross": 250.0,
+            "code": "DGAILBT2201H",
+            "description": "News-FOXIlinios News at530p",
+            "quantity": 1,
+            "unit_price_gross": 250.0
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "items": [
+        {
+            "dataset_type": "Full birthweight dataset",
+            "tertile_group": "Upper tertile",
+            "cases_count": 53,
+            "controls_count": 56,
+            "minimally_adjusted_or": 0.7,
+            "minimally_adjusted_ci_lower": 0.4,
+            "minimally_adjusted_ci_upper": 1.2,
+            "fully_adjusted_or": 0.7,
+            "fully_adjusted_ci_lower": 0.4,
+            "fully_adjusted_ci_upper": 1.2
+        },
+        {
+            "dataset_type": "Full birthweight dataset",
+            "tertile_group": "Lower tertile",
+            "cases_count": 73,
+            "controls_count": 57,
+            "minimally_adjusted_or": 0.9,
+            "minimally_adjusted_ci_lower": 0.6,
+            "minimally_adjusted_ci_upper": 1.6,
+            "fully_adjusted_or": 1.0,
+            "fully_adjusted_ci_lower": 0.6,
+            "fully_adjusted_ci_upper": 1.7
+        }
+    ]
+}

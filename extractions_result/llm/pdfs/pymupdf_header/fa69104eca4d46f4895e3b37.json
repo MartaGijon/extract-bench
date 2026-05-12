@@ -1,0 +1,18 @@
+{
+    "items": [
+        {
+            "date": "08/31/20",
+            "code": "BFP6020034R",
+            "unit_price_gross": 31.0,
+            "position": 1,
+            "description": "M-F AM Drive"
+        },
+        {
+            "date": "08/31/20",
+            "code": "BFP6020034R",
+            "unit_price_gross": 31.0,
+            "position": 2,
+            "description": "M-F AM Drive"
+        }
+    ]
+}

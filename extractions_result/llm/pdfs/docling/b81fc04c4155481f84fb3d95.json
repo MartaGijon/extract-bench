@@ -1,0 +1,36 @@
+{
+    "items": [
+        {
+            "position": 3,
+            "start_date": "10/16/18",
+            "end_date": "10/22/18",
+            "description": "Sa-Su 10a-3p",
+            "quantity": 2,
+            "unit_price_gross": 125.0
+        },
+        {
+            "position": 6,
+            "start_date": "10/16/18",
+            "end_date": "10/22/18",
+            "description": "Sa-Su 3p-7p",
+            "quantity": 2,
+            "unit_price_gross": 110.0
+        },
+        {
+            "position": 4,
+            "start_date": "10/16/18",
+            "end_date": "10/22/18",
+            "description": "Sa-Su 3p-7p",
+            "quantity": 2,
+            "unit_price_gross": 125.0
+        },
+        {
+            "position": 5,
+            "start_date": "10/16/18",
+            "end_date": "10/22/18",
+            "description": "Sa-Su 10a-3p",
+            "quantity": 2,
+            "unit_price_gross": 110.0
+        }
+    ]
+}

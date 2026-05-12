@@ -1,0 +1,28 @@
+{
+    "items": [
+        {
+            "date": "10/23/20",
+            "quantity": 5,
+            "unit_price_gross": 24.0,
+            "price_gross": 120.0
+        },
+        {
+            "date": "10/22/20",
+            "quantity": 5,
+            "unit_price_gross": 24.0,
+            "price_gross": 120.0
+        },
+        {
+            "date": "10/25/20",
+            "quantity": 3,
+            "unit_price_gross": 21.0,
+            "price_gross": 63.0
+        },
+        {
+            "date": "10/24/20",
+            "quantity": 3,
+            "unit_price_gross": 21.0,
+            "price_gross": 63.0
+        }
+    ]
+}

@@ -1,0 +1,46 @@
+{
+    "items": [
+        {
+            "description": "M-F EM KWWL 4a News",
+            "unit_price_gross": 5.0,
+            "quantity": 5,
+            "price_gross": 25.0
+        },
+        {
+            "description": "Sa EM Sat 8a News",
+            "unit_price_gross": 80.0,
+            "quantity": 1,
+            "price_gross": 80.0
+        },
+        {
+            "description": "M-F EM KWWL 4:30a News",
+            "unit_price_gross": 15.0,
+            "quantity": 5,
+            "price_gross": 75.0
+        },
+        {
+            "description": "Su EM Sun 6a News",
+            "unit_price_gross": 25.0,
+            "quantity": 1,
+            "price_gross": 25.0
+        },
+        {
+            "description": "M-F EM KWWL 6a News",
+            "unit_price_gross": 300.0,
+            "quantity": 2,
+            "price_gross": 600.0
+        },
+        {
+            "description": "M-F DT KWWL 12p News",
+            "unit_price_gross": 150.0,
+            "quantity": 2,
+            "price_gross": 300.0
+        },
+        {
+            "description": "M-F EM KWWL 5a News",
+            "unit_price_gross": 38.0,
+            "quantity": 1,
+            "price_gross": 38.0
+        }
+    ]
+}

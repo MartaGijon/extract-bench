@@ -1,0 +1,14 @@
+{
+    "items": [
+        {
+            "variant_allele": "(TTTA)11",
+            "mothers_additive_statistic": 1.52,
+            "fathers_dominant_p_value": 0.43
+        },
+        {
+            "variant_allele": "(TTTA)10",
+            "mothers_additive_statistic": 1.73,
+            "fathers_dominant_p_value": 0.33
+        }
+    ]
+}

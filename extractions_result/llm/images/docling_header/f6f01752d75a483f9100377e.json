@@ -1,0 +1,18 @@
+{
+    "items": [
+        {
+            "quantity": 2.0,
+            "description": "CRANES REMOVB",
+            "unit_price_gross": 480.0,
+            "price_gross": 480.0,
+            "position": 1
+        },
+        {
+            "quantity": 1.0,
+            "description": "DEVELOPING FILM",
+            "unit_price_gross": 9.91,
+            "price_gross": 9.91,
+            "position": 2
+        }
+    ]
+}

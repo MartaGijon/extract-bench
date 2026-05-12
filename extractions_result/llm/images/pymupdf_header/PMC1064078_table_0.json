@@ -1,0 +1,13 @@
+{
+    "items": [
+        {
+            "dataset_name": "Matemalage dataset",
+            "birth_order": "Birth order",
+            "maternal_age": "Maternal age",
+            "cases_count": 107,
+            "cases_percentage": 31.9,
+            "controls_count": 116,
+            "controls_percentage": 34.8
+        }
+    ]
+}

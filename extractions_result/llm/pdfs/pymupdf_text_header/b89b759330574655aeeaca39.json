@@ -1,0 +1,58 @@
+{
+    "items": [
+        {
+            "position": 2,
+            "date_start": "10/14/14",
+            "date_end": "10/20/14",
+            "description": "NEWS",
+            "unit_price_gross": 900.0,
+            "quantity": 1,
+            "price_gross": 900.0
+        },
+        {
+            "position": 3,
+            "date_start": "10/14/14",
+            "date_end": "10/20/14",
+            "description": "NEWS",
+            "unit_price_gross": 900.0,
+            "quantity": 1,
+            "price_gross": 900.0
+        },
+        {
+            "position": 6,
+            "date_start": "10/19/14",
+            "date_end": "10/19/14",
+            "description": "NEWS",
+            "unit_price_gross": 800.0,
+            "quantity": 1,
+            "price_gross": 800.0
+        },
+        {
+            "position": 5,
+            "date_start": "10/14/14",
+            "date_end": "10/20/14",
+            "description": "NEWS",
+            "unit_price_gross": 800.0,
+            "quantity": 1,
+            "price_gross": 800.0
+        },
+        {
+            "position": 4,
+            "date_start": "10/14/14",
+            "date_end": "10/20/14",
+            "description": "NEWS",
+            "unit_price_gross": 270.0,
+            "quantity": 1,
+            "price_gross": 270.0
+        },
+        {
+            "position": 1,
+            "date_start": "10/14/14",
+            "date_end": "10/20/14",
+            "description": "NEWS",
+            "unit_price_gross": 375.0,
+            "quantity": 1,
+            "price_gross": 375.0
+        }
+    ]
+}

@@ -20,6 +20,10 @@ dependencies = [
     "jsonschema>=4.0",
     "pre-commit>=4.5.1",
     "pymupdf>=1.27.2.3",
+    "ipykernel>=7.2.0",
+    "pandas>=3.0.2",
+    "matplotlib>=3.10.9",
+    "seaborn>=0.13.2",
 ]
 
 [project.optional-dependencies]

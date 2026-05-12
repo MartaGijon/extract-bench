@@ -33,14 +33,23 @@ fi
 
 for METHOD in "${METHODS[@]}"
 do
-    echo "=========================================="
-    echo "Iniciando evaluación para: $METHOD"
-    echo "=========================================="
-    
-    $PYTHON_CMD $SCRIPT_PATH "$METHOD"
-    
-    echo "Evaluación para $METHOD completada."
-    echo ""
+    if [ "$METHOD" = "pymupdf_text" ] || [ "$METHOD" = "pymupdf_text_header" ]; then
+        DOC_TYPES=("pdf")
+    else
+        DOC_TYPES=("pdf" "image")
+    fi
+
+    for DOC_TYPE in "${DOC_TYPES[@]}"
+    do
+        echo "=========================================="
+        echo "Iniciando evaluación para: $METHOD (tipo: $DOC_TYPE)"
+        echo "=========================================="
+        
+        $PYTHON_CMD $SCRIPT_PATH "$METHOD" "$DOC_TYPE"
+        
+        echo "Evaluación para $METHOD ($DOC_TYPE) completada."
+        echo ""
+    done
 done
 
 echo "=========================================="

@@ -1,0 +1,18 @@
+{
+    "items": [
+        {
+            "description": "HAWAII NEWSNOW@630PKFVE",
+            "quantity": 3,
+            "unit_price_gross": 275.0,
+            "price_gross": 825.0,
+            "position": 2
+        },
+        {
+            "description": "HAWAII NEWSNOW@9PKFVE",
+            "quantity": 5,
+            "unit_price_gross": 450.0,
+            "price_gross": 2250.0,
+            "position": 3
+        }
+    ]
+}

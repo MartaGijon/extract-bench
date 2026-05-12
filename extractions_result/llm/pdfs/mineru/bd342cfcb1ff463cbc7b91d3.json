@@ -1,0 +1,40 @@
+{
+    "items": [
+        {
+            "date": "07/23/18",
+            "amount_net": 11.76,
+            "quantity": 2,
+            "price_gross": 5.88
+        },
+        {
+            "date": "07/23/18",
+            "amount_net": 11.76,
+            "quantity": 2,
+            "price_gross": 5.88
+        },
+        {
+            "date": "07/23/18",
+            "amount_net": 5.88,
+            "quantity": 1,
+            "price_gross": 5.88
+        },
+        {
+            "date": "07/17/18",
+            "amount_net": 41.16,
+            "quantity": 7,
+            "price_gross": 5.88
+        },
+        {
+            "date": "07/17/18",
+            "amount_net": 41.16,
+            "quantity": 7,
+            "price_gross": 5.88
+        },
+        {
+            "date": "07/17/18",
+            "amount_net": 52.92,
+            "quantity": 9,
+            "price_gross": 5.88
+        }
+    ]
+}

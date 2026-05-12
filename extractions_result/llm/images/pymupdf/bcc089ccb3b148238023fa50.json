@@ -1,0 +1,28 @@
+{
+    "items": [
+        {
+            "date": "11/5/2018",
+            "quantity": 6,
+            "unit_price_gross": 13.0,
+            "price_gross": 78.0
+        },
+        {
+            "date": "11/6/2018",
+            "quantity": 6,
+            "unit_price_gross": 13.0,
+            "price_gross": 78.0
+        },
+        {
+            "date": "11/1/2018",
+            "quantity": 6,
+            "unit_price_gross": 13.0,
+            "price_gross": 78.0
+        },
+        {
+            "date": "11/2/2018",
+            "quantity": 6,
+            "unit_price_gross": 13.0,
+            "price_gross": 78.0
+        }
+    ]
+}

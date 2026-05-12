@@ -1,0 +1,28 @@
+{
+    "items": [
+        {
+            "position": 2,
+            "date": "09/13/16",
+            "date_end": "09/19/16",
+            "unit_price_gross": 50.0
+        },
+        {
+            "position": 3,
+            "date": "09/13/16",
+            "date_end": "09/19/16",
+            "unit_price_gross": 20.0
+        },
+        {
+            "position": 1,
+            "date": "09/13/16",
+            "date_end": "09/19/16",
+            "unit_price_gross": 30.0
+        },
+        {
+            "position": 4,
+            "date": "09/13/16",
+            "date_end": "09/19/16",
+            "unit_price_gross": 15.0
+        }
+    ]
+}

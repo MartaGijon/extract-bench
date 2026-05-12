@@ -1,0 +1,60 @@
+{
+    "items": [
+        {
+            "description": "HAWAII NEWS NOW @9P",
+            "quantity": 1,
+            "unit_price_gross": 450.0,
+            "price_gross": 450.0,
+            "position": 8
+        },
+        {
+            "description": "HAWAII NEWS NOW @9P",
+            "quantity": 1,
+            "unit_price_gross": 450.0,
+            "price_gross": 450.0,
+            "position": 7
+        },
+        {
+            "description": "HAWAII NEWS NOW @9P",
+            "quantity": 1,
+            "unit_price_gross": 450.0,
+            "price_gross": 450.0,
+            "position": 4
+        },
+        {
+            "description": "HAWAII NEWS NOW @630P",
+            "quantity": 1,
+            "unit_price_gross": 275.0,
+            "price_gross": 275.0,
+            "position": 3
+        },
+        {
+            "description": "HAWAII NEWS NOW @9P",
+            "quantity": 1,
+            "unit_price_gross": 450.0,
+            "price_gross": 450.0,
+            "position": 6
+        },
+        {
+            "description": "HAWAII NEWS NOW @630P",
+            "quantity": 1,
+            "unit_price_gross": 275.0,
+            "price_gross": 275.0,
+            "position": 2
+        },
+        {
+            "description": "HAWAII NEWS NOW @630P",
+            "quantity": 1,
+            "unit_price_gross": 275.0,
+            "price_gross": 275.0,
+            "position": 1
+        },
+        {
+            "description": "HAWAII NEWS NOW @9P",
+            "quantity": 1,
+            "unit_price_gross": 450.0,
+            "price_gross": 450.0,
+            "position": 5
+        }
+    ]
+}

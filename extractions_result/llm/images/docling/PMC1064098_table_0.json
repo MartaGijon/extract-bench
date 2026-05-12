@@ -1,0 +1,40 @@
+{
+    "items": [
+        {
+            "culture_group": "NAF-1",
+            "sample_size": 3,
+            "mean_index": 15.2,
+            "standard_error": 2.0
+        },
+        {
+            "culture_group": "CAF-2",
+            "sample_size": 3,
+            "mean_index": 15.2,
+            "standard_error": 2.0
+        },
+        {
+            "culture_group": "CAF-1",
+            "sample_size": 3,
+            "mean_index": 15.2,
+            "standard_error": 2.0
+        },
+        {
+            "culture_group": "NAF-3",
+            "sample_size": 3,
+            "mean_index": 15.2,
+            "standard_error": 2.0
+        },
+        {
+            "culture_group": "CAF-3",
+            "sample_size": 3,
+            "mean_index": 15.2,
+            "standard_error": 2.0
+        },
+        {
+            "culture_group": "NAF-2",
+            "sample_size": 3,
+            "mean_index": 15.2,
+            "standard_error": 2.0
+        }
+    ]
+}

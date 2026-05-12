@@ -1,0 +1,15 @@
+{
+    "items": [
+        {
+            "radiotracer_name": "99mTc-(V)DMSA",
+            "subgroup_type": "Head to head patients",
+            "sensitivity": 92.0,
+            "specificity": 91.46,
+            "accuracy": 91.9,
+            "positive_predictive_value": 79.86,
+            "negative_predictive_value": 97.46,
+            "patient_count": 45,
+            "total_patients": 102
+        }
+    ]
+}

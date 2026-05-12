@@ -1,0 +1,44 @@
+{
+    "items": [
+        {
+            "description": "MTuWThF 11:00p-11:37p LIVE5 NEWS @ 11P",
+            "quantity": 2,
+            "unit_price_gross": 450.0
+        },
+        {
+            "description": "MTuWThF 5:00p- 5:30p LIVE5 NEWS @ 5P",
+            "quantity": 3,
+            "unit_price_gross": 450.0
+        },
+        {
+            "description": "MTuWThF 6:00a-7:00a LIVE 5 NEWS @ 6A",
+            "quantity": 3,
+            "unit_price_gross": 450.0
+        },
+        {
+            "description": "Su 11:00p-11:37p LIVE5 NEWS @ 11P SU",
+            "quantity": 1,
+            "unit_price_gross": 360.0
+        },
+        {
+            "description": "MTuWThF 6:00p- 6:30p LIVE5 NEWS @ 6P",
+            "quantity": 2,
+            "unit_price_gross": 585.0
+        },
+        {
+            "description": "Sa 6:00p- 6:30p LIVE5 NEWS @ 6P SAT",
+            "quantity": 1,
+            "unit_price_gross": 270.0
+        },
+        {
+            "description": "WCSC-TV MTuWThF 5:30a-6:00a LIVE5 NEWS @ 530A",
+            "quantity": 3,
+            "unit_price_gross": 180.0
+        },
+        {
+            "description": "MTuWThF 12:00p-12:30p LIVE 5 NEWS @ NOON",
+            "quantity": 3,
+            "unit_price_gross": 450.0
+        }
+    ]
+}

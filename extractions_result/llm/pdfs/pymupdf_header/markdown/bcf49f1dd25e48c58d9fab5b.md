@@ -1,0 +1,29 @@
+Date: 10/27/20 
+
+## Sales Order 
+
+Station: KABG-FM Contract#: 0 Agency: KATZ MEDIA GROUP NY Contract Name: 34488265 / 9575 Address: 125 WEST 55th STREET Proposal#: B2595EAA-7B3A-4F0A-91DA-54D6C8A191FD 3rd FLOOR Start Date: 10/28/20 End Date: 11/03/20 City: NEW YORK State: NYZip: 10019 Revenue Type: POLITICAL NATIONAL Type: Cash Buyer: Advertiser: FRIENDS & NEIGHBORS Tax Schedule: (None) Address: Agency Commission %: 15 City: State: Zip: Billing Cycle: Standard Product Name: 9575 Salesperson: 2227ANATI Comm %: 0 Estimate #: 9575 Makegood Policy: Within Contract Dates 
+
+## Competitive Code: POLITICAL 
+
+|No|DATES|DATES|Alt<br>wks|TIMES|TIMES|LEN|DISTRIBUTION|DISTRIBUTION|DISTRIBUTION|DISTRIBUTION|DISTRIBUTION|DISTRIBUTION|DISTRIBUTION|DISTRIBUTION|DISTRIBUTION|RATE|TOTALS|TOTALS|PTY|
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+||START|END||START|END||M<br>T<br>W<br>T<br>F<br>SA<br>SU|||||||Per Wk|D/W||SPOTS|$$||
+|1|10/28/20|11/03/20||6:00 AM|10:00 AM|60|3|4|2|3|4|||16|D|75.00|16|1,200.00|3|
+|2|10/28/20|11/03/20||10:00 AM|3:00 PM|60|3|2|3|3|3|||14|D|75.00|14|1,050.00|3|
+|3|10/31/20|10/31/20||10:00 AM|3:00 PM|60||||||1||1|D|70.00|1|70.00|3|
+|4|11/01/20|11/01/20||10:00 AM|3:00 PM|60|||||||1|1|D|70.00|1|70.00|3|
+|5|10/28/20|11/02/20||3:00 PM|7:00 PM|60|4||3|4|3|||14|D|75.00|14|1,050.00|3|
+|6|10/31/20|10/31/20||3:00 PM|7:00 PM|60||||||1||1|D|70.00|1|70.00|3|
+|7|11/01/20|11/01/20||3:00 PM|7:00 PM|60|||||||1|1|D|65.00|1|65.00|3|
+|Billing Projections: By Month<br>CA<br>ST<br>Oct 20<br>2,240.00<br>0.00<br>Nov 20<br>1,335.00<br>3,575.00<br>Print Spot Prices||||||||||||||||||||
+
+
+
+|TOTAL SPOTS<br>GROSS TOTAL $ ADJUSTED SPOTS<br>ADJUSTED TOTAL|3,57<br>$ 3,57|48<br>5.00<br>48<br>5.00|
+|---|---|---|
+
+
+
+Page #: 1 
+

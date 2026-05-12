@@ -1,0 +1,28 @@
+{
+    "items": [
+        {
+            "position": 1,
+            "date_start": "02/25/20",
+            "date_end": "02/28/20",
+            "unit_price_gross": 14.0,
+            "quantity": 16,
+            "price_gross": 224.0
+        },
+        {
+            "position": 2,
+            "date_start": "02/25/20",
+            "date_end": "02/28/20",
+            "unit_price_gross": 14.0,
+            "quantity": 12,
+            "price_gross": 168.0
+        },
+        {
+            "position": 3,
+            "date_start": "02/25/20",
+            "date_end": "02/28/20",
+            "unit_price_gross": 14.0,
+            "quantity": 16,
+            "price_gross": 224.0
+        }
+    ]
+}

@@ -1,0 +1,40 @@
+{
+    "items": [
+        {
+            "description": "Wheel of Frtune 630-7630-7p",
+            "start_date": "09/09/20",
+            "end_date": "09/15/20",
+            "quantity": 5,
+            "price_gross": 4900.0,
+            "unit_price_gross": 980.0,
+            "position": 14
+        },
+        {
+            "description": "Local News @ 12p M-I12-1230p",
+            "start_date": "09/09/20",
+            "end_date": "09/15/20",
+            "quantity": 5,
+            "price_gross": 1625.0,
+            "unit_price_gross": 325.0,
+            "position": 6
+        },
+        {
+            "description": "Local News @ 6p M-F6-630p",
+            "start_date": "09/09/20",
+            "end_date": "09/15/20",
+            "quantity": 5,
+            "price_gross": 3500.0,
+            "unit_price_gross": 700.0,
+            "position": 11
+        },
+        {
+            "description": "Local News @ 5p M-F5-530p",
+            "start_date": "09/09/20",
+            "end_date": "09/15/20",
+            "quantity": 5,
+            "price_gross": 3500.0,
+            "unit_price_gross": 700.0,
+            "position": 10
+        }
+    ]
+}

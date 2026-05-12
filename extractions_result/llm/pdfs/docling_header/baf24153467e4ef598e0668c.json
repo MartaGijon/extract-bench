@@ -1,0 +1,67 @@
+{
+    "items": [
+        {
+            "code": "114317-I",
+            "date": "07/16/99",
+            "description": "PVT->INDIANAPOLIS",
+            "unit_price_gross": 720.0,
+            "price_gross": 870.0
+        },
+        {
+            "code": "11431B-I",
+            "date": "07/16/99",
+            "description": "PVT->INDIANAPOLIS PARKING FEE",
+            "unit_price_gross": 641.0,
+            "price_gross": 775.2
+        },
+        {
+            "code": "114727-I",
+            "date": "07/16/99",
+            "description": "PVT->INDIANAPOLIS",
+            "unit_price_gross": 60.0,
+            "price_gross": 79.0
+        },
+        {
+            "code": "115676-I",
+            "date": "07/16/99",
+            "description": "PVT->INDIANAPOLIS PARKING FEE",
+            "unit_price_gross": 65.0,
+            "price_gross": 84.0
+        },
+        {
+            "code": "115026-S",
+            "date": "07/16/99",
+            "description": "CHR INDIANAPOLIS",
+            "unit_price_gross": 168.0,
+            "price_gross": 201.6
+        },
+        {
+            "code": "115025-5",
+            "date": "07/16/99",
+            "description": "CHR INDIANAPOLIS",
+            "unit_price_gross": 912.0,
+            "price_gross": 1094.4
+        },
+        {
+            "code": "114330-1",
+            "date": "07/16/99",
+            "description": "PVT->INDIANAPOLIS PARKING FEE",
+            "unit_price_gross": 65.0,
+            "price_gross": 84.0
+        },
+        {
+            "code": "114314-I",
+            "date": "07/16/99",
+            "description": "PVT->INDIANAPOLIS",
+            "unit_price_gross": 60.0,
+            "price_gross": 78.0
+        },
+        {
+            "code": "114329-I",
+            "date": "07/16/99",
+            "description": "PVT->INDIANAPOLIS PARKING FEE",
+            "unit_price_gross": 65.0,
+            "price_gross": 84.0
+        }
+    ]
+}

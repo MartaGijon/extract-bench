@@ -1,0 +1,67 @@
+{
+    "items": [
+        {
+            "code": "114314-I",
+            "date": "07/16/99",
+            "description": "THE GAP BAND PVT-}INDIANAPGLIS",
+            "unit_price_gross": 60.0,
+            "price_gross": 78.0
+        },
+        {
+            "code": "11431B-I",
+            "date": "07/16/99",
+            "description": "THE GAP BAND PVT-1INDIANAPOLIS",
+            "unit_price_gross": 641.0,
+            "price_gross": 775.2
+        },
+        {
+            "code": "115676-I",
+            "date": "07/16/99",
+            "description": "THE SAP BAND PVT-}INDIANAPOLIS",
+            "unit_price_gross": 65.0,
+            "price_gross": 84.0
+        },
+        {
+            "code": "115026-S",
+            "date": "07/16/99",
+            "description": "MGRRIS DAY L THE TIME CHR INDIANAPOLIS",
+            "unit_price_gross": 168.0,
+            "price_gross": 201.6
+        },
+        {
+            "code": "115025-5",
+            "date": "07/16/99",
+            "description": "THE GAP BAND CHR INDIANAPOLIS",
+            "unit_price_gross": 912.0,
+            "price_gross": 1094.4
+        },
+        {
+            "code": "114329-I",
+            "date": "07/16/99",
+            "description": "MORRIS DAY & THE TIME PVT->INDIANAPOLIS",
+            "unit_price_gross": 65.0,
+            "price_gross": 84.0
+        },
+        {
+            "code": "114317-I",
+            "date": "07/16/99",
+            "description": "THE GAP BAND PVT-}INDIANAPDLIS",
+            "unit_price_gross": 720.0,
+            "price_gross": 870.0
+        },
+        {
+            "code": "114330-1",
+            "date": "07/16/99",
+            "description": "MGRRIS DAY & THE TIME PVT-)INDIANAPOLIS",
+            "unit_price_gross": 65.0,
+            "price_gross": 84.0
+        },
+        {
+            "code": "114727-I",
+            "date": "07/16/99",
+            "description": "MURRIS BAY A THE TIME PVT-?INBIANAPGLI5",
+            "unit_price_gross": 60.0,
+            "price_gross": 79.0
+        }
+    ]
+}

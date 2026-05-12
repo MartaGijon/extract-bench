@@ -1,0 +1,25 @@
+{
+    "items": [
+        {
+            "date": "08/20/18 5:24PM (Mo)",
+            "description": "Judge Judy",
+            "code": "PLFLGOITVH",
+            "price_gross": 8225.0,
+            "position": 1
+        },
+        {
+            "date": "08/21/18 5:12PM (Tu)",
+            "description": "Judge Judy",
+            "code": "PLFLGOITVH",
+            "price_gross": 8225.0,
+            "position": 2
+        },
+        {
+            "date": "08/20/18 5,41PM (Mo)",
+            "description": "Judge Judy 3",
+            "code": "PLFLZOSTVH",
+            "price_gross": 8225.0,
+            "position": 3
+        }
+    ]
+}

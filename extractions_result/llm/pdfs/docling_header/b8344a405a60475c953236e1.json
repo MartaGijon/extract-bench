@@ -1,0 +1,49 @@
+{
+    "items": [
+        {
+            "description": "MTuWThF 12:00p-12:30p LIVE5 NEWS@NOON",
+            "quantity": 5,
+            "unit_price_gross": 450.0
+        },
+        {
+            "description": "MTuWThF 6:00a- 7:00a LIVE5 NEWS@6A",
+            "quantity": 5,
+            "unit_price_gross": 450.0
+        },
+        {
+            "description": "MTuWThF 5:30a- 6:00a LIVE5 NEWS @530A",
+            "quantity": 5,
+            "unit_price_gross": 180.0
+        },
+        {
+            "description": "Sa 6:00p- 6:30p LIVE5 NEWS@6PSAT",
+            "quantity": 1,
+            "unit_price_gross": 270.0
+        },
+        {
+            "description": "MTuWThF 11:00p-11:37p LIVE5 NEWS@11P",
+            "quantity": 5,
+            "unit_price_gross": 450.0
+        },
+        {
+            "description": "MTuWThF 5:00p- 5:30p LIVE5 NEWS@5P",
+            "quantity": 5,
+            "unit_price_gross": 450.0
+        },
+        {
+            "description": "MTuWThF 6:00p- 6:30p LIVE5 NEWS@6P",
+            "quantity": 4,
+            "unit_price_gross": 585.0
+        },
+        {
+            "description": "MTuWThF 7:00a- 9:00a CBS THIS MORNING",
+            "quantity": 10,
+            "unit_price_gross": 450.0
+        },
+        {
+            "description": "Su 11:00p-11:37p LIVE5 NEWS@11PSU",
+            "quantity": 1,
+            "unit_price_gross": 360.0
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "items": [
+        {
+            "quantity": 2.0,
+            "description": "CRANES TO REMOVE MARLBORO AD FROM FIELD.",
+            "unit_price_gross": 160.0,
+            "price_gross": 480.0,
+            "position": 1
+        },
+        {
+            "quantity": 1.006,
+            "description": "DEVELOPING FILM",
+            "unit_price_gross": 9.91,
+            "price_gross": 9.91,
+            "position": 2
+        }
+    ]
+}

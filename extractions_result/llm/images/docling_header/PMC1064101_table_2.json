@@ -1,0 +1,11 @@
+{
+    "items": [
+        {
+            "feature_name": "Grade (continuous)",
+            "brca1_odds_ratio": 1.0,
+            "brca1_p_value": 1.0,
+            "brca2_odds_ratio": 1.0,
+            "brca2_p_value": 1.0
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "items": [
+        {
+            "date": "08/31/20",
+            "code": "BFP6020034R",
+            "unit_price_gross": 31.0,
+            "position": 1,
+            "description": "WKXBF WKXBF"
+        },
+        {
+            "date": "08/31/20",
+            "code": "BFP6020034R",
+            "unit_price_gross": 31.0,
+            "position": 2,
+            "description": "WKXBFM-F Midday makegood 8.25 on Wed 8.26"
+        }
+    ]
+}

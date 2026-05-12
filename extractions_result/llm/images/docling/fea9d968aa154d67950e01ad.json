@@ -1,0 +1,12 @@
+{
+    "items": [
+        {
+            "position": 28,
+            "date": "2122/2020",
+            "currency": "USD",
+            "unit_price_gross": 120.0,
+            "quantity": 2,
+            "price_gross": 240.0
+        }
+    ]
+}

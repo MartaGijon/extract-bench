@@ -1,0 +1,52 @@
+{
+    "items": [
+        {
+            "date": "11/01/2060",
+            "quantity": 3,
+            "unit_price_gross": 16.0,
+            "price_gross": 48.0
+        },
+        {
+            "date": "10/31/2060",
+            "quantity": 3,
+            "unit_price_gross": 16.0,
+            "price_gross": 48.0
+        },
+        {
+            "date": "11/02/2060",
+            "quantity": 3,
+            "unit_price_gross": 16.0,
+            "price_gross": 48.0
+        },
+        {
+            "date": "11/02/2060",
+            "quantity": 3,
+            "unit_price_gross": 16.0,
+            "price_gross": 48.0
+        },
+        {
+            "date": "10/27/2060",
+            "quantity": 3,
+            "unit_price_gross": 16.0,
+            "price_gross": 48.0
+        },
+        {
+            "date": "10/26/2060",
+            "quantity": 3,
+            "unit_price_gross": 16.0,
+            "price_gross": 48.0
+        },
+        {
+            "date": "10/30/2060",
+            "quantity": 3,
+            "unit_price_gross": 16.0,
+            "price_gross": 48.0
+        },
+        {
+            "date": "11/03/2060",
+            "quantity": 3,
+            "unit_price_gross": 16.0,
+            "price_gross": 48.0
+        }
+    ]
+}

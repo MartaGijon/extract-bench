@@ -1,0 +1,14 @@
+{
+    "items": [
+        {
+            "maternal_age_range": "23-27",
+            "race": "African-American",
+            "group_type": "Minimally adjusted",
+            "n_count": 107,
+            "minimally_adjusted_or": 1.9,
+            "minimally_adjusted_ci": "0.9-4.3",
+            "fully_adjusted_or": 2.4,
+            "fully_adjusted_ci": "1.0-5.4"
+        }
+    ]
+}

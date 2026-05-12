@@ -1,0 +1,40 @@
+{
+    "items": [
+        {
+            "description": "KWWL 6a NewS",
+            "unit_price_gross": 300.0,
+            "quantity": 2,
+            "price_gross": 600.0
+        },
+        {
+            "description": "KWWL 4:30a News",
+            "unit_price_gross": 15.0,
+            "quantity": 6,
+            "price_gross": 90.0
+        },
+        {
+            "description": "KWWL 5a NewS",
+            "unit_price_gross": 38.0,
+            "quantity": 1,
+            "price_gross": 38.0
+        },
+        {
+            "description": "Sat 8a News",
+            "unit_price_gross": 80.0,
+            "quantity": 1,
+            "price_gross": 80.0
+        },
+        {
+            "description": "Sun 6a News",
+            "unit_price_gross": 25.0,
+            "quantity": 1,
+            "price_gross": 25.0
+        },
+        {
+            "description": "KWWL 4a News",
+            "unit_price_gross": 5.0,
+            "quantity": 5,
+            "price_gross": 25.0
+        }
+    ]
+}

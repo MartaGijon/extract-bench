@@ -1,0 +1,40 @@
+{
+    "items": [
+        {
+            "description": "60 Radio KUFO 12N-3P 5/4-6, 9-10",
+            "quantity": 5,
+            "unit_price_gross": 40.0,
+            "price_gross": 200.0
+        },
+        {
+            "description": "60 Radio KUFO 6A-9A 5/4-6, 9-10",
+            "quantity": 5,
+            "unit_price_gross": 40.0,
+            "price_gross": 200.0
+        },
+        {
+            "description": "60 Radio KUFO 3P-6P 5/4-6, 9-10",
+            "quantity": 5,
+            "unit_price_gross": 40.0,
+            "price_gross": 200.0
+        },
+        {
+            "description": "60 Radio KXL 12N-4P 5/4-6, 9-10",
+            "quantity": 10,
+            "unit_price_gross": 210.0,
+            "price_gross": 2100.0
+        },
+        {
+            "description": "60 Radio KUFO 6P-9P 5/4-6, 9-10",
+            "quantity": 10,
+            "unit_price_gross": 10.0,
+            "price_gross": 100.0
+        },
+        {
+            "description": "60 Radio KXL 9A-12N 5/4-6, 9-10",
+            "quantity": 5,
+            "unit_price_gross": 210.0,
+            "price_gross": 1050.0
+        }
+    ]
+}

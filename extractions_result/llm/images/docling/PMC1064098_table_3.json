@@ -1,0 +1,44 @@
+{
+    "items": [
+        {
+            "cell_type": "NAF 2",
+            "sample_id": "Naf?",
+            "monoculture_level": 68.14,
+            "monoculture_mean": 54.13,
+            "coculture_level": 10.27,
+            "coculture_mean": 10.06
+        },
+        {
+            "cell_type": "CAF",
+            "sample_id": "CAI 3",
+            "monoculture_level": 62.86,
+            "monoculture_mean": 8.96,
+            "coculture_level": 8.96,
+            "coculture_mean": 10.28
+        },
+        {
+            "cell_type": "NAF 2",
+            "sample_id": "NAF 2",
+            "monoculture_level": 45.0,
+            "monoculture_mean": 10.22,
+            "coculture_level": 10.22,
+            "coculture_mean": 10.22
+        },
+        {
+            "cell_type": "CAF",
+            "sample_id": "CAF ?",
+            "monoculture_level": 52.37,
+            "monoculture_mean": 10.88,
+            "coculture_level": 10.88,
+            "coculture_mean": 10.88
+        },
+        {
+            "cell_type": "CAF",
+            "sample_id": "CAF 1",
+            "monoculture_level": 70.64,
+            "monoculture_mean": 10.01,
+            "coculture_level": 10.01,
+            "coculture_mean": 10.01
+        }
+    ]
+}

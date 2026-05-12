@@ -1,0 +1,16 @@
+{
+    "items": [
+        {
+            "tumor_pair_status": "Carcinoma+nipple+",
+            "nipple_status": "positive",
+            "number_of_samples": 17,
+            "hpv_types": "Same type in both samples: 11 (7\u00d7), 6 (1\u00d7), 57 (2\u00d7); Different types: 3, 15, 16, 20, 21, 23, 27, 37, 38, 66, 87, DL250, DL473, GA3\u00b71"
+        },
+        {
+            "tumor_pair_status": "Carcinoma nipple+",
+            "nipple_status": "positive",
+            "number_of_samples": 3,
+            "hpv_types": "6, 11, 32, 37, 66"
+        }
+    ]
+}

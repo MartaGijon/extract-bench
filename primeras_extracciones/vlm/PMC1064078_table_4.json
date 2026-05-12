@@ -1,0 +1,30 @@
+{
+    "items": [
+        {
+            "maternal_age_group": "23-27",
+            "case_count_minimally_adjusted": 0,
+            "control_count_minimally_adjusted": 0,
+            "odds_ratio_minimally_adjusted": 0.0,
+            "ci_lower_minimally_adjusted": 0.0,
+            "ci_upper_minimally_adjusted": 0.0,
+            "case_count_fully_adjusted": 0,
+            "control_count_fully_adjusted": 0,
+            "odds_ratio_fully_adjusted": 0.0,
+            "ci_lower_fully_adjusted": 0.0,
+            "ci_upper_fully_adjusted": 0.0
+        },
+        {
+            "maternal_age_group": "28-44",
+            "case_count_minimally_adjusted": 0,
+            "control_count_minimally_adjusted": 0,
+            "odds_ratio_minimally_adjusted": 0.0,
+            "ci_lower_minimally_adjusted": 0.0,
+            "ci_upper_minimally_adjusted": 0.0,
+            "case_count_fully_adjusted": 0,
+            "control_count_fully_adjusted": 0,
+            "odds_ratio_fully_adjusted": 0.0,
+            "ci_lower_fully_adjusted": 0.0,
+            "ci_upper_fully_adjusted": 0.0
+        }
+    ]
+}

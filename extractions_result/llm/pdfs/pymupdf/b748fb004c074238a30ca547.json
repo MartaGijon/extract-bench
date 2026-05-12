@@ -1,0 +1,112 @@
+{
+    "items": [
+        {
+            "description": "KUFO 3P-7P 7/26-29, 8/1",
+            "quantity": 10,
+            "unit_price_gross": 5.0,
+            "price_gross": 50.0
+        },
+        {
+            "description": "KBFF 6A-10A 7/30-31",
+            "quantity": 8,
+            "unit_price_gross": 8.0,
+            "price_gross": 64.0
+        },
+        {
+            "description": "KUFO 6A-10A 7/26-29, 8/1",
+            "quantity": 10,
+            "unit_price_gross": 5.0,
+            "price_gross": 50.0
+        },
+        {
+            "description": "KBFF 10A-3P 7/30-31",
+            "quantity": 10,
+            "unit_price_gross": 8.0,
+            "price_gross": 80.0
+        },
+        {
+            "description": "KUPL 7P-12M 7/26-29, 8/1",
+            "quantity": 15,
+            "unit_price_gross": 10.0,
+            "price_gross": 150.0
+        },
+        {
+            "description": "KBFF 7P-12M 7/26-29, 8/1",
+            "quantity": 15,
+            "unit_price_gross": 5.0,
+            "price_gross": 75.0
+        },
+        {
+            "description": "KINK 6A-7P 7/30",
+            "quantity": 6,
+            "unit_price_gross": 5.0,
+            "price_gross": 30.0
+        },
+        {
+            "description": "K275CH 6A-10A 7/26-29, 8/1",
+            "quantity": 10,
+            "unit_price_gross": 5.0,
+            "price_gross": 50.0
+        },
+        {
+            "description": "KXL 6A-10A 7/26-29, 8/1",
+            "quantity": 10,
+            "unit_price_gross": 80.0,
+            "price_gross": 800.0
+        },
+        {
+            "description": "KUPL 6A-10A 7/26-29, 8/1",
+            "quantity": 10,
+            "unit_price_gross": 65.0,
+            "price_gross": 650.0
+        },
+        {
+            "description": "KUPL 6A-10A 7/30-31",
+            "quantity": 8,
+            "unit_price_gross": 8.0,
+            "price_gross": 64.0
+        },
+        {
+            "description": "KUPL 10A-3P 7/26-29, 8/1",
+            "quantity": 10,
+            "unit_price_gross": 45.0,
+            "price_gross": 450.0
+        },
+        {
+            "description": "KINK 7P-12M 7/26-29, 8/1",
+            "quantity": 15,
+            "unit_price_gross": 5.0,
+            "price_gross": 75.0
+        },
+        {
+            "description": "KUFO 10A-3P 7/26-29, 8/1",
+            "quantity": 15,
+            "unit_price_gross": 5.0,
+            "price_gross": 75.0
+        },
+        {
+            "description": "KUPL 10A-3P 7/30-31",
+            "quantity": 10,
+            "unit_price_gross": 8.0,
+            "price_gross": 80.0
+        },
+        {
+            "description": "KXL 3P-7P 7/26-29, 8/1",
+            "quantity": 10,
+            "unit_price_gross": 80.0,
+            "price_gross": 800.0
+        },
+        {
+            "description": "KXL 10A-3P 7/26-29, 8/1",
+            "quantity": 15,
+            "unit_price_gross": 80.0,
+            "price_gross": 1200.0
+        },
+        {
+            "description": "KXL 7P-12M 7/26-29, 8/1",
+            "quantity": 15,
+            "unit_price_gross": 10.0,
+            "price_gross": 150.0
+        }
+    ]
+}

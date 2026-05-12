@@ -1,0 +1,34 @@
+{
+    "items": [
+        {
+            "histology_type": "Ca lobulare",
+            "case_count": 50,
+            "frequency_percentage": 16.7
+        },
+        {
+            "histology_type": "Ca lobulare",
+            "case_count": 17,
+            "frequency_percentage": 28.8
+        },
+        {
+            "histology_type": "Ca ductale",
+            "case_count": 52,
+            "frequency_percentage": 72.5
+        },
+        {
+            "histology_type": "Ca ductale",
+            "case_count": 102,
+            "frequency_percentage": 67.1
+        },
+        {
+            "histology_type": "Ca ductale",
+            "case_count": 37,
+            "frequency_percentage": 62.7
+        },
+        {
+            "histology_type": "Ca lobulare",
+            "case_count": 8,
+            "frequency_percentage": 15.7
+        }
+    ]
+}

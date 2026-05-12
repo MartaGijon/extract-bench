@@ -1,0 +1,39 @@
+{
+    "items": [
+        {
+            "date": "3",
+            "quantity": 1,
+            "price_gross": 566.0
+        },
+        {
+            "date": "2",
+            "quantity": 3,
+            "price_gross": 849.5
+        },
+        {
+            "date": "5",
+            "quantity": 2,
+            "price_gross": 33.0
+        },
+        {
+            "date": "7",
+            "quantity": 3,
+            "price_gross": 849.5
+        },
+        {
+            "date": "4",
+            "quantity": 3,
+            "price_gross": 849.5
+        },
+        {
+            "date": "1",
+            "quantity": 3,
+            "price_gross": 549.5
+        },
+        {
+            "date": "6",
+            "quantity": 2,
+            "price_gross": 532.0
+        }
+    ]
+}

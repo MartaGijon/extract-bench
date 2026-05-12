@@ -1,0 +1,37 @@
+{
+    "items": [
+        {
+            "kinetic_parameter": "Vmax",
+            "nd_value": 19.6,
+            "nd_error": 0.75,
+            "d_value": 26.2,
+            "d_error": 0.86,
+            "d_dn_rhoa_value": 31.3,
+            "d_dn_rhoa_error": 0.88,
+            "d_dn_rac1_value": 21.5,
+            "d_dn_rac1_error": 0.9
+        },
+        {
+            "kinetic_parameter": "n_m,p",
+            "nd_value": 2.19,
+            "nd_error": 0.0,
+            "d_value": 2.16,
+            "d_error": 0.0,
+            "d_dn_rhoa_value": 2.03,
+            "d_dn_rhoa_error": 0.0,
+            "d_dn_rac1_value": 2.23,
+            "d_dn_rac1_error": 0.0
+        },
+        {
+            "kinetic_parameter": "KforH+",
+            "nd_value": 0.15,
+            "nd_error": 0.02,
+            "d_value": 0.113,
+            "d_error": 0.05,
+            "d_dn_rhoa_value": 0.105,
+            "d_dn_rhoa_error": 0.07,
+            "d_dn_rac1_value": 0.137,
+            "d_dn_rac1_error": 0.023
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "items": [
+        {
+            "genotype": "Ala/Ala",
+            "subgroup": "Premenopausal women",
+            "cases_count": 28,
+            "cases_percentage": 2.5,
+            "odds_ratio": 1.3,
+            "confidence_interval": "0.7-2.3"
+        }
+    ]
+}

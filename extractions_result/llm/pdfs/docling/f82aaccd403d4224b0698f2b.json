@@ -1,0 +1,158 @@
+{
+    "items": [
+        {
+            "position": 6,
+            "description": "25 Words or Less",
+            "unit_price_gross": 100.0,
+            "quantity": 1,
+            "price_gross": 100.0
+        },
+        {
+            "position": 15,
+            "description": "ABC World News Tonight",
+            "unit_price_gross": 300.0,
+            "quantity": 1,
+            "price_gross": 300.0
+        },
+        {
+            "position": 14,
+            "description": "Local 5 News at FIVE",
+            "unit_price_gross": 250.0,
+            "quantity": 1,
+            "price_gross": 250.0
+        },
+        {
+            "position": 10,
+            "description": "General Hospital",
+            "unit_price_gross": 100.0,
+            "quantity": 1,
+            "price_gross": 100.0
+        },
+        {
+            "position": 24,
+            "description": "ABC College Football Late Game",
+            "unit_price_gross": 650.0,
+            "quantity": 1,
+            "price_gross": 650.0
+        },
+        {
+            "position": 8,
+            "description": "Local 5 News Midday",
+            "unit_price_gross": 150.0,
+            "quantity": 1,
+            "price_gross": 150.0
+        },
+        {
+            "position": 2,
+            "description": "America This Morning",
+            "unit_price_gross": 30.0,
+            "quantity": 2,
+            "price_gross": 60.0
+        },
+        {
+            "position": 1,
+            "description": "World News Now",
+            "unit_price_gross": 30.0,
+            "quantity": 1,
+            "price_gross": 30.0
+        },
+        {
+            "position": 25,
+            "description": "ABC Saturday Night College Football",
+            "unit_price_gross": 875.0,
+            "quantity": 1,
+            "price_gross": 875.0
+        },
+        {
+            "position": 9,
+            "description": "GMA3: Strahan, Sara & Keke",
+            "unit_price_gross": 100.0,
+            "quantity": 1,
+            "price_gross": 100.0
+        },
+        {
+            "position": 4,
+            "description": "Good Morning Iowa at 6AM",
+            "unit_price_gross": 125.0,
+            "quantity": 1,
+            "price_gross": 125.0
+        },
+        {
+            "position": 20,
+            "description": "Local 5 News At 10P-Sun",
+            "unit_price_gross": 150.0,
+            "quantity": 1,
+            "price_gross": 150.0
+        },
+        {
+            "position": 5,
+            "description": "Good Morning America",
+            "unit_price_gross": 125.0,
+            "quantity": 1,
+            "price_gross": 125.0
+        },
+        {
+            "position": 13,
+            "description": "Dr. Phil",
+            "unit_price_gross": 125.0,
+            "quantity": 1,
+            "price_gross": 125.0
+        },
+        {
+            "position": 7,
+            "description": "The View",
+            "unit_price_gross": 100.0,
+            "quantity": 1,
+            "price_gross": 100.0
+        },
+        {
+            "position": 3,
+            "description": "Good Morning Iowa at 5AM",
+            "unit_price_gross": 75.0,
+            "quantity": 1,
+            "price_gross": 75.0
+        },
+        {
+            "position": 21,
+            "description": "Jimmy Kimmel Live",
+            "unit_price_gross": 70.0,
+            "quantity": 1,
+            "price_gross": 70.0
+        },
+        {
+            "position": 18,
+            "description": "20/20 (2 hours)-ABC",
+            "unit_price_gross": 500.0,
+            "quantity": 1,
+            "price_gross": 500.0
+        },
+        {
+            "position": 22,
+            "description": "Nightline",
+            "unit_price_gross": 450.0,
+            "quantity": 1,
+            "price_gross": 450.0
+        },
+        {
+            "position": 19,
+            "description": "Local 5 News at TEN",
+            "unit_price_gross": 250.0,
+            "quantity": 1,
+            "price_gross": 250.0
+        },
+        {
+            "position": 23,
+            "description": "ABC College Football Early Game",
+            "unit_price_gross": 540.0,
+            "quantity": 1,
+            "price_gross": 540.0
+        },
+        {
+            "position": 17,
+            "description": "Goldbergs/Schooled-ABC",
+            "unit_price_gross": 615.0,
+            "quantity": 1,
+            "price_gross": 615.0
+        }
+    ]
+}

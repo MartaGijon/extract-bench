@@ -1,0 +1,54 @@
+{
+    "items": [
+        {
+            "carcinoma_type": "Tubular Carcinoma",
+            "location": "Nipple",
+            "hpv_type_16_count": 1
+        },
+        {
+            "carcinoma_type": "Mucinous Carcinoma",
+            "location": "Carcinoma",
+            "hpv_type_16_count": 1
+        },
+        {
+            "carcinoma_type": "Lobular Carcinoma",
+            "location": "Nipple",
+            "hpv_type_16_count": 32
+        },
+        {
+            "carcinoma_type": "Intraductal Carcinoma",
+            "location": "Nipple",
+            "hpv_type_16_count": 2
+        },
+        {
+            "carcinoma_type": "Lobular Carcinoma",
+            "location": "Carcinoma",
+            "hpv_type_16_count": 1
+        },
+        {
+            "carcinoma_type": "Tubular Carcinoma",
+            "location": "Carcinoma",
+            "hpv_type_16_count": 1
+        },
+        {
+            "carcinoma_type": "Medullary Carcinoma",
+            "location": "Carcinoma",
+            "hpv_type_16_count": 2
+        },
+        {
+            "carcinoma_type": "Mucinous Carcinoma",
+            "location": "Nipple",
+            "hpv_type_16_count": 38
+        },
+        {
+            "carcinoma_type": "Intraductal Carcinoma",
+            "location": "Carcinoma",
+            "hpv_type_16_count": 1
+        },
+        {
+            "carcinoma_type": "Medullary Carcinoma",
+            "location": "Nipple",
+            "hpv_type_16_count": 2
+        }
+    ]
+}

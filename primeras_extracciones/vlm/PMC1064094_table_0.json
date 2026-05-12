@@ -1,0 +1,34 @@
+{
+    "items": [
+        {
+            "carcinoma_type": "",
+            "location": "",
+            "number_tested": 0,
+            "hpv_dna_positive": 0
+        },
+        {
+            "carcinoma_type": "",
+            "location": "",
+            "number_tested": 0,
+            "hpv_dna_positive": 0
+        },
+        {
+            "carcinoma_type": "",
+            "location": "",
+            "number_tested": 0,
+            "hpv_dna_positive": 0
+        },
+        {
+            "carcinoma_type": "",
+            "location": "",
+            "number_tested": 0,
+            "hpv_dna_positive": 0
+        },
+        {
+            "carcinoma_type": "",
+            "location": "",
+            "number_tested": 0,
+            "hpv_dna_positive": 0
+        }
+    ]
+}

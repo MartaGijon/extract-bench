@@ -1,0 +1,140 @@
+{
+    "items": [
+        {
+            "position": 12,
+            "date": "10/27",
+            "description": "Big BangTheory (Tu-F,M7p-7:30p)",
+            "unit_price_gross": 250.0,
+            "quantity": 3,
+            "price_gross": 750.0
+        },
+        {
+            "position": 1,
+            "date": "10/27",
+            "description": "WCTI Morning News on Fox (Tu-F,M7a-8a)",
+            "unit_price_gross": 40.0,
+            "quantity": 2,
+            "price_gross": 80.0
+        },
+        {
+            "position": 28,
+            "date": "10/27",
+            "description": "COLLEGE FOOTBALL EARLY (Sa12n-3:30p)",
+            "unit_price_gross": 550.0,
+            "quantity": 1,
+            "price_gross": 550.0
+        },
+        {
+            "position": 14,
+            "date": "10/27",
+            "description": "Big Bang Theory (Sa7p-7:30p)",
+            "unit_price_gross": 190.0,
+            "quantity": 1,
+            "price_gross": 190.0
+        },
+        {
+            "position": 4,
+            "date": "10/27",
+            "description": "Hot Bench (Tu-F,M2:30p-3p)",
+            "unit_price_gross": 50.0,
+            "quantity": 2,
+            "price_gross": 100.0
+        },
+        {
+            "position": 32,
+            "date": "10/27",
+            "description": "COSMOS: POSSIBLE WORLDS (Tu8p-9p)",
+            "unit_price_gross": 550.0,
+            "quantity": 1,
+            "price_gross": 550.0
+        },
+        {
+            "position": 31,
+            "date": "10/27",
+            "description": "L.A'S FINEST (M8p-9p)",
+            "unit_price_gross": 800.0,
+            "quantity": 1,
+            "price_gross": 800.0
+        },
+        {
+            "position": 13,
+            "date": "10/27",
+            "description": "Big Bang Theory (Tu-F,M7:30p-8p)",
+            "unit_price_gross": 240.0,
+            "quantity": 2,
+            "price_gross": 480.0
+        },
+        {
+            "position": 30,
+            "date": "10/27",
+            "description": "FOX NFL EARLY GAME (Su1p-4:25p)",
+            "unit_price_gross": 4115.0,
+            "quantity": 1,
+            "price_gross": 4115.0
+        },
+        {
+            "position": 15,
+            "date": "10/27",
+            "description": "FOX Eastern Carolina News 10p (Tu-F,M10p-10:30p)",
+            "unit_price_gross": 245.0,
+            "quantity": 2,
+            "price_gross": 490.0
+        },
+        {
+            "position": 25,
+            "date": "10/27",
+            "description": "Friday Night SmackDown-FOX (8p-10p)",
+            "unit_price_gross": 430.0,
+            "quantity": 1,
+            "price_gross": 430.0
+        },
+        {
+            "position": 18,
+            "date": "10/27",
+            "description": "FOX Eastern Carolina News 10pSun (Su10p-10:30p)",
+            "unit_price_gross": 210.0,
+            "quantity": 1,
+            "price_gross": 210.0
+        },
+        {
+            "position": 7,
+            "date": "10/27",
+            "description": "Maury (Tu-F,M4p-5p)",
+            "unit_price_gross": 55.0,
+            "quantity": 1,
+            "price_gross": 55.0
+        },
+        {
+            "position": 26,
+            "date": "10/27",
+            "description": "Thursday Night Football (Th8:20p-11:30p)",
+            "unit_price_gross": 1820.0,
+            "quantity": 1,
+            "price_gross": 1820.0
+        },
+        {
+            "position": 16,
+            "date": "10/27",
+            "description": "FOX Eastern Carolina News 10p (Tu-F,M10:30p-11p)",
+            "unit_price_gross": 245.0,
+            "quantity": 5,
+            "price_gross": 1225.0
+        },
+        {
+            "position": 2,
+            "date": "10/27",
+            "description": "TMZ Live (Tu-F,M1p-2p)",
+            "unit_price_gross": 35.0,
+            "quantity": 1,
+            "price_gross": 35.0
+        },
+        {
+            "position": 19,
+            "date": "10/27",
+            "description": "TMZ (Tu-F,M11p-11:30p)",
+            "unit_price_gross": 45.0,
+            "quantity": 1,
+            "price_gross": 45.0
+        }
+    ]
+}
